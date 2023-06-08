@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  GATSBY_DEFAULT_SITE_UR: http://cloud-native-nordics.github.io:80
+  GATSBY_DEFAULT_SITE_URL: http://cloud-native-nordics.github.io:80
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
