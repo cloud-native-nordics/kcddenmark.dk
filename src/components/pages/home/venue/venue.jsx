@@ -43,7 +43,7 @@ const Venue = () => (
                 className="text-2xl font-semibold sm:text-xl"
                 theme="primary"
               >
-                Jyst HQ
+                Jysk
               </Link>
               <address className="mt-5 text-lg not-italic text-[#262F59] opacity-60 sm:text-lg">
                 Jysk <br /> Sødalsparken 18 <br /> 8220, Brabrand
@@ -53,7 +53,7 @@ const Venue = () => (
 
           <div className="w-[520px] self-center text-lg leading-normal text-primary-1 xl:max-w-[470px] lg:ml-8 lg:max-w-[530px] md:ml-0 md:mt-5 md:w-full md:max-w-none sm:text-lg">
             <p>
-              The Kubernetes Community Days in Copenhagen will be held at the Jysk HQ in Brabrand.
+              The Kubernetes Community Days in Copenhagen will be held at the Jysk in Brabrand.
             </p>
             <p className="mt-5">
               Don’t miss out on the opportunity to connect with fellow attendees and continue the
