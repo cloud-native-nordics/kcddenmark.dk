@@ -65,9 +65,9 @@ const Footer = () => {
           <Link
             className="ml-2 font-semibold transition-colors duration-200"
             theme="primary"
-            to="mailto:hello@kcdzurich.ch"
+            to="mailto:contact@kcddenmark.dk"
           >
-            hello@kcdzurich.ch
+            contact@kcddenmark.dk
           </Link>
           <ul className="mt-4 flex min-w-fit gap-x-2.5">
             {items.map(({ icon, iconClassName, url }, index) => {
