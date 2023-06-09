@@ -16,6 +16,7 @@ const HTML = ({
 }) => (
   <html {...htmlAttributes}>
     <head>
+      <script async src="https://umami.robert-jensen.dk/script.js" data-website-id="1e690a48-4121-4389-8ec0-43c395cc9062"></script>
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
