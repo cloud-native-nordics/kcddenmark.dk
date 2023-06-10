@@ -58,11 +58,11 @@ export default {
     target: '_blank',
   },
   twitter: {
-    to: 'https://twitter.com/KcdZurich?s=20&t=2K7fxHFqThcgycuBzO_rSw',
+    to: 'https://twitter.com/KCDDenmark',
     target: '_blank',
   },
   googlemaps: {
-    to: 'https://goo.gl/maps/ooQufQWKzaRM286Z7',
+    to: 'https://goo.gl/maps/aegmwLjH3CxsY8wm7',
     target: '_blank',
   },
   youtube: {
