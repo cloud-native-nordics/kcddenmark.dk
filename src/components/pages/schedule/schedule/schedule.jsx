@@ -5,23 +5,7 @@ import React, { useEffect, useState } from 'react';
 import Button from 'components/shared/button';
 import Modal from 'components/shared/modal';
 
-import AdrianPhoto from './images/adrian-reber-photo.jpg';
-import AnnieTalvastoPhoto from './images/annie-talvasto-photo.jpg';
-import BillPhoto from './images/bill-mulligan-photo.jpg';
-import FilipPhoto from './images/filip-nicolic-photo.jpg';
-import JuliusVolzPhoto from './images/julius-volz-photo.jpg';
-import KatieGamanjiPhoto from './images/katie-gamanji-photo.jpg';
-import LenaPhoto from './images/lena-fuhrimann-photo.jpg';
-import LisaFalcoPhoto from './images/lisa-falco-photo.jpg';
-import LizRicePhoto from './images/liz-rice-photo.jpg';
-import MatthiasPhoto from './images/matthias-bertschy-photo.jpg';
-import MaxKorbacherPhoto from './images/max-korbacher-photo.jpg';
-import PriyaWadhwaPhoto from './images/priya-wadhwa-photo.jpg';
-import RetoPhoto from './images/reto-lehmann-photo.jpg';
-import RicardoRochaPhoto from './images/ricardo-rocha-photo.jpg';
-import SebastianKisterPhoto from './images/sebastian-kister-photo.jpg';
-import ThomasGrafPhoto from './images/thomas-graf-photo.jpg';
-import TimoSalmPhoto from './images/timo-salm-photo.jpg';
+import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -44,13 +28,13 @@ const ITEMS = [
     speakers: [
       {
         id: '0',
-        name: 'Thomas Graf',
-        photo: ThomasGrafPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
       {
         id: '1',
-        name: 'Liz Rice',
-        photo: LizRicePhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -69,8 +53,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Max Körbächer',
-        photo: MaxKorbacherPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -82,8 +66,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Adrian Reber',
-          photo: AdrianPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -110,8 +94,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Ricardo Rocha',
-        photo: RicardoRochaPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -123,8 +107,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Filip Nicolic',
-          photo: FilipPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -152,8 +136,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Lisa Falco',
-        photo: LisaFalcoPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -185,8 +169,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Annie Talvasto',
-          photo: AnnieTalvastoPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -205,8 +189,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Bill Mulligan',
-        photo: BillPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -227,8 +211,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Lena Fuhrimann',
-          photo: LenaPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -250,8 +234,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Julius Volz',
-        photo: JuliusVolzPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -265,8 +249,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Reto Lehmann',
-          photo: RetoPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -289,8 +273,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Priya Wadhwa',
-        photo: PriyaWadhwaPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -302,8 +286,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Timo Salm',
-          photo: TimoSalmPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -333,8 +317,8 @@ const ITEMS = [
     duration: '30 min',
     speakers: [
       {
-        name: 'Sebastian Kister',
-        photo: SebastianKisterPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
@@ -346,8 +330,8 @@ const ITEMS = [
       duration: '30 min',
       speakers: [
         {
-          name: 'Matthias Bertschy',
-          photo: MatthiasPhoto,
+          name: 'Cloud Zefra',
+          photo: SpeakerPhoto,
         },
       ],
       presentation:
@@ -377,8 +361,8 @@ const ITEMS = [
     isKeynote: true,
     speakers: [
       {
-        name: 'Katie Gamanji',
-        photo: KatieGamanjiPhoto,
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
       },
     ],
     presentation:
