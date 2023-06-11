@@ -7,7 +7,7 @@ import illustration from './images/hero-illustration.png';
 const TITLE = 'Kubernetes Community Days Denmark';
 
 const DESCRIPTION =
-  'Experience the power of community at the Kubernetes Community Days in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native.';
+  'Experience the power of community at the Kubernetes Community Days in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native. This community event is supported by the CNCF.';
 
 const Hero = () => (
   <section className="safe-paddings overflow-hidden bg-[#EDC3C7] bg-opacity-10 pt-28 pb-40 lg:pb-32 md:pt-24 md:pb-[500px] sm:pb-[520px] [@media(max-width:600px)]:pb-[430px] [@media(max-width:460px)]:pb-[420px]">
