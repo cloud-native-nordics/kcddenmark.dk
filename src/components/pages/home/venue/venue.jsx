@@ -2,7 +2,7 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
-import CardIllusrtation from './images/card-illustration.jpg';
+import CardIllusrtation from './images/venue.jpg';
 
 const TITLE = 'Venue information';
 
