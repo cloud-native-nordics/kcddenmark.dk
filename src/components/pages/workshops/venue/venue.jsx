@@ -3,7 +3,7 @@ import React from 'react';
 import Button from 'components/shared/button';
 import Link from 'components/shared/link';
 
-import CardIllusrtation from './images/card-illustration.jpg';
+import CardIllusrtation from '../../home/venue/images/venue.jpg'
 
 const TITLE = 'Venue information';
 
@@ -22,24 +22,22 @@ const Venue = () => (
             alt="card-illustration"
           />
           <div className="pt-5 pb-8 pl-10 pr-16 leading-normal md:row-start-1 md:px-6 sm:row-start-2">
-            <Link
-              to="https://goo.gl/maps/ooQufQWKzaRM286Z7"
-              className="text-2xl font-semibold sm:text-xl"
-              theme="primary"
-            >
-              Google HQ <br />
-              at Zurich Europaallee
-            </Link>
-            <address className="mt-5 text-lg not-italic text-[#262F59] opacity-60 sm:text-lg">
-              Google EURF <br /> Europaallee 36 <br /> 8004 Zürich
-            </address>
+              <Link
+                to="https://goo.gl/maps/aegmwLjH3CxsY8wm7"
+                className="text-2xl font-semibold sm:text-xl"
+                theme="primary"
+              >
+                JYSK
+              </Link>
+              <address className="mt-5 text-lg not-italic text-[#262F59] opacity-60 sm:text-lg">
+              JYSK <br /> Sødalsparken 18 <br /> 8220, Brabrand
+              </address>
           </div>
         </div>
 
         <div className="mt-8 w-[520px] text-lg leading-normal text-primary-1 xl:max-w-[470px] lg:ml-8 lg:max-w-[530px] md:ml-0 md:mt-5 md:w-full md:max-w-none sm:text-lg">
           <p>
-            The Kubernetes Community Days in Zurich will be held at the Google HQ at Zurich
-            Europaallee, a modern and convenient location next to the train station. Attendees can
+            The Kubernetes Community Days in Denmark will be held at JYSK, Brabrand. Attendees can
             expect to enjoy a variety of vegetarian and vegan food options throughout the day.
           </p>
           <p className="mt-5">
