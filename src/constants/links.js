@@ -49,11 +49,11 @@ export default {
 
   // Social-links
   linkedin: {
-    to: 'https://www.linkedin.com/company/kubernetes-community-days-zurich/',
+    to: 'https://www.linkedin.com/company/cloud-native-nordics',
     target: '_blank',
   },
   twitter: {
-    to: 'https://twitter.com/KCDDenmark',
+    to: 'https://twitter.com/CNNordics',
     target: '_blank',
   },
   googlemaps: {
@@ -61,7 +61,7 @@ export default {
     target: '_blank',
   },
   youtube: {
-    to: 'https://www.youtube.com/@KCDZH',
+    to: 'https://www.youtube.com/@CloudNativeNordics',
     target: '_blank',
   },
 };
