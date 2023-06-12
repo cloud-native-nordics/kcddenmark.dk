@@ -64,7 +64,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
             ))}
           </ul>
         </nav>
-        <Button
+        {/* <Button
           className="-mr-2 md:hidden"
           to="https://tickets.kcdzurich.ch/"
           theme="primary"
@@ -72,7 +72,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
           target="_blank"
         >
           Get your ticket
-        </Button>
+        </Button> */}
 
         <Burger
           className={clsx('z-50 hidden md:block', isMobileMenuOpen && 'text-black dark:text-white')}
