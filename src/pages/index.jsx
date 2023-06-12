@@ -14,10 +14,10 @@ const HomePage = ({ location }) => (
   <Layout homepage>
     <Hero />
     <Venue />
-    <Speakers location={location} />
-    <Schedule />
-    <Sponsors />
-    <Partners />
+    {/* <Speakers location={location} />
+    <Schedule /> */}
+    {/* <Sponsors /> */}
+    {/* <Partners /> */}
   </Layout>
 );
 
