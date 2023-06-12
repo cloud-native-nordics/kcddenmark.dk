@@ -53,11 +53,10 @@ const Venue = () => (
 
           <div className="w-[520px] self-center text-lg leading-normal text-primary-1 xl:max-w-[470px] lg:ml-8 lg:max-w-[530px] md:ml-0 md:mt-5 md:w-full md:max-w-none sm:text-lg">
             <p>
-              The Kubernetes Community Days will be held at JYSK, Brabrand.
+              The Kubernetes Community Days in Denmark will be held at JYSK, Brabrand.
             </p>
             <p className="mt-5">
-              Do not miss out on the opportunity to connect with fellow attendees and continue the
-              conversation at the networking Apéro.
+            Do not miss out on the opportunity of fun, to connect with fellow attendees and continue the conversation at the networking event.
             </p>
             <p className="mt-5 font-bold">We cannot wait to see you there!</p>
           </div>
