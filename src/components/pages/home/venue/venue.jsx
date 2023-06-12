@@ -4,7 +4,7 @@ import Link from 'components/shared/link';
 
 import CardIllusrtation from './images/venue.jpg';
 
-const TITLE = 'Venue information';
+const TITLE = 'Venue Information';
 
 const Venue = () => (
   <section className="safe-paddings bg-white py-40 md:py-24 sm:py-16">

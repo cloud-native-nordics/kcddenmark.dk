@@ -31,7 +31,7 @@ export default {
     to: '/team',
   },
   tickets: {
-    to: 'https://tickets.kcdzurich.ch/',
+    to: '#',
     target: '_blank',
   },
   mission: {
