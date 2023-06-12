@@ -2,48 +2,42 @@ import clsx from 'clsx';
 import React from 'react';
 
 import Link from 'components/shared/link';
-import ArchCloud from 'icons/archcloud.svg';
-import Isovalent from 'icons/isovalent.svg';
-import Rokt from 'icons/rokt.svg';
-import WhiteRabbit from 'icons/white-rabbit.svg';
+import CloudNative from 'icons/cloudnative.svg';
 
-import AndreasGehrigPhoto from './images/andreas-gehrig-photo.jpg';
-import MilenaThalmannPhoto from './images/milena-thalmann-photo.jpg';
-import PhilippMeierPhoto from './images/philipp-meier-photo.jpg';
-import ThomasPhiliponaPhoto from './images/thomas-philipona-photo.jpg';
+import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 
 const ITEMS = [
   {
-    name: 'Andreas Gehrig',
-    position: 'Co-founder Arch.cloud',
-    photo: AndreasGehrigPhoto,
-    url: 'https://www.linkedin.com/in/andreasgehrig/',
+    name: 'Pria Koothrapali',
+    position: 'Flying Engineer at Volare Inc.',
+    photo: PlaceholderPhoto,
+    url: '#',
   },
   {
-    name: 'Milena Thalmann',
-    position: 'Founder White Rabbit Communications',
-    photo: MilenaThalmannPhoto,
-    url: 'https://www.linkedin.com/in/milena-thalmann/',
+    name: 'Sheldon Cooper',
+    position: 'Flying Engineer at Volare Inc.',
+    photo: PlaceholderPhoto,
+    url: '#',
   },
   {
-    name: 'Philipp Meier',
-    position: 'Ecosystem Builder - Isovalent',
-    photo: PhilippMeierPhoto,
-    url: 'https://www.linkedin.com/in/phmeier/',
+    name: 'Amy Farah Fowler',
+    position: 'Flying Engineer at Volare Inc.',
+    photo: PlaceholderPhoto,
+    url: '#',
   },
   {
-    name: 'Thomas Philipona',
-    position: 'Founder ROKT GmbH',
-    photo: ThomasPhiliponaPhoto,
-    url: 'https://www.linkedin.com/in/thomas-philipona-thun/',
+    name: 'Leonard Wolowitz',
+    position: 'Flying Engineer at Volare Inc.',
+    photo: PlaceholderPhoto,
+    url: '#',
   },
 ];
 
 const LOGOS = [
-  { icon: ArchCloud, url: 'https://arch.cloud/', iconClassName: 'w-[260px] h-auto' },
-  { icon: WhiteRabbit, url: 'https://www.whiterabbitcom.ch', iconClassName: 'w-[200px]' },
-  { icon: Isovalent, url: 'https://isovalent.com/', iconClassName: '' },
-  { icon: Rokt, url: 'https://rokt.cloud/', iconClassName: 'w-28 h-[72px]' },
+  { icon: CloudNative, url: '#', iconClassName: 'w-[260px] h-auto' },
+  { icon: CloudNative, url: '#', iconClassName: 'w-[200px]' },
+  { icon: CloudNative, url: '#', iconClassName: '' },
+  { icon: CloudNative, url: '#', iconClassName: 'w-28 h-[72px]' },
 ];
 
 const Members = () => (
