@@ -1,58 +1,90 @@
 ---
-title: Impressum & Data Privacy
+title: Privacy Policy
 slug: data-privacy
 ---
 
-## Impressum
+## Privacy Policy for kcddenmark.dk
 
-Verein cloudnative.zürich <br/> 8800 Thalwil
+At kcddenmark.dk, accessible from kcddenmark.dk, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by kcddenmark.dk and how we use it.
 
-E-Mail: [hello@kcdzurich.ch](mailto:hello@kcdzurich.ch)
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 
-## Datenschutzerklärung
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in kcddenmark.dk. This policy is not applicable to any information collected offline or via channels other than this website.
 
-Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
+## Consent
+By using our website, you hereby consent to our Privacy Policy and agree to its terms.
 
-Verein cloudnative.zürich <br/> 8800 Thalwil
+## Information we collect
+The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
 
-E-Mail: [hello@kcdzurich.ch](mailto:hello@kcdzurich.ch) <br/> Website: [kcdzurich.ch](https://tickets.kcdzurich.ch/)
+If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
 
-## Allgemeiner Hinweis
+When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
 
-Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und die datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+How we use your information
+We use the information we collect in various ways, including to:
 
-In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.
+Provide, operate, and maintain our website
+Improve, personalize, and expand our website
+Understand and analyze how you use our website
+Develop new products, services, features, and functionality
+Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes
+Send you emails
+Find and prevent fraud
 
-Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+## Log Files
 
-Durch die Nutzung dieser WebSite erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese WebSite kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.
+kcddenmark.dk follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
 
-## Bearbeitung von Personendaten
+## Advertising Partners Privacy Policies
+You may consult this list to find the Privacy Policy for each of the advertising partners of kcddenmark.dk.
 
-Personendaten sind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Eine betroffene Person ist eine Person, über die Personendaten bearbeitet werden. Bearbeiten umfasst jeden Umgang mit Personendaten, unabhängig von den angewandten Mitteln und Verfahren, insbesondere das Aufbewahren, Bekanntgeben, Beschaffen, Löschen, Speichern, Verändern, Vernichten und Verwenden von Personendaten.
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on kcddenmark.dk, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
-Wir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im Übrigen bearbeiten wir – soweit und sofern die EU-DSGVO anwendbar ist – Personendaten gemäss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO:
+Note that kcddenmark.dk has no access to or control over these cookies that are used by third-party advertisers.
 
-- a) Bearbeitung von Personendaten mit Einwilligung der betroffenen Person.
-- b) Bearbeitung von Personendaten zur Erfüllung eines Vertrages mit der betroffenen Person sowie zur Durchführung entsprechender vorvertraglicher Massnahmen.
-- c) Bearbeitung von Personendaten zur Erfüllung einer rechtlichen Verpflichtung, der wir gemäss allenfalls anwendbarem Recht der EU oder gemäss allenfalls anwendbarem Recht eines Landes, in dem die DSGVO ganz oder teilweise anwendbar ist, unterliegen.
-- d) Bearbeitung von Personendaten um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen.
-- e) Bearbeitung von Personendaten um die berechtigten Interessen von uns oder von Dritten zu wahren, sofern nicht die Grundfreiheiten und Grundrechte sowie Interessen der betroffenen Person überwiegen. Berechtigte Interessen sind insbesondere unser betriebswirtschaftliches Interesse, unsere Website bereitstellen zu können, die Informationssicherheit, die Durchsetzung von eigenen rechtlichen Ansprüchen und die Einhaltung von schweizerischem Recht. <br/> Wir bearbeiten Personendaten für jene Dauer, die für den jeweiligen Zweck oder die jeweiligen Zwecke erforderlich ist. Bei länger dauernden Aufbewahrungspflichten aufgrund von gesetzlichen und sonstigen Pflichten, denen wir unterliegen, schränken wir die Bearbeitung entsprechend ein.
+## Third Party Privacy Policies
+kcddenmark.dk's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 
-## Externe Zahlungsdienstleister
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
-Diese WebSite setzt externe Zahlungsdienstleister ein, über deren Plattformen die Nutzer und wir Zahlungstransaktionen vornehmen können. Zum Beispiel über
+## CCPA Privacy Rights (Do Not Sell My Personal Information)
+Under the CCPA, among other rights, California consumers have the right to:
 
-- [Visa](https://www.visa.de/nutzungsbedingungen/visa-privacy-center.html)
-- [Mastercard](https://www.mastercard.ch/de-ch/datenschutz.html)
-- [American Express](https://www.americanexpress.com/de/content/privacy-policy-statement.html)
-- [Paypal](https://www.paypal.com/de/webapps/mpp/ua/privacy-full)
-- [Prettix.eu](https://pretix.eu/about/de/privacy)
+Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
 
-Im Rahmen der Erfüllung von Verträgen setzen wir die Zahlungsdienstleister auf Grundlage der schweizerischen Datenschutzverordnung sowie und soweit nötig, des Art. 6 Abs. 1 lit. b. EU-DSGVO ein. Im Übrigen setzen wir externe Zahlungsdienstleister auf Grundlage unserer berechtigten Interessen gem. schweizerischer Datenschutzverordnung sowie und soweit nötig, gem. Art. 6 Abs. 1 lit. f. EU-DSGVO ein, um unseren Nutzern effektive und sichere Zahlungsmöglichkeit zu bieten.
+Request that a business delete any personal data about the consumer that a business has collected.
 
-## Datenschutzerklärung für YouTube
+Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
 
-Diese WebSite nutzt Plugins der von Google betriebenen Seite YouTube. Betreiber der Seiten ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine unserer mit einem YouTube-Plugin ausgestatteten Seiten besuchen, wird eine Verbindung zu den Servern von YouTube hergestellt. Dabei wird dem Youtube-Server mitgeteilt, welche unserer Seiten Sie besucht haben.
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
 
-Weitere Informationen zum Umgang von Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: [https://www.google.de/intl/de/policies/privacy](https://www.google.de/intl/de/policies/privacy)
+## GDPR Data Protection Rights
+We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+
+The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
+
+The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+
+The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+
+The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
+
+The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
+
+The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+
+## Children's Information
+Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+
+kcddenmark.dk does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+
+## Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
+
+Our Privacy Policy was created with the help of the Privacy Policy Generator.
+
+## Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
