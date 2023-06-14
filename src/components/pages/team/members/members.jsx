@@ -2,7 +2,9 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
+import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
+import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
 
 const ITEMS = [
   {
@@ -21,10 +23,10 @@ const ITEMS = [
   },
   {
     name: 'Jinhong Brejnholt',
-    position: 'Chief Cloud Architect at Saxo Bank & Cloud Native Copenhagen Organizer',
-    photo: PlaceholderPhoto,
+    position: 'Chief Cloud Architect & Product Owner at Saxo Bank A/S',
+    photo: JinhongPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/jbrejnholt',
-    twitterUrl: '#',
+    twitterUrl: '',
   },
   {
     name: 'Kasper Nissen',
@@ -63,8 +65,8 @@ const ITEMS = [
   },
   {
     name: 'Thomas Vitale',
-    position: 'Software Architect @Systematic | Author of "Cloud Native Spring in Action" | OSS Contributor',
-    photo: PlaceholderPhoto,
+    position: 'Software Architect at Systematic & Author of "Cloud Native Spring in Action"',
+    photo: ThomasPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/vitalethomas',
     twitterUrl: 'https://twitter.com/vitalethomas',
   },
@@ -102,8 +104,8 @@ const Members = () => (
             <span className="mt-1.5 text-primary-1">{position}</span>
 
             <p className="mt-2.5 text-base font-semibold leading-normal">
-              <Link className="text-blue-1" to={linkedinUrl} target="_blank">LinkedIn</Link> | 
-              <Link className="text-blue-1" to={twitterUrl} target="_blank">Twitter</Link>
+              <Link className="text-blue-1" to={linkedinUrl} target="_blank">LinkedIn</Link> 
+              { twitterUrl != "" && <Link className="text-blue-1" to={twitterUrl} target="_blank"> | Twitter</Link> }
             </p>
 
           </li>
