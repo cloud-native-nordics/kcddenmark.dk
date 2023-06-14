@@ -1,8 +1,6 @@
-import clsx from 'clsx';
 import React from 'react';
 
 import Link from 'components/shared/link';
-import CloudNative from 'icons/cloudnative.svg';
 
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 
@@ -11,76 +9,79 @@ const ITEMS = [
     name: 'Camilla Larsen',
     position: 'Platform Engineer @Lunar',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
+    twitterUrl: '#',
   },
   {
     name: 'Henrik Høegh',
     position: 'DevOps, Cloud Native and a bunch of Atlassian',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
+    twitterUrl: '#',
   },
   {
     name: 'Jinhong Brejnholt',
     position: 'Chief Cloud Architect at Saxo Bank & Cloud Native Copenhagen Organizer',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/jbrejnholt',
+    twitterUrl: '#',
   },
   {
     name: 'Kasper Nissen',
     position: 'Platform Architect @lunar',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/kaspernissen',
+    twitterUrl: '#',
   },
   {
     name: 'Ophelia Dalsgaard',
     position: 'DB Girl | CNCF Aarhus Event Organizer',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
+    twitterUrl: '#',
   },
   {
     name: 'Per Hedegaard Christiansen',
     position: 'Chief Container Platform Engineer @ Saxo Bank',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/perhchristiansen',
+    twitterUrl: '#',
   },
   {
     name: 'Robert Jensen',
     position: 'Lead Systems Engineer @VMware',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/robertjensen',
+    twitterUrl: '#',
   },
   {
     name: 'Ryan Gough',
     position: 'Im an OPS Guy! - Snr. DevOps Engineer @ JYSK',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/ryanjgough',
+    twitterUrl: '#',
   },
   {
     name: 'Thomas Vitale',
-    position: 'Software Architect | Speaker | Author of “Cloud Native Spring in Action”',
+    position: 'Software Architect @Systematic | Author of "Cloud Native Spring in Action" | OSS Contributor',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/vitalethomas',
+    twitterUrl: 'https://twitter.com/vitalethomas',
   },
   {
     name: 'Thor Anker Kvisgård Lange',
     position: 'Platform Specialist at @ Netic A/S',
     photo: PlaceholderPhoto,
-    url: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/thor-lange-26b388',
+    twitterUrl: '#',
   },
-];
-
-const LOGOS = [
-  { icon: CloudNative, url: '#', iconClassName: 'w-[260px] h-auto' },
-  { icon: CloudNative, url: '#', iconClassName: 'w-[200px]' },
-  { icon: CloudNative, url: '#', iconClassName: '' },
-  { icon: CloudNative, url: '#', iconClassName: 'w-28 h-[72px]' },
 ];
 
 const Members = () => (
   <section className="safe-paddings relative bg-white pb-40 lg:pb-32 md:py-24 sm:py-16">
     <div className="container">
       <ul className="mt-20 grid grid-cols-4 gap-8 lg:gap-6 md:flex md:flex-wrap md:justify-evenly [@media(max-width:900px)]:mx-auto [@media(max-width:900px)]:max-w-[570px]">
-        {ITEMS.map(({ name, position, photo, url }, index) => (
+        {ITEMS.map(({ name, position, photo, linkedinUrl, twitterUrl }, index) => (
           <li
             className="flex w-[240px] flex-col lg:w-52 md:w-48 sm:w-auto sm:max-w-[200px]"
             key={index}
@@ -100,34 +101,15 @@ const Members = () => (
 
             <span className="mt-1.5 text-primary-1">{position}</span>
 
-            <Link
-              className="mt-2.5 text-base font-semibold leading-normal text-blue-1"
-              to={url}
-              target="_blank"
-            >
-              LinkedIn
-            </Link>
+            <p className="mt-2.5 text-base font-semibold leading-normal">
+              <Link className="text-blue-1" to={linkedinUrl} target="_blank">LinkedIn</Link> | 
+              <Link className="text-blue-1" to={twitterUrl} target="_blank">Twitter</Link>
+            </p>
+
           </li>
         ))}
       </ul>
     </div>
-
-    <ul className="mx-auto mt-36 flex flex-wrap justify-center gap-x-4">
-      {LOGOS.map(({ icon, url, iconClassName }, index) => (
-        <li className="flex min-h-[80px] min-w-[280px] items-center justify-center" key={index}>
-          <Link className="flex h-full w-full items-center justify-center" to={url}>
-            <img
-              className={clsx(iconClassName, 'max-w-[260px] md:max-w-[220px]')}
-              src={icon}
-              width="auto"
-              height="auto"
-              loading="lazy"
-              alt=""
-            />
-          </Link>
-        </li>
-      ))}
-    </ul>
   </section>
 );
 
