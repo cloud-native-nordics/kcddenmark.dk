@@ -4,6 +4,7 @@ import Link from 'components/shared/link';
 
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
+import PerPhoto from './images/organizer-per-christiansen.jpg';
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
 import ThorPhoto from './images/organizer-thor-lange.jpg';
@@ -46,10 +47,10 @@ const ITEMS = [
   },
   {
     name: 'Per Hedegaard Christiansen',
-    position: 'Chief Container Platform Engineer @ Saxo Bank',
-    photo: PlaceholderPhoto,
+    position: 'Chief Container Platform Engineer at Saxo Bank A/S',
+    photo: PerPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/perhchristiansen',
-    twitterUrl: '#',
+    twitterUrl: '',
   },
   {
     name: 'Robert Jensen',
