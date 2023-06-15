@@ -3,8 +3,10 @@ import React from 'react';
 import Link from 'components/shared/link';
 
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
+import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
+import ThorPhoto from './images/organizer-thor-lange.jpg';
 
 const ITEMS = [
   {
@@ -36,11 +38,11 @@ const ITEMS = [
     twitterUrl: '#',
   },
   {
-    name: 'Ophelia Dalsgaard',
-    position: 'DB Girl | CNCF Aarhus Event Organizer',
-    photo: PlaceholderPhoto,
+    name: 'Ophelia Z. Dalsgaard',
+    position: 'Chapter Lead at Danske Bank',
+    photo: OpheliaPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
-    twitterUrl: '#',
+    twitterUrl: '',
   },
   {
     name: 'Per Hedegaard Christiansen',
@@ -72,10 +74,10 @@ const ITEMS = [
   },
   {
     name: 'Thor Anker Kvisgård Lange',
-    position: 'Platform Specialist at @ Netic A/S',
-    photo: PlaceholderPhoto,
+    position: 'Platform Development Specialist at Netic',
+    photo: ThorPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/thor-lange-26b388',
-    twitterUrl: '#',
+    twitterUrl: 'https://twitter.com/thorlange',
   },
 ];
 
