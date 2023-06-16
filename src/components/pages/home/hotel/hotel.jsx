@@ -7,8 +7,8 @@ import CardIllusrtation from './images/venue.jpg';
 const TITLE = 'Hotel Information';
 
 const Hotel = () => (
-  <section className="safe-paddings bg-white py-0 md:py-24 sm:py-16">
-    <div className="container-md">
+  <section className="safe-paddings bg-white py-0 md:py-24 sm:py-16 mb-20">
+    <div className="container-md ">
       <h2 className="mb-10 text-center text-6xl font-bold leading-tight text-primary-1">{TITLE}</h2>
 
       <div className="mb-10 text-2xl text-primary-1 sm:text-lg">
