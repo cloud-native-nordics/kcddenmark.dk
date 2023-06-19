@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'components/shared/link';
 
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
+import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
 import PerPhoto from './images/organizer-per-christiansen.jpg';
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
@@ -33,11 +34,11 @@ const ITEMS = [
     twitterUrl: '',
   },
   {
-    name: 'Kasper Nissen',
-    position: 'Platform Architect @lunar',
-    photo: PlaceholderPhoto,
+    name: 'Kasper Borg Nissen',
+    position: 'Lead Platform Architect at Lunar',
+    photo: KasperPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/kaspernissen',
-    twitterUrl: '#',
+    twitterUrl: 'https://twitter.com/phennex',
   },
   {
     name: 'Ophelia Z. Dalsgaard',
