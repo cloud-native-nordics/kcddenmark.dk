@@ -6,6 +6,7 @@ import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
 import PerPhoto from './images/organizer-per-christiansen.jpg';
 import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
+import RobertPhoto from './images/organizer-robert-jensen.jpg';
 import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
 import ThorPhoto from './images/organizer-thor-lange.jpg';
 
@@ -54,10 +55,10 @@ const ITEMS = [
   },
   {
     name: 'Robert Jensen',
-    position: 'Lead Systems Engineer @VMware',
-    photo: PlaceholderPhoto,
+    position: 'Lead Solution Engineer at VMware',
+    photo: RobertPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/robertjensen',
-    twitterUrl: '#',
+    twitterUrl: 'https://twitter.com/rhjensen',
   },
   {
     name: 'Ryan Gough',
