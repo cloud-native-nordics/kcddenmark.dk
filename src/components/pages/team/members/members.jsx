@@ -2,6 +2,7 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
+import HenrikPhoto from './images/organizer-henrik-hoeegh.jpg';
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
@@ -20,11 +21,11 @@ const ITEMS = [
     twitterUrl: '#',
   },
   {
-    name: 'Henrik Høegh',
-    position: 'DevOps, Cloud Native and a bunch of Atlassian',
-    photo: PlaceholderPhoto,
+    name: 'Henrik René Høegh',
+    position: 'Product Owner at VELUX',
+    photo: HenrikPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
-    twitterUrl: '#',
+    twitterUrl: 'https://twitter.com/henrikhoegh',
   },
   {
     name: 'Jinhong Brejnholt',
