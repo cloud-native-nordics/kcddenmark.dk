@@ -2,23 +2,24 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
+import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
 import HenrikPhoto from './images/organizer-henrik-hoeegh.jpg';
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
 import PerPhoto from './images/organizer-per-christiansen.jpg';
-import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 import RobertPhoto from './images/organizer-robert-jensen.jpg';
+import RyanPhoto from './images/organizer-ryan-gough.jpg';
 import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
 import ThorPhoto from './images/organizer-thor-lange.jpg';
 
 const ITEMS = [
   {
     name: 'Camilla Larsen',
-    position: 'Platform Engineer @Lunar',
-    photo: PlaceholderPhoto,
+    position: 'Platform Engineer at Lunar',
+    photo: CamillaPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
-    twitterUrl: '#',
+    twitterUrl: '',
   },
   {
     name: 'Henrik René Høegh',
@@ -64,10 +65,10 @@ const ITEMS = [
   },
   {
     name: 'Ryan Gough',
-    position: 'Im an OPS Guy! - Snr. DevOps Engineer @ JYSK',
-    photo: PlaceholderPhoto,
+    position: 'Senior IT Operations Specialist & DevOps at JYSK',
+    photo: RyanPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/ryanjgough',
-    twitterUrl: '#',
+    twitterUrl: '',
   },
   {
     name: 'Thomas Vitale',
