@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+    environment:
+      - GATSBY_DEFAULT_SITE_URL=https://kcddenmark.dk
     volumes:
       - ./src:/app/src # Links the source files to the running container
     ports:
