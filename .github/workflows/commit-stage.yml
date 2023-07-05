@@ -52,3 +52,10 @@ jobs:
           docker tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.VERSION }} \
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+  watchtower-update:
+    runs-on: ubuntu-latest
+    steps:
+      # Get the repositery's code
+      - name: REST API with curl
+        run: |
+          curl -H "Authorization: Bearer ${{ secrets.WATCHTOWER_TOKEN }}" https://watchtower.robert-jensen.dk/v1/update
