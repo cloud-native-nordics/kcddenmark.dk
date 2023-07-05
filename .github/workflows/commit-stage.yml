@@ -11,7 +11,6 @@ env:
 jobs:
   package:
     name: Package and Publish
-    needs: [ build ]
     runs-on: ubuntu-20.04
     permissions:
       contents: read
