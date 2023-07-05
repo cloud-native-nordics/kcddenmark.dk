@@ -1,0 +1,8 @@
+services:
+  kcddenmark:
+    image: ghcr.io/cloud-native-nordics/kcddenmark.dk
+    container_name: kcddenmark
+    ports:
+      - 9004:9004
+    environment:
+      - PORT=9004
