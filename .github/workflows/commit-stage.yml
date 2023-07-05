@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: "18"
       - name: Set up Pack CLI
-        uses: buildpacks/github-actions/setup-pack@v5
+        uses: buildpacks/github-actions/setup-pack@v5.2.0
       - name: Build SPA
         run: |
           npm run build
