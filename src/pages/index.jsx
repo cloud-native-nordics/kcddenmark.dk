@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
+import Proposal from 'components/pages/home/proposal';
 import Hero from 'components/pages/home/hero';
 import Partners from 'components/pages/home/partners';
 import Schedule from 'components/pages/home/schedule';
@@ -15,6 +16,7 @@ const HomePage = ({ location }) => (
   <Layout homepage>
     <Hero />
     <Venue />
+    <Proposal />
     <Hotel />
     {/* <Speakers location={location} />
     <Schedule /> */}

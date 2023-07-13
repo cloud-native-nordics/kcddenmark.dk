@@ -4,7 +4,7 @@ const MENUS = {
   header: [
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
-    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Sponsors', ...LINKS.sponsors },
   ],
   footer: [
@@ -16,7 +16,7 @@ const MENUS = {
   mobile: [
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
-    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Sponsors', ...LINKS.sponsors },
   ],
 };

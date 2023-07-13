@@ -74,11 +74,11 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
           Get your ticket
         </Button> */}
 
-        {/* <Burger
+        <Burger
           className={clsx('z-50 hidden md:block', isMobileMenuOpen && 'text-black dark:text-white')}
           isToggled={isMobileMenuOpen}
           onClick={onBurgerClick}
-        /> */}
+        />
       </div>
     </header>
   );

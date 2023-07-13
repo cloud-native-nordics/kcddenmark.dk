@@ -10,8 +10,8 @@ const Venue = () => (
   <section className="safe-paddings bg-white py-40 md:py-24 sm:py-16">
     <div className="container-md">
       <div className="text-2xl text-primary-1 sm:text-lg">
-        <p className="mt-3 text-center text-4xl font-bold leading-tight pb-8">Stay tuned! Ticket sales and CFP will open soon!</p>
-        <hr class="pb-8" />
+        <p className="mt-3 text-center text-4xl font-bold leading-tight pb-8">Stay tuned! Ticket sales will start soon!</p>
+        <hr className="pb-8" />
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
           community-organized events that gather adopters and technologists from open source and
