@@ -49,11 +49,11 @@ export default {
 
   // Social-links
   linkedin: {
-    to: 'https://www.linkedin.com/company/cloud-native-nordics',
+    to: 'https://www.linkedin.com/company/kubernetes-community-days-denmark',
     target: '_blank',
   },
   twitter: {
-    to: 'https://twitter.com/CNNordics',
+    to: 'https://twitter.com/kcd_dk',
     target: '_blank',
   },
   googlemaps: {
