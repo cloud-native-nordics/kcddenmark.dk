@@ -17,15 +17,15 @@ const Proposal = () => (
         </h2>
         <p className="mt-8 text-2xl leading-normal sm:text-lg">{DESCRIPTION}</p>
 
-        {/* <Button
+        {<Button
           className="mt-10"
-          to="https://kcd.smapply.io/prog/kcd_zurich_2023/"
+          to="https://kcd.smapply.io/prog/cfp_for_kcd_denmark_2023/"
           theme="primary"
           size="lg"
           target="_blank"
         >
           Submit a Proposal
-        </Button> */}
+        </Button>}
 
         <div className="container py-10 mx-auto">
           <table className="table-auto text-base border-collapse border mx-auto">
