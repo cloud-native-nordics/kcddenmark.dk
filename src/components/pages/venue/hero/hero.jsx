@@ -4,35 +4,14 @@ import Link from 'components/shared/link';
 
 import CardIllusrtation from './images/venue.jpg';
 
-const TITLE = 'Venue Information';
+const TITLE = 'Venue';
 
-const Venue = () => (
-  <section className="safe-paddings bg-white py-40 md:py-24 sm:py-16">
-    <div className="container-md">
-      <div className="text-2xl text-primary-1 sm:text-lg">
-        <p className="mt-3 text-center text-4xl font-bold leading-tight pb-8">Stay tuned! Ticket sales will start soon!</p>
-        <hr className="pb-8" />
-        <p>
-          <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
-          community-organized events that gather adopters and technologists from open source and
-          cloud native communities for education, collaboration, and networking. KCDs are
-          supported by the <a href="https://cncf.io"><span className="font-bold">Cloud Native
-          Computing Foundation</span></a> (CNCF).
-        </p>
-        <p className="mt-7">
-          This is the first KCD in <span className="font-bold">Denmark</span>, and we are excited
-          to bring the community together. We want to provide a platform for professionals and
-          experts from all levels and backgrounds to learn, network, and share their knowledge on
-          all things cloud native. Furthermore, all profits from the event will be donated
-          to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>,
-          a non-profit organization that nurtures IT creativity in children.
-        </p>
-      </div>
-
-      <div className="lg:mt-38 mt-40 xl:mt-32 md:mt-24">
-        <h2 className="mt-3 text-center text-6xl font-bold leading-tight text-primary-1">
-          {TITLE}
-        </h2>
+const Hero = () => (
+  <section className="safe-paddings safe-paddings overflow-hidden bg-[#EDC3C7] bg-opacity-10 pt-24 pb-20">
+    <div className="container relative mt-4 text-center text-primary-1">
+      <div className="absolute -top-1/2 left-1/2 h-[503px] w-[503px] -translate-x-1/2 bg-white blur-[100px] md:-left-[30%] md:h-[350px] md:w-[350px]" />
+      <div className="relative">
+        <h1 className="text-6xl font-bold leading-denser ">{TITLE}</h1>
         <div className="mt-14 flex justify-between lg:justify-around md:flex-col sm:items-center">
           <div className="grid max-w-[384px] grid-cols-1 rounded shadow-[0_14px_40px_#CCCCCC] md:max-w-none md:grid-cols-2 sm:max-w-[500px] sm:grid-cols-1">
             <img
@@ -72,4 +51,4 @@ const Venue = () => (
   </section>
 );
 
-export default Venue;
+export default Hero;

@@ -2,8 +2,6 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
-import CardIllusrtation from './images/venue.jpg';
-
 const TITLE = 'Hotel Information';
 
 const Hotel = () => (
