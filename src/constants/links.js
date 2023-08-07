@@ -27,6 +27,11 @@ export default {
     id: getAnchor('Call for Proposal'),
     homeTo: null,
   },
+  venue: {
+    to: '/venue',
+    id: getAnchor('Venue'),
+    homeTo: '/venue',
+  },
   team: {
     to: '/team',
   },

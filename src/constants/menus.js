@@ -5,6 +5,7 @@ const MENUS = {
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
     { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
   ],
   footer: [
@@ -17,6 +18,7 @@ const MENUS = {
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
     { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
   ],
 };
