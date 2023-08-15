@@ -10,6 +10,7 @@ import Isovalent from 'icons/isovalent.svg'
 import Netic from 'icons/netic.png'
 import Dynatrace from 'icons/dynatrace.svg'
 import Systematic from 'icons/systematic.svg'
+import Atea from 'icons/atea.svg'
 
 
 const TITLE = 'Sponsors';
@@ -23,6 +24,7 @@ const ITEMS = [
       { icon: Netic, url: 'https://www.netic.dk/' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
+      { icon: Atea, url: 'https://atea.dk/' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
