@@ -4,6 +4,13 @@ import React from 'react';
 import Link from 'components/shared/link';
 import LINKS from 'constants/links';
 import Cloudnative from 'icons/cloudnative.svg';
+import JYSK from 'icons/JYSK.svg';
+import CodingPirates from 'icons/codingpirates.svg';
+import Isovalent from 'icons/isovalent.svg'
+import Netic from 'icons/netic.png'
+import Dynatrace from 'icons/dynatrace.svg'
+import Systematic from 'icons/systematic.svg'
+
 
 const TITLE = 'Sponsors';
 
@@ -12,11 +19,10 @@ const ITEMS = [
     title: 'Platinum Sponsors',
     logos: [
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Isovalent, url: 'https://isovalent.com/' },
+      { icon: Netic, url: 'https://www.netic.dk/' },
+      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
+      { icon: Systematic, url: 'https://systematic.com/en-gb/' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -25,7 +31,8 @@ const ITEMS = [
   {
     title: 'Venue Sponsors',
     logos: [
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: JYSK, url: 'https://www.jysk.com/' },
+      { icon: CodingPirates, url: 'https://codingpirates.dk/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -64,9 +71,9 @@ const Sponsors = () => (
                     target="_blank"
                   >
                     <img
-                      className={clsx('h-auto w-auto xs:max-w-full', iconClassname)}
+                      className={clsx('h-auto xs:max-w-full', iconClassname)}
                       src={icon}
-                      width="auto"
+                      width="400px"
                       height="auto"
                       loading="lazy"
                       alt="sponsor-logo"
