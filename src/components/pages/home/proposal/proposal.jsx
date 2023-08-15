@@ -26,39 +26,39 @@ const Proposal = () => (
         >
           Submit a Proposal
         </Button>}
+        <div className="container py-10 mx-auto overflow-x-auto">
+  <table className="table-auto text-base border-collapse border mx-auto">
+    <thead className="border-b font-medium dark:border-neutral-500">
+      <tr>
+        <th className="px-4 py-4">Activity</th>
+        <th className="px-4 py-4">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="px-4 py-4 font-medium">CFP Opens</td>
+        <td className="px-4 py-4">1st August, 2023</td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="px-4 py-4 font-medium">CFP Closes</td>
+        <td className="px-4 py-4">15th September, 2023</td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="px-4 py-4 font-medium">CFP Notifications</td>
+        <td className="px-4 py-4">1st October, 2023</td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="px-4 py-4 font-medium">Schedule Announced</td>
+        <td className="px-4 py-4">7th October, 2023</td>
+      </tr>
+      <tr className="border-b dark:border-neutral-500">
+        <td className="px-4 py-4 font-medium">Slides Submission</td>
+        <td className="px-4 py-4">7th November, 2023</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-        <div className="container py-10 mx-auto">
-          <table className="table-auto text-base border-collapse border mx-auto">
-            <thead className="border-b font-medium dark:border-neutral-500">
-              <tr>
-                <th>Activity</th>
-                <th>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b dark:border-neutral-500">
-                <td className="whitespace-nowrap px-4 py-4 font-medium">CFP Opens</td>
-                <td className="whitespace-nowrap px-4 py-4">1st August, 2023</td>
-              </tr>
-              <tr className="border-b dark:border-neutral-500">
-                <td className="whitespace-nowrap px-4 py-4 font-medium">CFP Closes</td>
-                <td className="whitespace-nowrap px-4 py-4">15th September, 2023</td>
-              </tr>
-              <tr className="border-b dark:border-neutral-500">
-                <td className="whitespace-nowrap px-4 py-4 font-medium">CFP Notifications</td>
-                <td className="whitespace-nowrap px-4 py-4">1st October, 2023</td>
-              </tr>
-              <tr className="border-b dark:border-neutral-500">
-                <td className="whitespace-nowrap px-4 py-4 font-medium">Schedule Announced</td>
-                <td className="whitespace-nowrap px-4 py-4">7th October, 2023</td>
-              </tr>
-              <tr className="border-b dark:border-neutral-500">
-                <td className="whitespace-nowrap px-4 py-4 font-medium">Slides Submission</td>
-                <td className="whitespace-nowrap px-4 py-4">7th November, 2023</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
 
       </div>
     </div>

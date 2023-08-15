@@ -26,14 +26,18 @@ const Hero = () => (
         <p className="mt-5 max-w-[500px] text-lg leading-normal text-primary-1 lg:max-w-[500px]">
           {DESCRIPTION}
         </p>
-        {<Button
-          className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
-          to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
-          size="lg"
-          target="_blank"
-        >
-          Get your ticket
-        </Button>}
+        {
+          <p className="mt-10 max-w-[500px] text-lg leading-normal text-primary-1 lg:max-w-[500px]">
+            <Button
+              className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
+              to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
+              size="lg"
+              target="_blank"
+            >
+              Get your ticket
+            </Button>
+          </p>
+        }
       </div>
       <img
         className="absolute -top-44 -left-20 translate-x-1/2 xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] lg:left-[38%] lg:-top-16 lg:w-[750px] lg:translate-x-1 md:top-[37%] md:left-1/2 md:-translate-x-1/2 md:translate-y-1/2 sm:top-[27%] [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[65%] [@media(max-width:460px)]:w-[490px]"
