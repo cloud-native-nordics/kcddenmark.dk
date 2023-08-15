@@ -23,7 +23,6 @@ const ITEMS = [
       { icon: Netic, url: 'https://www.netic.dk/' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -33,7 +32,7 @@ const ITEMS = [
     title: 'Venue Sponsors',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/' },
-      { icon: CodingPirates, url: 'https://www.jysk.com/' },
+      { icon: CodingPirates, url: 'https://codingpirates.dk/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
