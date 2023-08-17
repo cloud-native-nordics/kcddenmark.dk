@@ -17,6 +17,7 @@ import Sysdig from 'icons/sysdig.svg'
 import Lego from 'icons/lego.svg'
 import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
+import Sponsor from 'icons/sponsor.svg'
 
 
 const TITLE = 'Sponsors';
@@ -25,7 +26,7 @@ const ITEMS = [
   {
     title: 'Platinum Sponsors',
     logos: [
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
       { icon: Isovalent, url: 'https://isovalent.com/' },
       { icon: Netic, url: 'https://www.netic.dk/' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
@@ -44,21 +45,21 @@ const ITEMS = [
       { icon: Sysdig, url: 'https://sysdig.com/' },
       { icon: Lego, url: 'https://www.lego.com/' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
 
     ],
     cardClassname:
