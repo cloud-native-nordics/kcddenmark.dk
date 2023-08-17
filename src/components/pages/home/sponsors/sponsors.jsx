@@ -16,6 +16,7 @@ import Redpill from 'icons/redpill.png'
 import Sysdig from 'icons/sysdig.svg'
 import Lego from 'icons/lego.svg'
 import Saxo from 'icons/saxo.svg'
+import Nordics from 'icons/nordics.svg'
 
 
 const TITLE = 'Sponsors';
@@ -43,6 +44,22 @@ const ITEMS = [
       { icon: Sysdig, url: 'https://sysdig.com/' },
       { icon: Lego, url: 'https://www.lego.com/' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -53,6 +70,10 @@ const ITEMS = [
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/' },
       { icon: CodingPirates, url: 'https://codingpirates.dk/' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Nordics, url: 'https://cloudnativenordics.com/' },
+
+      
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
