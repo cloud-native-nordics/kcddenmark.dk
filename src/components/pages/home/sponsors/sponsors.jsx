@@ -49,7 +49,7 @@ const ITEMS = [
     iconClassname: 'max-w-[150px] sm:min-w-[290px]',
   },
   {
-    title: 'Venue Sponsors',
+    title: 'Venue & Partners',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/' },
       { icon: CodingPirates, url: 'https://codingpirates.dk/' },
