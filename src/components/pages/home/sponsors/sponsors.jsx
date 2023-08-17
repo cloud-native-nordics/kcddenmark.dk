@@ -10,6 +10,12 @@ import Isovalent from 'icons/isovalent.svg'
 import Netic from 'icons/netic.png'
 import Dynatrace from 'icons/dynatrace.svg'
 import Systematic from 'icons/systematic.svg'
+import Atea from 'icons/atea.svg'
+import Lunar from 'icons/lunar.png'
+import Redpill from 'icons/redpill.png'
+import Sysdig from 'icons/sysdig.svg'
+import Lego from 'icons/lego.svg'
+import Saxo from 'icons/saxo.svg'
 
 
 const TITLE = 'Sponsors';
@@ -23,10 +29,24 @@ const ITEMS = [
       { icon: Netic, url: 'https://www.netic.dk/' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
+      { icon: Atea, url: 'https://atea.dk/' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
     iconClassname: 'max-w-[390px] sm:max-w-[350px]',
+  },
+  {
+    title: 'Community Sponsors',
+    logos: [
+      { icon: Lunar, url: 'https://www.lunar.app/' },
+      { icon: Redpill, url: 'https://redpill-linpro.com/' },
+      { icon: Sysdig, url: 'https://sysdig.com/' },
+      { icon: Lego, url: 'https://www.lego.com/' },
+      { icon: Saxo, url: 'https://www.home.saxo/' },
+    ],
+    cardClassname:
+      'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
+    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
   },
   {
     title: 'Venue Sponsors',
