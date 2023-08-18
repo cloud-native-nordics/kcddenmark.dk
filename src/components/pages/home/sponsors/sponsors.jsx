@@ -16,6 +16,9 @@ import Redpill from 'icons/redpill.png'
 import Sysdig from 'icons/sysdig.svg'
 import Lego from 'icons/lego.svg'
 import Saxo from 'icons/saxo.svg'
+import Nordics from 'icons/nordics.svg'
+import Sponsor from 'icons/sponsor.svg'
+import PaloAlto from 'icons/paloalto.svg'
 
 
 const TITLE = 'Sponsors';
@@ -24,12 +27,13 @@ const ITEMS = [
   {
     title: 'Platinum Sponsors',
     logos: [
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
       { icon: Isovalent, url: 'https://isovalent.com/' },
-      { icon: Netic, url: 'https://www.netic.dk/' },
+      { icon: Netic, url: 'https://www.netic.dk/', scale: '70%' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
       { icon: Atea, url: 'https://atea.dk/' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -40,19 +44,40 @@ const ITEMS = [
     logos: [
       { icon: Lunar, url: 'https://www.lunar.app/' },
       { icon: Redpill, url: 'https://redpill-linpro.com/' },
-      { icon: Sysdig, url: 'https://sysdig.com/' },
-      { icon: Lego, url: 'https://www.lego.com/' },
+      { icon: Sysdig, url: 'https://sysdig.com/'},
+      { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
+      { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
     iconClassname: 'max-w-[150px] sm:min-w-[290px]',
   },
   {
-    title: 'Venue Sponsors',
+    title: 'Venue & Partners',
     logos: [
-      { icon: JYSK, url: 'https://www.jysk.com/' },
-      { icon: CodingPirates, url: 'https://codingpirates.dk/' },
+      { icon: JYSK, url: 'https://www.jysk.com/', scale: '70%'  },
+      { icon: Nordics, url: 'https://cloudnativenordics.com/' },
+
+      { icon: CodingPirates, url: 'https://codingpirates.dk/' , scale: '80%' },
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
+
+      
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -83,7 +108,7 @@ const Sponsors = () => (
             </p>
 
             <ul className="mt-10 mb-[70px] flex flex-wrap justify-center gap-x-8 xl:gap-y-6">
-              {logos.map(({ icon, url }, index) => (
+              {logos.map(({ icon, url, scale = '100%' }, index) => (
                 <li className={clsx('flex items-center justify-center', cardClassname)} key={index}>
                   <Link
                     className="flex h-full w-fit items-center justify-center"
@@ -93,7 +118,7 @@ const Sponsors = () => (
                     <img
                       className={clsx('h-auto xs:max-w-full', iconClassname)}
                       src={icon}
-                      width="400px"
+                      width={scale}
                       height="auto"
                       loading="lazy"
                       alt="sponsor-logo"
