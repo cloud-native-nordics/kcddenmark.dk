@@ -53,15 +53,6 @@ const ITEMS = [
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
 
     ],
     cardClassname:
