@@ -18,6 +18,7 @@ import Lego from 'icons/lego.svg'
 import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
 import Sponsor from 'icons/sponsor.svg'
+import PaloAlto from 'icons/paloalto.svg'
 
 
 const TITLE = 'Sponsors';
@@ -46,7 +47,7 @@ const ITEMS = [
       { icon: Sysdig, url: 'https://sysdig.com/'},
       { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
+      { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
       { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
