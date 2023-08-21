@@ -32,8 +32,6 @@ const ITEMS = [
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
       { icon: Atea, url: 'https://atea.dk/' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -48,12 +46,6 @@ const ITEMS = [
       { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
       { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-      { icon: Sponsor, url: 'mailto:contact@kcddenmark.dk' },
-
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
