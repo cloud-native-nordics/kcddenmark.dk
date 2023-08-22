@@ -19,6 +19,8 @@ import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
 import Sponsor from 'icons/sponsor.svg'
 import PaloAlto from 'icons/paloalto.svg'
+import KubeCareers from 'icons/kube-careers.svg'
+import KubeEvents from 'icons/kube-events.svg'
 
 
 const TITLE = 'Sponsors';
@@ -64,11 +66,12 @@ const ITEMS = [
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/', scale: '70%'  },
       { icon: Nordics, url: 'https://cloudnativenordics.com/' },
-
       { icon: CodingPirates, url: 'https://codingpirates.dk/' , scale: '80%' },
-      { icon: Cloudnative, url: 'https://www.cncf.io/' },
 
-      
+      { icon: KubeCareers, url: 'https://kube.careers/', scale: '80%' },
+      { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
+
+      { icon: Cloudnative, url: 'https://www.cncf.io/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
