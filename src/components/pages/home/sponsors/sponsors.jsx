@@ -21,6 +21,7 @@ import Sponsor from 'icons/sponsor.svg'
 import PaloAlto from 'icons/paloalto.svg'
 import KubeCareers from 'icons/kube-careers.svg'
 import KubeEvents from 'icons/kube-events.svg'
+import Bestseller from 'icons/bestseller.svg'
 
 
 const TITLE = 'Sponsors';
@@ -31,9 +32,12 @@ const ITEMS = [
     logos: [
       { icon: Isovalent, url: 'https://isovalent.com/' },
       { icon: Netic, url: 'https://www.netic.dk/', scale: '70%' },
-      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
+
+      { icon: Bestseller, url: 'https://bestseller.com/' },
+
       { icon: Systematic, url: 'https://systematic.com/en-gb/' },
       { icon: Atea, url: 'https://atea.dk/' },
+      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -46,8 +50,9 @@ const ITEMS = [
       { icon: Redpill, url: 'https://redpill-linpro.com/' },
       { icon: Sysdig, url: 'https://sysdig.com/'},
       { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
-      { icon: Saxo, url: 'https://www.home.saxo/' },
       { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
+      { icon: Saxo, url: 'https://www.home.saxo/' },
+
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -103,6 +108,7 @@ const Sponsors = () => (
                   >
                     <img
                       className={clsx('h-auto xs:max-w-full', iconClassname)}
+                      style={{maxHeight: "130px"}}
                       src={icon}
                       width={scale}
                       height="auto"
