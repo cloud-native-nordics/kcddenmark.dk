@@ -17,10 +17,10 @@ import Sysdig from 'icons/sysdig.svg'
 import Lego from 'icons/lego.svg'
 import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
-import Sponsor from 'icons/sponsor.svg'
 import PaloAlto from 'icons/paloalto.svg'
 import KubeCareers from 'icons/kube-careers.svg'
 import KubeEvents from 'icons/kube-events.svg'
+import Deranged from 'icons/deranged.svg'
 
 
 const TITLE = 'Sponsors';
@@ -48,6 +48,7 @@ const ITEMS = [
       { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
       { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
+      { icon: Deranged, url: 'https://deranged.dk' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
