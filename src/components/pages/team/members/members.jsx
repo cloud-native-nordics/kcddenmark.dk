@@ -6,6 +6,7 @@ import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
 import HenrikPhoto from './images/organizer-henrik-hoeegh.jpg';
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
+import NikitaPhoto from './images/organizer-nikita-hald.jpg';
 import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
 import PerPhoto from './images/organizer-per-christiansen.jpg';
 import RobertPhoto from './images/organizer-robert-jensen.jpg';
@@ -84,6 +85,13 @@ const ITEMS = [
     linkedinUrl: 'https://www.linkedin.com/in/thor-lange-26b388',
     twitterUrl: 'https://twitter.com/thorlange',
   },
+  {
+    name: 'Nikita Hald Sørensen',
+    position: 'Communication and event coordinator at Coding Pirates and Innovation Lab',
+    photo: NikitaPhoto,
+    linkedinUrl: 'https://www.linkedin.com/in/nikitahald',
+    twitterUrl: '',
+  },
 ];
 
 const Members = () => (
@@ -111,8 +119,8 @@ const Members = () => (
             <span className="mt-1.5 text-primary-1">{position}</span>
 
             <p className="mt-2.5 text-base font-semibold leading-normal">
-              <Link className="text-blue-1" to={linkedinUrl} target="_blank">LinkedIn</Link> 
-              { twitterUrl != "" && <Link className="text-blue-1" to={twitterUrl} target="_blank"> | Twitter</Link> }
+              <Link className="text-blue-1" to={linkedinUrl} target="_blank">LinkedIn</Link>
+              {twitterUrl != "" && <Link className="text-blue-1" to={twitterUrl} target="_blank"> | Twitter</Link>}
             </p>
 
           </li>
