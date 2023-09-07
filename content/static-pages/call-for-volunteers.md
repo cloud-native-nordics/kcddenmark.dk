@@ -24,6 +24,7 @@ As a token of our appreciation for your valuable assistance, we offer the follow
 
 * A small gift to express our gratitude.
 * A crew t-shirt for you to wear on the day of the conference.
+* Food and beverage throughout the conference.
 * The opportunity to attend half of the conference either before or after your assigned work time slot.
 
 ## Volunteer Shifts
