@@ -47,6 +47,10 @@ export default {
     to: '/data-privacy',
     target: '_blank',
   },
+  privacy: {
+    to: '/call-for-volunteers',
+    target: '_blank',
+  },
   conduct: {
     to: 'https://events.linuxfoundation.org/about/code-of-conduct/',
     target: '_blank',
