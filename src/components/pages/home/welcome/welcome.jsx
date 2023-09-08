@@ -1,11 +1,15 @@
 import React from 'react';
 
 const Welcome = () => (
-  <section className="safe-paddings bg-white py-40 md:py-24 sm:py-16">
+  <section className="safe-paddings bg-white py-20 md:py-24 sm:py-16">
     <div className="container-md">
       <div className="text-2xl text-primary-1 sm:text-lg">
-        <p className="mt-3 text-center text-4xl font-bold leading-tight pb-8">Tickets sale is open!</p>
-        <hr className="pb-8" />
+        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Ticket sales are now open!</p>
+
+        <p className="mt-0 mb-5 text-center text-4xl font-bold leading-tight pb-10">
+        <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
+        </p>
+
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
           community-organized events that gather adopters and technologists from open source and
