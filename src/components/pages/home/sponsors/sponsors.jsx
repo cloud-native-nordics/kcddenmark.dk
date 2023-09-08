@@ -22,7 +22,8 @@ import KubeCareers from 'icons/kube-careers.svg'
 import KubeEvents from 'icons/kube-events.svg'
 import Deranged from 'icons/deranged.svg'
 import Bestseller from 'icons/bestseller.svg'
-
+import Eficode from 'icons/eficode.svg'
+import Boozt from 'icons/boozt.png'
 
 const TITLE = 'Sponsors';
 
@@ -53,6 +54,8 @@ const ITEMS = [
       { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
       { icon: Saxo, url: 'https://www.home.saxo/' },
       { icon: Deranged, url: 'https://deranged.dk' },
+      { icon: Eficode, url: 'https://eficode.com' },
+      { icon: Boozt, url: 'https://www.booztgroup.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
