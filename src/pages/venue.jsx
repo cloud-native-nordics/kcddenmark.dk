@@ -11,8 +11,8 @@ import SEO_DATA from 'constants/seo-data';
 const Venue = () => (
   <Layout>
     <Hero />
+    <Transport />
     <Hotel />
-    {/* <Transport /> */}
   </Layout>
 );
 
