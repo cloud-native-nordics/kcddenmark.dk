@@ -24,6 +24,8 @@ import Deranged from 'icons/deranged.svg'
 import Bestseller from 'icons/bestseller.svg'
 import Eficode from 'icons/eficode.svg'
 import Boozt from 'icons/boozt.png'
+import TV2 from 'icons/tv2.svg'
+import TrendMicro from 'icons/trendmicro.svg'
 
 const TITLE = 'Sponsors';
 
@@ -56,6 +58,8 @@ const ITEMS = [
       { icon: Deranged, url: 'https://deranged.dk' },
       { icon: Eficode, url: 'https://eficode.com' },
       { icon: Boozt, url: 'https://www.booztgroup.com/' },
+      { icon: TV2, url: 'https://tv2.dk/' },
+      { icon: TrendMicro, url: 'https://www.trendmicro.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',

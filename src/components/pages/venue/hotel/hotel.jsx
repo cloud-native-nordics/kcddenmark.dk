@@ -11,7 +11,7 @@ const Hotel = () => (
 
       <div className="mb-10 text-2xl text-primary-1 sm:text-lg">
         <p>
-          <span className="font-bold">Kubernetes Community Days Denmark</span> has arranged hotels
+          <span className="font-bold">Kubernetes Community Days Denmark</span> along with <span>JYSK</span> have arranged hotels
           in and around Aarhus with discounted rates for those who wish to stay over. Below you will
           find accommodation with{'  '}
           <Link
@@ -20,7 +20,7 @@ const Hotel = () => (
             theme="primary"
           >Scandic Hotels
           </Link>
-          .
+          . There are however very limited amount of discounted rates available!
         </p>
       </div>
 
