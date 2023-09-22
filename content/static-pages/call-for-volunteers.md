@@ -5,7 +5,7 @@ slug: call-for-volunteers
 
 KCD Denmark is excited to announce its inaugural conference, and we are seeking dedicated volunteers to ensure the success of this event. Your contribution as a volunteer will be invaluable in creating an outstanding experience for all attendees.
 
-If you would like to volunteer during the event, we encourage you to reach out to us by sending an e-mail to <a href="mailto:contact@kcddenmark.dk" target="_blank" rel="noopener noreferrer">contact@kcddenmark.dk</a>. 
+If you would like to volunteer during the event, we encourage you to register through this <a href="https://forms.gle/TT9h2fXXHt9msWfj7" target="_blank">formular</a>.
 
 ## Responsibilities
 
