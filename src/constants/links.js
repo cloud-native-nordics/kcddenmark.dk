@@ -47,9 +47,10 @@ export default {
     to: '/data-privacy',
     target: '_blank',
   },
-  privacy: {
+  volunteer: {
     to: '/call-for-volunteers',
-    target: '_blank',
+    id: getAnchor('Call for Volunteers'),
+    homeTo: '/call-for-volunteers',
   },
   conduct: {
     to: 'https://events.linuxfoundation.org/about/code-of-conduct/',
