@@ -6,8 +6,12 @@ const Welcome = () => (
       <div className="text-2xl text-primary-1 sm:text-lg">
         <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Ticket sales are now open!</p>
 
+        <p>Are you a <span className="font-bold">student</span>? We are giving away 10 tickets to students registered
+          at a Danish university/college/EUD. Fill this <a href="https://forms.gle/PU6P4fZ6ZCCSeTQ19">form</a> to have
+          a chance to win one!</p>
+
         <p className="mt-0 mb-5 text-center text-4xl font-bold leading-tight pb-10">
-        <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
+          <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
         </p>
 
         <p>
@@ -25,6 +29,7 @@ const Welcome = () => (
           to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>,
           a non-profit organization that nurtures IT creativity in children.
         </p>
+
       </div>
     </div>
   </section>

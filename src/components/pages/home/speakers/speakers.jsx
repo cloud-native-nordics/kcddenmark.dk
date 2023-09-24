@@ -13,9 +13,9 @@ const TITLE = 'Speakers';
 // TODO: replace id => index connect with only id`s
 const ITEMS = [
   {
-    id: '2',
-    name: 'Cloud Zefra',
-    position: 'Cloudy Engineer <br/> Cloud9',
+    id: '1',
+    name: 'Roberth Strand',
+    position: 'Amesto Fortytwo',
     content: 'My bio...',
     photo: SpeakerPhoto,
     twitterUrl: '#',

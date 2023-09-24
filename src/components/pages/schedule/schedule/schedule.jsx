@@ -11,8 +11,8 @@ import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 const ITEMS = [
   {
     time: '8:00',
-    title: 'Registration',
-    duration: '45 min',
+    title: 'Registration and Breakfast',
+    duration: '60 min',
   },
   {
     time: '8:45',
@@ -21,19 +21,14 @@ const ITEMS = [
   },
   {
     id: '01',
-    time: '9:00',
-    title: 'Cilium Mesh - How to Connect Kubernetes with Legacy VM and Server Infrastructure',
-    duration: '30 min',
+    time: '9:30',
+    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    duration: '25 min',
     isKeynote: true,
     speakers: [
       {
         id: '0',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
-      },
-      {
-        id: '1',
-        name: 'Cloud Zefra',
+        name: 'Lucy Sweet',
         photo: SpeakerPhoto,
       },
     ],

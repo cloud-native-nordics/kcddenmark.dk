@@ -4,7 +4,8 @@ const MENUS = {
   header: [
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Call for Proposal', ...LINKS.proposal },
+    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Volunteers', ...LINKS.volunteer },
     { text: 'Venue', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
@@ -17,7 +18,8 @@ const MENUS = {
   mobile: [
     // { text: 'Speakers', ...LINKS.speakers },
     // { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Call for Proposal', ...LINKS.proposal },
+    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Volunteers', ...LINKS.volunteer },
     { text: 'Venue', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
