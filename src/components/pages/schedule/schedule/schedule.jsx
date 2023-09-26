@@ -5,6 +5,10 @@ import React, { useEffect, useState } from 'react';
 import Button from 'components/shared/button';
 import Modal from 'components/shared/modal';
 
+import AllanHoejgaardJensen from './images/allan-hoejgaard-jensen.jpg';
+import EricDSchabell from './images/eric-d-schabell.jpg';
+import KatharinaSick from './images/katharina-sick.jpg';
+import RoberthStrand from './images/roberth-strand.jpg';
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
@@ -15,122 +19,149 @@ const ITEMS = [
     duration: '60 min',
   },
   {
-    time: '8:45',
+    id: '1',
+    time: '9:00',
     title: 'Welcome',
-    duration: '15 min',
+    duration: '10 min',
+    speakers: [
+      {
+        id: '1',
+        name: 'Jinhong Brejnholt',
+        photo: SpeakerPhoto,
+      },
+      {
+        id: '2',
+        name: 'Camilla Larsen',
+        photo: SpeakerPhoto,
+      },
+      {
+        id: '3',
+        name: 'Kasper Borg Nissen',
+        photo: SpeakerPhoto,
+      },
+    ],
   },
   {
-    id: '01',
+    time: '9:10',
+    title: 'Keynote: Jysk',
+    duration: '10 min',
+    isKeynote: true,
+  },
+  {
+    time: '9:20',
+    title: 'Keynote: Coding Pirates',
+    duration: '10 min',
+    isKeynote: true,
+  },
+  {
+    id: '2',
     time: '9:30',
     title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
     duration: '25 min',
     isKeynote: true,
     speakers: [
       {
-        id: '0',
+        id: '4',
         name: 'Lucy Sweet',
         photo: SpeakerPhoto,
       },
-    ],
-    presentation:
-      'Kubernetes has taken the industry by storm and has become the standard platform for new workloads. It is ideal for containerized workloads. However, a majority of workloads will remain where they are for another while, running on VMs or physical servers in either public or private cloud. How do we connect the new world of Kubernetes consisting of services, identities and CI/CD with the existing world of VMs, servers, and existing network infrastructure?\n' +
-      'In this session, we will look into the brand new Cilium Mesh layer. Cilium Mesh is a new universal networking layer to connect workloads and machines across cloud, on-prem, and edge. It consists of a Kubernetes networking component (CNI), a multi-cluster connectivity plane (Cluster Mesh), and a transit gateway to connect with VMs and servers in existing networks.',
-  },
-  {
-    time: '9:30',
-    title: 'Change tracks, Short Break',
-    duration: '15 min',
-  },
-  {
-    id: '6',
-    time: '9:45',
-    title: 'The state of Green Washing - or how to build sustainable systems with Kubernetes ',
-    duration: '30 min',
-    speakers: [
       {
-        name: 'Cloud Zefra',
+        id: '5',
+        name: 'Mathias Schwarz',
         photo: SpeakerPhoto,
       },
     ],
     presentation:
-      'Kubernetes is not the answer to everything, but where it is, it is a great companion to designing systems and putting environmental sustainability into your mind. But being eco-friendly invites people to greenwash their intentions, so let us start the story from the end and clarify some myths. Saving money on infrastructure may reduce your Carbon impact, but we can do more. In this presentation, we will look at what is currently possible, what are the recent developments and what we need in the future to create a carbon-aware system landscape. You will learn how designing system architectures for eco-friendliness, will have a sustainable impact, in many ways.',
+      'Uber has been migrating all of its stateless compute fleet from a pre-Kubernetes system called Peloton to Kubernetes, in this presentation we want to share with you why we decided to migrate our fleet to Kubernetes, the challenges we\'ve faced and how we\'re adapting our systems to run millions of workloads on top of dozens of Kubernetes clusters.',
+  },
+  {
+    time: '9:55',
+    title: 'Platinum Sponsors Pitches',
+    duration: '15 min',
+  },
+  {
+    time: '10:10',
+    title: 'Change tracks, Short Break',
+    duration: '15 min',
+  },
+  {
+    id: '3',
+    time: '10:25',
+    title: 'Observability For You and Me with OpenTelemetry',
+    duration: '35 min',
+    speakers: [
+      {
+        id: '6',
+        name: 'Eric D. Schabell',
+        photo: EricDSchabell,
+      },
+    ],
+    presentation:
+      'Are you interested in dipping your toes in the cloud native observability waters, but as an engineer you are not sure where to get started with tracing your microservices and applications on Kubernetes? Then this is the session for you, where we take you on your first steps in an active open-source project that offers a buffet of opportunities for getting started with telemetry data. The project, openTelemetry (OTEL), is where we start with de-mystifying key concepts and terms such as observability, telemetry, instrumentation to lay a foundation. Then we\’ll explore the OTEL community and how to become not only an end-user, but possibly a contributor. We will wrap up with an overview of the components in this project, such as the Collector, the OTEL protocol (OTLP), its APIs, and its SDKs. Attendees will leave with an understanding of key observability concepts in distributed tracing!',
     coincidedEvent: {
-      id: '12',
-      time: '9:45',
-      title: 'Forensic container checkpointing and analysis',
-      duration: '30 min',
+      id: '4',
+      time: '10:25',
+      title: 'Running prioritised workload in Kubernetes',
+      duration: '35 min',
       speakers: [
         {
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
+          id: '7',
+          name: 'Allan Højgaard Jensen',
+          photo: AllanHoejgaardJensen,
         },
       ],
       presentation:
-        'With the introduction of "Forensic Container Checkpointing" in Kubernetes 1.25 it is possible to checkpoint\n' +
-        'containers. The ability to checkpoint containers opens up many new use cases. Containers can be migrated\n' +
-        'without loosing the state of the container, fast startup from existing checkpoints, using spot instances more\n' +
-        'effective. The primary use case, based on the title of the Kubernetes enhancement proposal, is the forensic\n' +
-        'analysis of the checkpointed containers.\n' +
-        '\n' +
-        'In this session I want to introduce the different possible use cases of "Forensic Container Checkpointing" with a\n' +
-        'focus on how to perform forensic analysis on the checkpointed containers. The presented use cases and\n' +
-        'especially the forensic analysis will be done as a live demo giving the audience a hands on experience.',
+        'There are different ways to run workloads efficiently in kubernetes. Some workloads are using prioritisation at scheduling time, using a zero overcommit of ressources like e.g. cpu and memory, others are ok with the overcommitment of cpu, and quite frankly there are some myths concerning the requests & limits and what they actually mean, preemption may happen unless you have additional validation against accumulated real capacity. If you have multiple workloads that are not equally important, then you may want to specify what is the priority of these workloads. This session gives an introduction to the scheduling above and the PriorityClasses used in our Secure Cloud Stack are introduced. Furthermore, some of the concerns you may not initially consider e.g. using PriorityClasses together with e.g. Operators & other objects creating pods, which "may" or "may not" have the same priority.',
     },
   },
   {
-    time: '10:15',
+    time: '11:00',
     title: 'Coffee Break',
-    duration: '30 min',
+    duration: '15 min',
   },
   {
     id: '5',
-    time: '10:45',
-    title: 'When Things Get Big: Scaling Cloud Native Workloads and Software Distribution',
-    duration: '30 min',
+    time: '11:15',
+    title: 'The Platform Engineering Journey',
+    duration: '35 min',
     speakers: [
       {
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        id: '8',
+        name: 'Roberth Strand',
+        photo: RoberthStrand,
       },
     ],
     presentation:
-      'The move to containers has significantly improved the way services and workloads are deployed and managed in large scale computing infrastructures. It also brought new challenges that can be handled with intrusive changes in the workflows or hidden in the stack. This session will focus on one of those challenges and go in detail on how you can efficiently distribute very large software packages across thousands of nodes for your batch, HPC or ML workloads.',
+      'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
     coincidedEvent: {
-      id: '13',
-      time: '10:45',
-      title: 'Demystifying eBPF - eBPF Firewall from scratch',
-      duration: '30 min',
+      id: '6',
+      time: '11:15',
+      title: 'Principle of Least Privilege: How to Secure Kubernetes Without Making Users Hate You',
+      duration: '35 min',
       speakers: [
         {
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
+          id: '9',
+          name: 'Katharina Sick',
+          photo: KatharinaSick,
         },
       ],
       presentation:
-        'eBPF has emerged as a powerful technology for extending the Linux kernel, enabling users to safely and\n' +
-        'efficiently run custom code within the kernel. One of the most popular applications of eBPF is in the realm of\n' +
-        'networking, where it is used to implement high-performance firewalls and other security-related functionality.\n' +
-        '\n' +
-        'eBPF is becoming increasingly popular in the cloud-native ecosystem, with many CNCF projects utilizing its\n' +
-        'capabilities, including Cilium, Calico, and Pixie to name a few.\n' +
-        '\n' +
-        'This talk aims to demystify eBPF and demonstrate how it can be used to build a firewall from scratch. By\n' +
-        'highlighting core concepts of eBPF, attendees can better understand how it is being used in real-world scenarios,\n' +
-        'by various CNCF projects and how it can be applied to their own use cases.',
+        'According to OWASP, insecure workload configuration is the top security problem in Kubernetes. As modern Kubernetes clusters evolve from mere container orchestrators to versatile control planes managing various resources, minimizing the attack surface of these clusters becomes even more critical. <br>But security shouldn\'t come at the expense of user experience. This talk will cover the Principle of Least Privilege (PoLP) and how it can be applied to balance robust security and a good experience for users and administrators. Moreover, it will extend this principle to ArgoCD and Crossplane and explore the differences between the PoLP and Zero Trust and how they\'re complementary. <br>Join me to discover how the Principle of Least Privilege, applied to Kubernetes, ArgoCD, and Crossplane, empowers you to safeguard your Kubernetes ecosystem without making yourself and your users suffer.',
     },
   },
   {
-    time: '11:15',
+    time: '11:50',
     title: 'Change tracks, Short Break',
     duration: '15 min',
   },
   {
-    id: '8',
-    time: '11:30',
+    id: '7',
+    time: '12:05',
     title: 'Responsible AI: The Key to Ethical, Safe and Inclusive Software Development',
-    duration: '30 min',
+    duration: '35 min',
     speakers: [
       {
+        id: '10',
         name: 'Cloud Zefra',
         photo: SpeakerPhoto,
       },
@@ -158,12 +189,13 @@ const ITEMS = [
       'bias, privacy, security, and transparency in the software development \n' +
       'process can help ensure that the software is safe and secure to use.',
     coincidedEvent: {
-      id: '4',
-      time: '11:30',
+      id: '8',
+      time: '12:05',
       title: 'What Anime Taught Me About K8s & Tech Careers',
-      duration: '30 min',
+      duration: '35 min',
       speakers: [
         {
+          id: '11',
           name: 'Cloud Zefra',
           photo: SpeakerPhoto,
         },
@@ -173,17 +205,18 @@ const ITEMS = [
     },
   },
   {
-    time: '12:00',
+    time: '12:40',
     title: 'Lunch',
-    duration: '1h 30min',
+    duration: '1h',
   },
   {
-    id: '11',
-    time: '13:30',
+    id: '9',
+    time: '13:40',
     title: 'Buzzing Across the Cloud Native Landscape with eBPF',
-    duration: '30 min',
+    duration: '35 min',
     speakers: [
       {
+        id: '12',
         name: 'Cloud Zefra',
         photo: SpeakerPhoto,
       },
@@ -200,12 +233,13 @@ const ITEMS = [
       'away with an understanding of the buzz around eBPF and knowledge of tools that may solve some of their\n' +
       'problems in networking, observability, and security.',
     coincidedEvent: {
-      id: '15',
-      time: '13:30',
+      id: '10',
+      time: '13:40',
       title: 'Streamlined Troubleshooting in Kubernetes',
-      duration: '30 min',
+      duration: '35 min',
       speakers: [
         {
+          id: '13',
           name: 'Cloud Zefra',
           photo: SpeakerPhoto,
         },
@@ -218,17 +252,18 @@ const ITEMS = [
     },
   },
   {
-    time: '14:00',
+    time: '14:15',
     title: 'Change tracks, Short Break',
     duration: '15 min',
   },
   {
-    id: '3',
-    time: '14:15',
+    id: '11',
+    time: '14:30',
     title: 'Native Histograms in Prometheus: A Better Histogram Experience for Everyone',
-    duration: '30 min',
+    duration: '35 min',
     speakers: [
       {
+        id: '14',
         name: 'Cloud Zefra',
         photo: SpeakerPhoto,
       },
@@ -238,12 +273,13 @@ const ITEMS = [
       '\n' +
       'In this talk, Prometheus co-founder Julius Volz will present a new "native" histogram metric type that is currently being added to Prometheus. These native histograms allow you to track value distributions in higher detail at a significantly lower storage and processing cost, while also reducing the manual bucket configuration effort. Julius will explain how native histograms work, how they achieve these key benefits, and how you can use them in Prometheus today in an experimental fashion.',
     coincidedEvent: {
-      id: '10',
-      time: '14:15',
+      id: '12',
+      time: '14:30',
       title: 'Tales of Serverless - a story about building scalable applications',
-      duration: '30 min',
+      duration: '35 min',
       speakers: [
         {
+          id: '15',
           name: 'Cloud Zefra',
           photo: SpeakerPhoto,
         },
@@ -257,17 +293,18 @@ const ITEMS = [
     },
   },
   {
-    time: '14:45',
-    title: 'Coffee Break',
-    duration: '30 min',
+    time: '15:05',
+    title: 'Coffee and Cake Break',
+    duration: '35 min',
   },
   {
-    id: '7',
-    time: '15:15',
+    id: '13',
+    time: '15:40',
     title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
-    duration: '30 min',
+    duration: '5 min',
     speakers: [
       {
+        id: '16',
         name: 'Cloud Zefra',
         photo: SpeakerPhoto,
       },
@@ -275,84 +312,82 @@ const ITEMS = [
     presentation:
       'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
     coincidedEvent: {
-      id: '14',
-      time: '15:15',
-      title: 'Closing the Developer Experience Gap of your Container Platforms',
-      duration: '30 min',
-      speakers: [
-        {
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
-        },
-      ],
-      presentation:
-        'Due to the lack of user focus, many container platforms have a big developer experience gap.\n' +
-        "That's not only because building a Kubernetes platform is complex but also because deploying applications on\n" +
-        'Kubernetes requires expertise in many Container and Kubernetes concepts. And once developers learn them,\n' +
-        'they still must spend a lot of time maintaining containers, writing YAML templates, and orchestrating many moving\n' +
-        'Kubernetes parts.\n' +
-        'Like in the days when the Waterfall model was the standard for software development, developers today shouldn’t\n' +
-        'have to care where and how their applications run and focus on adding business value by implementing new\n' +
-        'features.\n' +
-        'In this session, we will explore some of the powerful open-source technologies available within the Kubernetes\n' +
-        'ecosystem to close the developer experience gap like Backstage, Cloud Native Buildpacks, Knative, and\n' +
-        'Cartographer.',
+      time: '15:40',
+      title: 'Networking',
+      duration: '5 min',
     },
   },
   {
+    id: '14',
     time: '15:45',
-    title: 'Change tracks, Short Break',
-    duration: '15 min',
-  },
-  {
-    id: '9',
-    time: '16:00',
-    title:
-      "Process is what naturally follows - a cloud platform's guide on people-first transformation",
-    duration: '30 min',
+    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    duration: '5 min',
     speakers: [
       {
+        id: '17',
         name: 'Cloud Zefra',
         photo: SpeakerPhoto,
       },
     ],
     presentation:
-      "The fastest way to change the world is by making it a business case. Let's talk about real transformation hands-on, about time-to-market and the priorities when it's necessary to change cultural paradigms.",
+      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
     coincidedEvent: {
-      id: '16',
-      time: '16:00',
-      title: "What We've Learned from Scanning 10K+ Kubernetes Clusters",
-      duration: '30 min',
-      speakers: [
-        {
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
-        },
-      ],
-      presentation:
-        'The number of misconfigurations, unpatched vulnerabilities, & overly-privileged users in K8s systems is\n' +
-        "ASTOUNDING. We learned this from analyzing the data from more than 10K+ unique K8s cluster scans, and we've\n" +
-        'learned a great deal about the state of K8s risk, compliance, & security vulnerabilities.\n' +
-        '\n' +
-        "In this talk we'll shed light on the most common misconfigurations according to multiple frameworks (NSA-CISA,\n" +
-        'MITRE ATT&CK), alongside known vulnerabilities, & RBAC violations in CI/CD pipelines.\n' +
-        '\n' +
-        "We'll also provide interesting insights on why and where Kubernetes deployments mostly commonly fail and\n" +
-        'statistics on which controls fail most, as well as the weak spots and gotchas to pay attention to. Stick around\n' +
-        "though, as we'll wrap up with some simple measures your can take immediately to work towards eliminating these\n" +
-        'risks and improving your overall cloud native security posture.',
+      time: '15:45',
+      title: 'Networking',
+      duration: '5 min',
     },
   },
   {
-    time: '16:30',
+    id: '15',
+    time: '15:50',
+    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    duration: '5 min',
+    speakers: [
+      {
+        id: '18',
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
+      },
+    ],
+    presentation:
+      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+    coincidedEvent: {
+      time: '15:50',
+      title: 'Networking',
+      duration: '5 min',
+    },
+  },
+  {
+    id: '16',
+    time: '15:55',
+    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    duration: '5 min',
+    speakers: [
+      {
+        id: '19',
+        name: 'Cloud Zefra',
+        photo: SpeakerPhoto,
+      },
+    ],
+    presentation:
+      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+    coincidedEvent: {
+      time: '15:55',
+      title: 'Networking',
+      duration: '5 min',
+    },
+  },
+  {
+    time: '16:00',
     title: 'Change tracks, Short Break',
     duration: '15 min',
   },
   {
-    id: '2',
-    time: '16:45',
-    title: 'Reverse Engineering Cloud Native: Interoperability and Community',
-    duration: '30 min',
+    id: '17',
+    time: '16:15',
+    title:
+      "Process is what naturally follows - a cloud platform's guide on people-first transformation",
+    duration: '25 min',
     isKeynote: true,
     speakers: [
       {
@@ -361,19 +396,22 @@ const ITEMS = [
       },
     ],
     presentation:
-      'Kubernetes has become the default container orchestrator framework, setting the standards for application deployment in a distributed environment. In the past years, numerous tools have been developed to extend Kubernetes capabilities and enhance its features. Simultaneously, the expansion of the technology landscape prompted the growth of the adopter base and the number of scenarios where cloud native can be applied. The organic adoption and development of new tools, created the ecosystem and community as we know it today.\n' +
-      '\n' +
-      "This keynote will feature the core principles that define the next generation's identity of cloud native practitioners using a reverse engineering approach. It will present the interoperability of tools, inclusivity at the community and adopters level, and a culture of change and education that drives the ubiquity of the cloud native.",
+      "The fastest way to change the world is by making it a business case. Let's talk about real transformation hands-on, about time-to-market and the priorities when it's necessary to change cultural paradigms.",
   },
   {
-    time: '17:15',
+    time: '16:40',
+    title: 'Thank you by Coding Pirates',
+    duration: '5 min',
+  },
+  {
+    time: '16:45',
+    title: 'Surprises and raffles',
+    duration: '5 min',
+  },
+  {
+    time: '16:50',
     title: 'Closing',
-    duration: '15 min',
-  },
-  {
-    time: '17:30',
-    title: 'Apéro',
-    duration: '3h 45min',
+    duration: '10 min',
   },
 ];
 
