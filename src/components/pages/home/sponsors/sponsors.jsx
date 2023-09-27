@@ -26,6 +26,7 @@ import Eficode from 'icons/eficode.svg'
 import Boozt from 'icons/boozt.png'
 import TV2 from 'icons/tv2.svg'
 import TrendMicro from 'icons/trendmicro.svg'
+import Akamai from 'icons/akamai.svg'
 
 const TITLE = 'Sponsors';
 
@@ -60,6 +61,7 @@ const ITEMS = [
       { icon: Boozt, url: 'https://www.booztgroup.com/' },
       { icon: TV2, url: 'https://tv2.dk/' },
       { icon: TrendMicro, url: 'https://www.trendmicro.com/' },
+      { icon: Akamai, url: 'https://www.akamai.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
