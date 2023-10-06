@@ -17,6 +17,8 @@ import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 import PavolHronsky from './images/pavol-hronsky.jpg'
 import ThomasFangel from './images/thomas-fangel.jpg'
+import FrancescaCarta from './images/francesca-carta.jpg'
+import RasmusSteiniche from './images/rasmus-steiniche.jpg'
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -201,43 +203,31 @@ const ITEMS = [
   {
     id: '9',
     time: '13:40',
-    title: 'Buzzing Across the Cloud Native Landscape with eBPF',
+    title: 'Platform Engineering Is Not About Tech',
     duration: '35 min',
     speakers: [
       {
         id: '12',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Francesca Carta',
+        photo: FrancescaCarta,
       },
     ],
     presentation:
-      'The buzz around eBPF in cloud native is growing quickly and it can be hard to know where to start or how to keep\n' +
-      'up. In this talk, Bill will trace how he got into eBPF, explore where eBPF fits on the cloud native landscape, and\n' +
-      'teach others how to dive into the hive of activity around eBPF.\n' +
-      '\n\n\n' +
-      'People just beginning with eBPF will learn how eBPF makes it possible to have efficient networking, observability\n' +
-      'without instrumentation, effortless tracing, and real-time security (among other things). Those already familiar with\n' +
-      'eBPF will get an overview of the eBPF landscape and learn about many eBPF applications on the cloud native\n' +
-      'landscape that allow them to harness the power without needing to dive into the bytecode. The audience will walk\n' +
-      'away with an understanding of the buzz around eBPF and knowledge of tools that may solve some of their\n' +
-      'problems in networking, observability, and security.',
+      '“What are we using for pipelines? Which infrastructure do we support? Is service mesh enabled?”. These types of questions - revolving on tech choices and implementation - currently occupy most of the conversations around platform engineering. <br> According to most evidence, though, these are not the only things that make a cloud-native platform successful: cultural change, communication and collaboration, - among others - play a key role in determining the success of platform transformation. If we don\'t address change comprehensively, the risk is that in a few years we\'ll discover that platforms are not bringing the results we expected. <br> In this talk we\'ll see some key aspects that are often overlooked in implementing a platform and how it\'s possible to address them along the way. Learn from our pitfalls and lessons to build a successful cloud-native platform.',
     coincidedEvent: {
       id: '10',
       time: '13:40',
-      title: 'Streamlined Troubleshooting in Kubernetes',
+      title: 'Cloud Native Data Platforms - The why, what and how',
       duration: '35 min',
       speakers: [
         {
           id: '13',
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
+          name: 'Rasmus Steiniche',
+          photo: RasmusSteiniche,
         },
       ],
       presentation:
-        'In this talk, we will highlight different methods to make debugging and troubleshooting in Kubernetes more streamlined and organized. People tend to mostly make the same mistakes and run into errors others have already dealt with. There are different methodologies and tools that help us to benefit from that and to more easily find where the problem lies when something goes wrong by adhering to clear solving strategies and automation tools.\n' +
-        '\n' +
-        'We will go through some of these techniques and see the respective open source tools in action. Live coding\n' +
-        'included!',
+        'It is exciting times in the data world, where new methods, technologies and especially AI and machine learning is on the rise. But how do you support other teams on this journey as a Cloud Native practitioner? This talk will do a developer based introduction to the history of data platforms and machine learning. It will take the participants through the history from the early data warehouses up until the data mesh. Cloud Native practitioners will see that many of the movements we had in the Cloud Native circle, such as micro services and platform engineering, is now on the rise in the data world. We are seeing data contract, distributed computing, specialized databases and software principles being applied to Machine Learning, even portable / in a box data stacks. After this talk the participants should be able to talk with the data, data scientists and analytics teams they have at home.',
     },
   },
   {

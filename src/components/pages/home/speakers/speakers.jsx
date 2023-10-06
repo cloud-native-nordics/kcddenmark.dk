@@ -13,6 +13,8 @@ import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
 import PavolHronsky from './images/pavol-hronsky.jpg'
 import ThomasFangel from './images/thomas-fangel.jpg'
+import FrancescaCarta from './images/francesca-carta.jpg'
+import RasmusSteiniche from './images/rasmus-steiniche.jpg'
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -147,6 +149,28 @@ const ITEMS = [
     twitterUrl: 'https://twitter.com/tbfangel',
     time: '12:05',
     title: 'Event sourcing after page 1: How we built a cloud native bank',
+    duration: '35 min',
+  },
+  {
+    id: '12',
+    name: 'Francesca Carta',
+    position: 'Delivery Manager <br/> Mia-Platform',
+    content: 'Francesca Carta is Delivery Manager at Mia-Platform and is responsible for simplifying product use and adoption. With a background in philosophy, she brings a unique perspective to technology. For the past six years she has been responsible for managing the development of an Internal Developer Platform for developers in Cloud Native. Francesca is dedicated to making technology accessible to everyone. Through critical thinking and a drive for innovation, she aims to make a positive impact.',
+    photo: FrancescaCarta,
+    linkedInUrl: 'https://www.linkedin.com/in/francesca-carta-a403594b/',
+    time: '13:40',
+    title: 'Platform Engineering Is Not About Tech',
+    duration: '35 min',
+  },
+  {
+    id: '13',
+    name: 'Rasmus Steiniche',
+    position: 'CEO <br/> Neurospace',
+    content: 'Rasmus Steiniche is the CEO of Neurospace and has done everything from writing java applications. doing SaaS applications before it was cool, creating one of Denmark\'s biggest multi-cloud strategies, and creating big data and machine learning platforms.<br>Rasmus has been part of the Cloud Native and DevOps movement since 2014 and has since moved on to create data and machine learning applications.<br>Neurospace is a technology partner helping other companies on their data and machine learning journey to become better at what they do.',
+    photo: RasmusSteiniche,
+    linkedInUrl: 'https://www.linkedin.com/in/steiniche/',
+    time: '13:40',
+    title: 'Cloud Native Data Platforms - The why, what and how',
     duration: '35 min',
   },
 ];
