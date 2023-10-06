@@ -62,7 +62,7 @@ const ITEMS = [
   },
   {
     time: '9:10',
-    title: 'Keynote: Jysk',
+    title: 'Keynote: JYSK',
     duration: '10 min',
     isKeynote: true,
     // TODO thv: add speaker
@@ -118,7 +118,7 @@ const ITEMS = [
       },
     ],
     presentation:
-      'Are you interested in dipping your toes in the cloud native observability waters, but as an engineer you are not sure where to get started with tracing your microservices and applications on Kubernetes? Then this is the session for you, where we take you on your first steps in an active open-source project that offers a buffet of opportunities for getting started with telemetry data. The project, openTelemetry (OTEL), is where we start with de-mystifying key concepts and terms such as observability, telemetry, instrumentation to lay a foundation. Then we\’ll explore the OTEL community and how to become not only an end-user, but possibly a contributor. We will wrap up with an overview of the components in this project, such as the Collector, the OTEL protocol (OTLP), its APIs, and its SDKs. Attendees will leave with an understanding of key observability concepts in distributed tracing!',
+      'Are you interested in dipping your toes in the cloud native observability waters, but as an engineer you are not sure where to get started with tracing your microservices and applications on Kubernetes? Then this is the session for you, where we take you on your first steps in an active open-source project that offers a buffet of opportunities for getting started with telemetry data. <br><br> The project, openTelemetry (OTEL), is where we start with de-mystifying key concepts and terms such as observability, telemetry, instrumentation to lay a foundation. Then we\’ll explore the OTEL community and how to become not only an end-user, but possibly a contributor.<br><br> We will wrap up with an overview of the components in this project, such as the Collector, the OTEL protocol (OTLP), its APIs, and its SDKs.<br><br> Attendees will leave with an understanding of key observability concepts in distributed tracing!',
     coincidedEvent: {
       id: '4',
       time: '10:25',
@@ -153,7 +153,7 @@ const ITEMS = [
       },
     ],
     presentation:
-      'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
+      'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. <br><br>Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br><br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
     coincidedEvent: {
       id: '6',
       time: '11:15',
@@ -188,7 +188,7 @@ const ITEMS = [
       },
     ],
     presentation:
-      'GitOps is a modern approach to managing and automating the deployment and operations of applications and infrastructure. Yet, a small configuration change can cause a large production incident. During the presentation we introduce an audience to the main GitOps principles and actors. Subsequently, using a real life example of a production incident caused by a series of wrong decisions and bad controls, we highlight the pitfalls of GitOps mechanisms. We will discuss a series of simple tricks to future-proof and remedy those. Lastly, to finish on a positive note, a swift troubleshooting by inspecting audit logs will reveal the culprit and the same way how we caused the incident we will be able to fix it.',
+      'GitOps is a modern approach to managing and automating the deployment and operations of applications and infrastructure. Yet, a small configuration change can cause a large production incident.<br><br>During the presentation we introduce an audience to the main GitOps principles and actors. Subsequently, using a real life example of a production incident caused by a series of wrong decisions and bad controls, we highlight the pitfalls of GitOps mechanisms. We will discuss a series of simple tricks to future-proof and remedy those. <br><br>Lastly, to finish on a positive note, a swift troubleshooting by inspecting audit logs will reveal the culprit and the same way how we caused the incident we will be able to fix it.',
     coincidedEvent: {
       id: '8',
       time: '12:05',
@@ -440,7 +440,7 @@ const Schedule = ({ location }) => {
                 'grid grid-cols-[114px_1fr] md:grid-cols-[106px_1fr] sm:grid-cols-1',
                 {
                   'bg-primary-4': isEven,
-                  'bg-lightGreen': title === 'Welcome',
+                  'bg-primary-6': title === 'Welcome',
                   'bg-lightYellow': title === 'Lunch',
                   'bg-lightOrange': title === 'Closing',
                 }
@@ -452,7 +452,7 @@ const Schedule = ({ location }) => {
                   {time}
                 </time>
                 {isKeynote && (
-                  <span className="ml-4 hidden rounded-full bg-blue-1 px-2 py-1.5 text-xs font-semibold leading-none tracking-tighter text-white sm:inline-flex">
+                  <span className="ml-4 hidden rounded-full bg-red px-2 py-1.5 text-xs font-semibold leading-none tracking-tighter text-white sm:inline-flex">
                     Keynote
                   </span>
                 )}
@@ -483,13 +483,13 @@ const Schedule = ({ location }) => {
                       </span>
                     )}
                     {isKeynote && (
-                      <span className="rounded-full bg-blue-1 px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
+                      <span className="rounded-full bg-red px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
                         Keynote
                       </span>
                     )}
                   </h3>
                   <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
-                    <span className="rounded-full bg-yellow px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 md:text-xs">
+                    <span className="rounded-full bg-rasin text-white px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 md:text-xs">
                       {duration}
                     </span>
                     {speakers && speakers.length > 0 && (
@@ -540,13 +540,13 @@ const Schedule = ({ location }) => {
                         </span>
                       )}
                       {coincidedEvent.isKeynote && (
-                        <span className="rounded-full bg-blue-1 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
+                        <span className="rounded-full bg-red px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
                           Keynote
                         </span>
                       )}
                     </h3>
                     <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
-                      <span className="rounded-full bg-yellow px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 md:text-xs">
+                      <span className="rounded-full bg-rasin text-white px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 md:text-xs">
                         {coincidedEvent.duration}
                       </span>
                       {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (

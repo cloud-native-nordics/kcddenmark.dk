@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-const TITLE = 'Schedule for <time class="text-blue-1 xs:block">14 November, 2023</time>';
+const TITLE = 'Schedule for <time class="text-red xs:block">14 November, 2023</time>';
 const DESCRIPTION =
   "Get ready for an action-packed day. With two tracks and more than 15 sessions to choose from, you'll have plenty of opportunities to learn from experts in the field. The whole event will be held in English.";
 
@@ -17,10 +17,9 @@ const Hero = () => (
         {DESCRIPTION}
       </p>
       <Button
-        className="mt-10 shadow-xl hover:bg-blue-2 hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
+        className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
         size="lg"
-        theme="blue"
-        to="https://tickets.kcdzurich.ch/"
+        to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
         target="_blank"
       >
         Get your ticket
