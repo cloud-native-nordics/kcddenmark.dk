@@ -24,6 +24,7 @@ import AndersLybecker from './images/anders-lybecker.jpg';
 import EmilMunkso from './images/emil-munkso.jpg';
 import TimothyMamo from './images/timothy-mamo.jpg';
 import MadsDanquah from './images/mads-danquah.jpg';
+import StephaneKaragulmez from './images/stephane-karagulmez.png';
 import EnginDiri from './images/engin-diri.jpg';
 import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
 import NicVermande from './images/nicolas-vermande.jpg';
@@ -349,7 +350,7 @@ const ITEMS = [
       {
         id: '19',
         name: 'Stephane Karagulmez',
-        photo: SpeakerPhoto,
+        photo: StephaneKaragulmez,
       },
     ],
     presentation:

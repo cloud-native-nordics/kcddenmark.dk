@@ -25,6 +25,7 @@ import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
 import NicVermande from './images/nicolas-vermande.jpg';
 import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
+import StephaneKaragulmez from './images/stephane-karagulmez.png';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -98,7 +99,7 @@ const ITEMS = [
     id: '1',
     name: 'Jinhong Brejnholt',
     position: 'Chief Cloud Architect & Product Owner <br/> Saxo Bank A/S',
-    content: '',
+    content: 'Jinhong is a highly skilled cloud and platform developer/architect, with a strong passion for DevSecOps practice and cloud-native technologies. She holds an MSc. in Software Development and Technology, and is certified as a Kubernetes application developer, administrator, and security specialist.',
     photo: JinhongPhoto,
     linkedInUrl: 'https://www.linkedin.com/in/jbrejnholt',
     time: '9:00',
@@ -180,7 +181,7 @@ const ITEMS = [
     name: 'Stephane Karagulmez',
     position: 'Senior Solution Architect <br/> Isovalent',
     content: 'I\'m a Senior Solution Architect at Isovalent with a rich background in Kubernetes and networking. Starting as a Developer, I transitioned into a Sales Engineer role at Google Cloud, where I specialized in Kubernetes and ascended to the role of AppMod Practice Lead. Today, I leverage my expertise to architect complex solutions in Kubernetes and networking at Isovalent. A seasoned public speaker and writer, I\'m passionate about demystifying technology and influencing product strategies with a customer-centric approach. Throughout my career, I\'ve prioritized continuous learning and impactful leadership in the tech industry.',
-    photo: SpeakerPhoto,
+    photo: StephaneKaragulmez,
     linkedInUrl: 'https://www.linkedin.com/in/stephane-karagulmez-b9699410a/',
     twitterUrl: 'https://twitter.com/skaragulm',
     time: '15:55',
