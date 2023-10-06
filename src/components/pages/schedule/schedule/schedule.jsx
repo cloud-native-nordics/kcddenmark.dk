@@ -8,8 +8,13 @@ import Modal from 'components/shared/modal';
 import AllanHoejgaardJensen from './images/allan-hoejgaard-jensen.jpg';
 import EricDSchabell from './images/eric-d-schabell.jpg';
 import KatharinaSick from './images/katharina-sick.jpg';
+import LucySweet from './images/lucy-sweet.jpg'
+import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
+import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
+import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
+import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -27,17 +32,17 @@ const ITEMS = [
       {
         id: '1',
         name: 'Jinhong Brejnholt',
-        photo: SpeakerPhoto,
+        photo: JinhongPhoto,
       },
       {
         id: '2',
         name: 'Camilla Larsen',
-        photo: SpeakerPhoto,
+        photo: CamillaPhoto,
       },
       {
         id: '3',
         name: 'Kasper Borg Nissen',
-        photo: SpeakerPhoto,
+        photo: KasperPhoto,
       },
     ],
   },
@@ -46,12 +51,14 @@ const ITEMS = [
     title: 'Keynote: Jysk',
     duration: '10 min',
     isKeynote: true,
+    // TODO thv: add speaker
   },
   {
     time: '9:20',
     title: 'Keynote: Coding Pirates',
     duration: '10 min',
     isKeynote: true,
+    // TODO thv: add speaker
   },
   {
     id: '2',
@@ -63,12 +70,12 @@ const ITEMS = [
       {
         id: '4',
         name: 'Lucy Sweet',
-        photo: SpeakerPhoto,
+        photo: LucySweet,
       },
       {
         id: '5',
         name: 'Mathias Schwarz',
-        photo: SpeakerPhoto,
+        photo: MathiasSchwarz,
       },
     ],
     presentation:

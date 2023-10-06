@@ -8,14 +8,76 @@ import LINKS from 'constants/links';
 import AllanHoejgaardJensen from './images/allan-hoejgaard-jensen.jpg';
 import EricDSchabell from './images/eric-d-schabell.jpg';
 import KatharinaSick from './images/katharina-sick.jpg';
+import LucySweet from './images/lucy-sweet.jpg'
+import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
+
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
+
+import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
+import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
+import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 
 const TITLE = 'Speakers';
 
 // TODO: replace id => index connect with only id`s
 const ITEMS = [
+  {
+    id: '1',
+    name: 'Jinhong Brejnholt',
+    position: 'Chief Cloud Architect & Product Owner <br/> Saxo Bank A/S',
+    content: '',
+    photo: JinhongPhoto,
+    linkedInUrl: 'https://www.linkedin.com/in/jbrejnholt',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '2',
+    name: 'Camilla Larsen',
+    position: 'Platform Engineer <br/> Lunar',
+    content: '',
+    photo: CamillaPhoto,
+    linkedInUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '3',
+    name: 'Kasper Borg Nissen',
+    position: 'Lead Platform Architect <br/> Lunar',
+    content: '',
+    photo: KasperPhoto,
+    twitterUrl: 'https://twitter.com/phennex',
+    linkedInUrl: 'https://www.linkedin.com/in/kaspernissen',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '4',
+    name: 'Lucy Sweet',
+    position: 'Senior Software Engineer <br/> Uber',
+    content: 'A Senior Software Engineer working on Uber\'s stateless compute platform.',
+    photo: LucySweet,
+    linkedInUrl: 'https://linkedin.com/in/intunderflow',
+    time: '9:30',
+    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    duration: '25 min',
+  },
+  {
+    id: '5',
+    name: 'Mathias Schwarz',
+    position: 'Lead Platform Architect <br/> Lunar',
+    content: 'A Senior Staff Software Engineer working on Uber\'s stateless compute platform.',
+    photo: MathiasSchwarz,
+    time: '9:30',
+    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    duration: '25 min',
+  },
   {
     id: '8',
     name: 'Roberth Strand',
