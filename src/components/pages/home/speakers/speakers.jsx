@@ -11,6 +11,8 @@ import KatharinaSick from './images/katharina-sick.jpg';
 import LucySweet from './images/lucy-sweet.jpg'
 import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
+import PavolHronsky from './images/pavol-hronsky.jpg'
+import ThomasFangel from './images/thomas-fangel.jpg'
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -122,6 +124,29 @@ const ITEMS = [
     linkedInUrl: 'https://www.linkedin.com/in/allanhoejgaardjensen',
     time: '10:25',
     title: 'Running prioritised workload in Kubernetes',
+    duration: '35 min',
+  },
+  {
+    id: '10',
+    name: 'Pavol Hronsky',
+    position: 'Head of Container Automation <br/> Nordea',
+    content: 'An applied mathematician who shortly after finishing studies followed his other passion and turned into a software developer. Upon realisation that many issues originate with an unstable, or rather sometimes accidentally changing underlying deployment environment, Pavol started a search for technologies that would help him and his team to overcome these challenges. The investigation led him to container technologies. Nowadays, additionally to heading the Container Automation team in Nordea, he spends his time by advocating Kubernetes and DevOps mindset in his workplace.',
+    photo: PavolHronsky,
+    linkedInUrl: 'https://www.linkedin.com/in/pavol-hronsky/',
+    time: '12:05',
+    title: 'Observability For You and Me with OpenTelemetry',
+    duration: '35 min',
+  },
+  {
+    id: '11',
+    name: 'Thomas Bøgh Fangel',
+    position: 'Tech Lead and Senior Software Engineer <br/> Lunar',
+    content: 'Thomas Bøgh Fangel is tech lead and backend developer at Lunar where he has been since the early startup days. He has been a part of the journey evolving the Lunar platform from a Rails monolith to the current event-driven microservice architecture on top of a Kubernetes based platform. Today, he spends most of his time as tech lead in the team responsible for Lunar\'s integration into the national clearings across the Nordics. He is a big fan of DDD, event sourcing and believes in the agile mindset of continuous improvement which lies at the heart of Lunar\'s journey.',
+    photo: ThomasFangel,
+    linkedInUrl: 'https://www.linkedin.com/in/thomasboeghfangel/',
+    twitterUrl: 'https://twitter.com/tbfangel',
+    time: '12:05',
+    title: 'Event sourcing after page 1: How we built a cloud native bank',
     duration: '35 min',
   },
 ];

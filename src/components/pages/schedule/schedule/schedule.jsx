@@ -15,6 +15,8 @@ import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
+import PavolHronsky from './images/pavol-hronsky.jpg'
+import ThomasFangel from './images/thomas-fangel.jpg'
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -164,51 +166,31 @@ const ITEMS = [
   {
     id: '7',
     time: '12:05',
-    title: 'Responsible AI: The Key to Ethical, Safe and Inclusive Software Development',
+    title: 'GitOps or a Journey to a Production Incident and Swiftly Back Again',
     duration: '35 min',
     speakers: [
       {
         id: '10',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Pavol Hronsky',
+        photo: PavolHronsky,
       },
     ],
     presentation:
-      'The development of artificial intelligence (AI) has the potential to \n' +
-      'revolutionize many aspects of society, but it also poses significant ethical \n' +
-      'and societal challenges. Responsible AI refers to the development and use\n' +
-      'of AI in a manner that is ethical, transparent, and accountable, and is \n' +
-      'crucial to ensure that the potential benefits of AI are realized while \n' +
-      'minimizing negative consequences.\n' +
-      'In her talk, Lisa Falco will present frameworks and advice to develop \n' +
-      'ethical and interpretable AI. The frameworks are based on a long \n' +
-      'experience of developing machine learning applications within the \n' +
-      'medically regulated field. They cover multiple layers of the development \n' +
-      'process - the data, the model, and the human interaction. These are \n' +
-      'hands-on frameworks that clearly indicate which considerations are \n' +
-      'needed at every phase of the implementation and distributes roles and \n' +
-      'responsibilities. \n' +
-      'The principles and practices of responsible AI can be extended to the \n' +
-      'development of software in general. By placing a focus on ethics, \n' +
-      'transparency, and accountability, software development can be done in a \n' +
-      'way that is more inclusive and beneficial for society, and that minimizes \n' +
-      'negative consequences. Additionally, considering issues such as fairness, \n' +
-      'bias, privacy, security, and transparency in the software development \n' +
-      'process can help ensure that the software is safe and secure to use.',
+      'GitOps is a modern approach to managing and automating the deployment and operations of applications and infrastructure. Yet, a small configuration change can cause a large production incident. During the presentation we introduce an audience to the main GitOps principles and actors. Subsequently, using a real life example of a production incident caused by a series of wrong decisions and bad controls, we highlight the pitfalls of GitOps mechanisms. We will discuss a series of simple tricks to future-proof and remedy those. Lastly, to finish on a positive note, a swift troubleshooting by inspecting audit logs will reveal the culprit and the same way how we caused the incident we will be able to fix it.',
     coincidedEvent: {
       id: '8',
       time: '12:05',
-      title: 'What Anime Taught Me About K8s & Tech Careers',
+      title: 'Event sourcing after page 1: How we built a cloud native bank',
       duration: '35 min',
       speakers: [
         {
           id: '11',
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
+          name: 'Thomas Bøgh Fangel',
+          photo: ThomasFangel,
         },
       ],
       presentation:
-        'From One piece and Naruto to Neon Genesis Evangelion and DragonBall, Japanese animation is a cultural phenomena. This session will take you through both the landscape of anime and Kubernetes development, with helpful beginner tips to get you started on your cloud native journey. The session will also cover what the hero’s of East blue and Planet 4032-877 can tech us about career development tech world. Importance of perseverance, inclusion & diversity as well as always having a snack at hand - come and learn how anime can your boost you Kubernetes and tech career to next level!\n',
+        'Lunar has been cloud native from the beginning. With our banking license in 2019 came the challenge of building a banking backend in the cloud. Since page 1 of any book on event sourcing contains a bank account as example, Lunar’s backend of course had to be event-sourced. Our account ledger has now scaled to serve nearly 1M Danish bank accounts, and event sourcing has become a sharp knife in our toolbox - widely in use across many domains and teams. <br> This hasn\’t just been an easy ride. In this talk, I will share the journey of building the Lunar banking backend with event sourcing at the center. Among other things, expect to hear about snapshotting, long-lived event streams, event evolution, event replay, and unbounded state. Possibly mixed with some bits about the challenges - or advantages - of doing event sourcing in a cloud native environment.',
     },
   },
   {
