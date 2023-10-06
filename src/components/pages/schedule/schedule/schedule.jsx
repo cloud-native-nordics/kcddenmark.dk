@@ -21,6 +21,14 @@ import FrancescaCarta from './images/francesca-carta.jpg'
 import RasmusSteiniche from './images/rasmus-steiniche.jpg'
 import JorgeLainfiesta from './images/jorge-lainfiesta.jpg';
 import AndersLybecker from './images/anders-lybecker.jpg';
+import EmilMunkso from './images/emil-munkso.jpg';
+import TimothyMamo from './images/timothy-mamo.jpg';
+import MadsDanquah from './images/mads-danquah.jpg';
+import EnginDiri from './images/engin-diri.jpg';
+import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
+import NicVermande from './images/nicolas-vermande.jpg';
+import ThomasLabarussias from './images/thomas-labarussias.jpg';
+import VicenteMiras from './images/vicente-miras.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -275,17 +283,17 @@ const ITEMS = [
   {
     id: '13',
     time: '15:40',
-    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    title: 'Application promotion in GitOps',
     duration: '5 min',
     speakers: [
       {
         id: '16',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Emil Munksø',
+        photo: EmilMunkso,
       },
     ],
     presentation:
-      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+      'GitOps is easy to adopt when you have a single cluster and a single environment. But when you scale out the solution you will encounter the issue of promoting your application through environment tiers. I will shed some light on what the issue of adopting GitOps in relation to promotion does to your ecosystem, and then present some possible solution ideas for how to approach the challenge based on different aspects of a company context.',
     coincidedEvent: {
       time: '15:40',
       title: 'Networking',
@@ -295,17 +303,17 @@ const ITEMS = [
   {
     id: '14',
     time: '15:45',
-    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    title: 'DevOps Lessons from a Primary School Teacher',
     duration: '5 min',
     speakers: [
       {
         id: '17',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Timothy Mamo',
+        photo: TimothyMamo,
       },
     ],
     presentation:
-      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+      'Over the years I\'ve heard from my wife about strategies implemented by teachers to enable children in class to learn, thinking this would be great for the tech industry! <br> In this talk I\'ll go over some strategies common place to primary school teachers that are novel to us, but shouldn\'t be, and how it will help us in our day to day activities.',
     coincidedEvent: {
       time: '15:45',
       title: 'Networking',
@@ -315,17 +323,17 @@ const ITEMS = [
   {
     id: '15',
     time: '15:50',
-    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    title: 'Prioritising the tricky stuff when building your platform',
     duration: '5 min',
     speakers: [
       {
         id: '18',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Mads Høgstedt Danquah',
+        photo: MadsDanquah,
       },
     ],
     presentation:
-      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+      'We sure are building a lot of platforms these days, and man - they are not easy to build. <br> Platform are products and products-work includes a lot of challenges we as busy tech-focused people can have a bad habit of forgetting. <br> This talk will present 3 super-concrete things you can do to ensure that you prioritise some of the tricky stuff that will make your customers love your product.',
     coincidedEvent: {
       time: '15:50',
       title: 'Networking',
@@ -335,17 +343,17 @@ const ITEMS = [
   {
     id: '16',
     time: '15:55',
-    title: 'Securing your Software Supply Chain on Kubernetes with Sigstore',
+    title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
     duration: '5 min',
     speakers: [
       {
         id: '19',
-        name: 'Cloud Zefra',
+        name: 'Stephane Karagulmez',
         photo: SpeakerPhoto,
       },
     ],
     presentation:
-      'How secure are the images running in your Kubernetes cluster right now? If you don’t know, then this talk is for you! In this talk, Priya Wadhwa will discuss how to determine the composition and vulnerability risk of your images. She’ll cover how to secure your images with easy container signing through Sigstore, and how to enforce policies against your images in your Kubernetes cluster with the Sigstore policy-controller. This talk will demo how to set this up while diving in to the SLSA principles of software supply chain security and how they can be applied to secure a build pipeline. \n',
+      '',
     coincidedEvent: {
       time: '15:55',
       title: 'Networking',
@@ -360,18 +368,16 @@ const ITEMS = [
   {
     id: '17',
     time: '16:15',
-    title:
-      "Process is what naturally follows - a cloud platform's guide on people-first transformation",
+    title: "Closing Keynote",
     duration: '25 min',
     isKeynote: true,
     speakers: [
       {
-        name: 'Cloud Zefra',
+        name: 'Ricardo Rocha',
         photo: SpeakerPhoto,
       },
     ],
-    presentation:
-      "The fastest way to change the world is by making it a business case. Let's talk about real transformation hands-on, about time-to-market and the priorities when it's necessary to change cultural paradigms.",
+    presentation: "",
   },
   {
     time: '16:40',
