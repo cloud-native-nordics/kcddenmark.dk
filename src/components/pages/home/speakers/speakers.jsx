@@ -11,10 +11,12 @@ import KatharinaSick from './images/katharina-sick.jpg';
 import LucySweet from './images/lucy-sweet.jpg'
 import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
-import PavolHronsky from './images/pavol-hronsky.jpg'
-import ThomasFangel from './images/thomas-fangel.jpg'
-import FrancescaCarta from './images/francesca-carta.jpg'
-import RasmusSteiniche from './images/rasmus-steiniche.jpg'
+import PavolHronsky from './images/pavol-hronsky.jpg';
+import ThomasFangel from './images/thomas-fangel.jpg';
+import FrancescaCarta from './images/francesca-carta.jpg';
+import RasmusSteiniche from './images/rasmus-steiniche.jpg';
+import JorgeLainfiesta from './images/jorge-lainfiesta.jpg';
+import AndersLybecker from './images/anders-lybecker.jpg';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -171,6 +173,29 @@ const ITEMS = [
     linkedInUrl: 'https://www.linkedin.com/in/steiniche/',
     time: '13:40',
     title: 'Cloud Native Data Platforms - The why, what and how',
+    duration: '35 min',
+  },
+  {
+    id: '14',
+    name: 'Jorge Lainfiesta',
+    position: 'Developer Relations <br/> Roadie.io',
+    content: 'Jorge is the author of the Linux Foundation Introduction to Backstage (LFS142) course and has helped enterprises, consultancies, and startups adopt Backstage. He has a background in software engineering (ex-PayPal) and digital communication (UCLA). He\'s also a certified sommelier (CETT Barcelona).',
+    photo: JorgeLainfiesta,
+    linkedInUrl: 'https://www.linkedin.com/in/jrlainfiesta/',
+    time: '14:30',
+    title: 'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
+    duration: '35 min',
+  },
+  {
+    id: '15',
+    name: 'Anders Lybecker',
+    position: 'Principal Software Development Engineer Lead <br/> Microsoft',
+    content: 'Anders Lybecker is a Principal Software Engineering Lead, former Global Black Belt IoT specialist and Technical Evangelist at Microsoft. He has many years of experience as a cloud architect, working with some of the biggest accounts at Microsoft. VW, WHO, Vestas, NHS, Nokia.',
+    photo: AndersLybecker,
+    linkedInUrl: 'https://www.linkedin.com/in/anderslybecker/',
+    twitterUrl: 'https://twitter.com/Lybecker',
+    time: '14:30',
+    title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
     duration: '35 min',
   },
 ];

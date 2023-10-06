@@ -19,6 +19,8 @@ import PavolHronsky from './images/pavol-hronsky.jpg'
 import ThomasFangel from './images/thomas-fangel.jpg'
 import FrancescaCarta from './images/francesca-carta.jpg'
 import RasmusSteiniche from './images/rasmus-steiniche.jpg'
+import JorgeLainfiesta from './images/jorge-lainfiesta.jpg';
+import AndersLybecker from './images/anders-lybecker.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -238,37 +240,31 @@ const ITEMS = [
   {
     id: '11',
     time: '14:30',
-    title: 'Native Histograms in Prometheus: A Better Histogram Experience for Everyone',
+    title: 'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
     duration: '35 min',
     speakers: [
       {
         id: '14',
-        name: 'Cloud Zefra',
-        photo: SpeakerPhoto,
+        name: 'Jorge Lainfiesta',
+        photo: JorgeLainfiesta,
       },
     ],
     presentation:
-      'Histograms are crucial for anyone who wants to track service latency and other numeric value distributions in Prometheus. However, the existing "legacy" histograms in Prometheus come with a number of painful drawbacks: they require manual and static bucket configuration, generate a separate time series for each configured histogram bucket, and thus require you to make hard tradeoffs between a histogram\'s resolution and cost.\n' +
-      '\n' +
-      'In this talk, Prometheus co-founder Julius Volz will present a new "native" histogram metric type that is currently being added to Prometheus. These native histograms allow you to track value distributions in higher detail at a significantly lower storage and processing cost, while also reducing the manual bucket configuration effort. Julius will explain how native histograms work, how they achieve these key benefits, and how you can use them in Prometheus today in an experimental fashion.',
+      'You\'ve heard of Backstage and its sweet promises. However, as you talk with more and more people about their experience, you\'ll notice people are using Backstage in different ways and achieving varied levels of success. <br> Jorge has talked with dozens of Backstage adopters, including teams who have used it for over two years. Where do people see success in their Internal Developer Portal journey? Where do people struggle? <br> In this talk, Jorge will share common approaches and pitfalls companies have seen when driving their Platform using Backstage. The talk will dive into which features to use, when, and how to overcome limitations to make the most out of Backstage.',
     coincidedEvent: {
       id: '12',
       time: '14:30',
-      title: 'Tales of Serverless - a story about building scalable applications',
+      title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
       duration: '35 min',
       speakers: [
         {
           id: '15',
-          name: 'Cloud Zefra',
-          photo: SpeakerPhoto,
+          name: 'Anders Lybecker',
+          photo: AndersLybecker,
         },
       ],
       presentation:
-        'In this talk Reto is going to tell a story about building Scalable Serverless cloud-native Applications. Using the magic of the Knative serverless platform, you are going to experience applications that are going to appear and\n' +
-        "disappear. We'll wander the foreign lands of the Serverless ecosystem, guided by fairies, conquering mythical beings and unimaginable challenges. \n" +
-        "Together, we'll get to know the mechanics and inner workings of this magical world. Hopefully, by the end of this talk, we'll be able to lift the spell and enchantments to see and understand the mechanics behind the curtains.\n" +
-        '\n' +
-        'Whether you are a brave developer-knight, a mighty operator-king or simply an interested serverless-bard, this presentation should not be scaled-to-zero.',
+        'In today\'s world, software technologies have become an integral part of our lives. However, the rapid growth in software technologies and democratization through cloud services has provided organizations with unprecedented access to computational power, which could incur high energy usage and associated emissions costs. To accelerate our technological progress in a sustainable manner, software itself needs the ability to measure and reduce its impact on carbon emissions. This presentation will introduce the concept of carbon-aware computing and discuss how it can you design solution to lower the carbon footprint. By attending this presentation, you will gain a better understanding of how to make your organization\'s software stack more environmentally friendly while still maintaining its functionality and performance.',
     },
   },
   {
