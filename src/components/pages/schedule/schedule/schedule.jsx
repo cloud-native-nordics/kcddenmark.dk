@@ -214,7 +214,7 @@ const ITEMS = [
   {
     time: '12:40',
     title: 'Lunch',
-    duration: '1h',
+    duration: '1 hr',
   },
   {
     id: '13',
