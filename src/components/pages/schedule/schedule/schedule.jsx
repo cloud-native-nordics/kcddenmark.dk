@@ -79,7 +79,7 @@ const ITEMS = [
   {
     id: '3',
     time: '9:20',
-    title: 'Keynote: Coding Pirates',
+    title: 'Keynote: Coding Pirates (Sponsored)',
     duration: '10 min',
     isKeynote: true,
     // TODO thv: add speaker
