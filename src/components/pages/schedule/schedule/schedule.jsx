@@ -68,13 +68,13 @@ const ITEMS = [
     title: 'Keynote: JYSK (Sponsored)',
     duration: '10 min',
     isKeynote: true,
-    speakers: [
-      {
-        id: '25',
-        name: 'Peter Rasmussen',
-        photo: PeterRasmussen,
-      },
-    ],
+    // speakers: [
+    //   {
+    //     id: '25',
+    //     name: 'Peter Rasmussen',
+    //     photo: PeterRasmussen,
+    //   },
+    // ],
   },
   {
     id: '3',

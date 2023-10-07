@@ -378,17 +378,17 @@ const ITEMS = [
     duration: '90 min',
   },
 
-  {
-    // 25
-    id: '2',
-    name: 'Peter Rasmussen',
-    position: 'Architect & Manager of the JYSK Java<br/> JYSK',
-    content: '',
-    photo: PeterRasmussen,
-    time: '9:10',
-    title: 'Keynote: JYSK (Sponsored)',
-    duration: '90 min',
-  },
+  // {
+  //   // 25
+  //   id: '2',
+  //   name: 'Peter Rasmussen',
+  //   position: 'Architect & Manager of the JYSK Java<br/> JYSK',
+  //   content: '',
+  //   photo: PeterRasmussen,
+  //   time: '9:10',
+  //   title: 'Keynote: JYSK (Sponsored)',
+  //   duration: '90 min',
+  // },
 
 ];
 
