@@ -37,7 +37,7 @@ module.exports = {
       black: '#000000',
       white: '#ffffff',
       yellow: '#FFEA7D',
-      red: '#fc2c2b',
+      red: '#FF4B43',
       blue: { 1: '#3333FF', 2: '#2929FF' },
       primary: {
         1: '#262F59',
@@ -45,6 +45,7 @@ module.exports = {
         3: 'rgba(38, 47, 89, 0.3)',
         4: 'rgba(38, 47, 89, 0.03)',
         5: 'rgba(38, 47, 89, 0.8)',
+        6: '#FAF4F4',
       },
       gray: {
         1: '#0D0D0D',
@@ -63,6 +64,7 @@ module.exports = {
       lightYellow: 'rgba(255, 234, 125, 0.3)',
       lightGreen: 'rgba(125, 255, 208, 0.2)',
       lightOrange: 'rgba(255, 180, 125, 0.2)',
+      rasin: '#1F1F29',
     }),
     backgroundImage: {
       'header-gradient': 'linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)',

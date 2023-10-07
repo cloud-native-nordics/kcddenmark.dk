@@ -8,9 +8,32 @@ import LINKS from 'constants/links';
 import AllanHoejgaardJensen from './images/allan-hoejgaard-jensen.jpg';
 import EricDSchabell from './images/eric-d-schabell.jpg';
 import KatharinaSick from './images/katharina-sick.jpg';
+import LucySweet from './images/lucy-sweet.jpg'
+import MathiasSchwarz from './images/mathias-schwarz.jpg'
 import RoberthStrand from './images/roberth-strand.jpg';
+import PavolHronsky from './images/pavol-hronsky.jpg';
+import ThomasFangel from './images/thomas-fangel.jpg';
+import FrancescaCarta from './images/francesca-carta.jpg';
+import RasmusSteiniche from './images/rasmus-steiniche.jpg';
+import JorgeLainfiesta from './images/jorge-lainfiesta.jpg';
+import AndersLybecker from './images/anders-lybecker.jpg';
+import EmilMunkso from './images/emil-munkso.jpg';
+import TimothyMamo from './images/timothy-mamo.jpg';
+import MadsDanquah from './images/mads-danquah.jpg';
+import EnginDiri from './images/engin-diri.jpg';
+import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
+import NicVermande from './images/nicolas-vermande.jpg';
+import ThomasLabarussias from './images/thomas-labarussias.jpg';
+import VicenteMiras from './images/vicente-miras.jpg';
+import StephaneKaragulmez from './images/stephane-karagulmez.png';
+import PeterRasmussen from './images/peter-rasmussen.jpg';
+
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
+
+import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
+import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
+import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 
 const TITLE = 'Speakers';
 
@@ -52,6 +75,131 @@ const ITEMS = [
     duration: '35 min',
   },
   {
+    id: '12',
+    name: 'Francesca Carta',
+    position: 'Delivery Manager <br/> Mia-Platform',
+    content: 'Francesca Carta is Delivery Manager at Mia-Platform and is responsible for simplifying product use and adoption. With a background in philosophy, she brings a unique perspective to technology. For the past six years she has been responsible for managing the development of an Internal Developer Platform for developers in Cloud Native. Francesca is dedicated to making technology accessible to everyone. Through critical thinking and a drive for innovation, she aims to make a positive impact.',
+    photo: FrancescaCarta,
+    linkedInUrl: 'https://www.linkedin.com/in/francesca-carta-a403594b/',
+    time: '13:40',
+    title: 'Platform Engineering Is Not About Tech',
+    duration: '35 min',
+  },
+  {
+    id: '14',
+    name: 'Jorge Lainfiesta',
+    position: 'Developer Relations <br/> Roadie.io',
+    content: 'Jorge is the author of the Linux Foundation Introduction to Backstage (LFS142) course and has helped enterprises, consultancies, and startups adopt Backstage. He has a background in software engineering (ex-PayPal) and digital communication (UCLA). He\'s also a certified sommelier (CETT Barcelona).',
+    photo: JorgeLainfiesta,
+    linkedInUrl: 'https://www.linkedin.com/in/jrlainfiesta/',
+    time: '14:30',
+    title: 'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
+    duration: '35 min',
+  },
+  {
+    id: '1',
+    name: 'Jinhong Brejnholt',
+    position: 'Chief Cloud Architect & Product Owner <br/> Saxo Bank A/S',
+    content: 'Jinhong is a highly skilled cloud and platform developer/architect, with a strong passion for DevSecOps practice and cloud-native technologies. She holds an MSc. in Software Development and Technology, and is certified as a Kubernetes application developer, administrator, and security specialist.',
+    photo: JinhongPhoto,
+    linkedInUrl: 'https://www.linkedin.com/in/jbrejnholt',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '17',
+    name: 'Timothy Mamo',
+    position: 'Senior Developer Advocate <br/> DigitalOcean',
+    content: 'Timothy Mamo loves to help growing companies make the most of the cloud by focusing on Cloud Native technologies and processes. He’s had a varied experience, from studying aerospace engineering and working in the automotive industry before moving into the world of Cloud. He enjoys working and helping others improve and understand, at times with some Mediterranean gusto.',
+    photo: TimothyMamo,
+    linkedInUrl: 'https://www.linkedin.com/in/timothymamo/',
+    twitterUrl: 'https://twitter.com/timothy_mamo',
+    time: '15:45',
+    title: 'DevOps Lessons from a Primary School Teacher',
+    duration: '5 min',
+  },
+  {
+    id: '2',
+    name: 'Camilla Larsen',
+    position: 'Platform Engineer <br/> Lunar',
+    content: '',
+    photo: CamillaPhoto,
+    linkedInUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '15',
+    name: 'Anders Lybecker',
+    position: 'Principal Software Development Engineer Lead <br/> Microsoft',
+    content: 'Anders Lybecker is a Principal Software Engineering Lead, former Global Black Belt IoT specialist and Technical Evangelist at Microsoft. He has many years of experience as a cloud architect, working with some of the biggest accounts at Microsoft. VW, WHO, Vestas, NHS, Nokia.',
+    photo: AndersLybecker,
+    linkedInUrl: 'https://www.linkedin.com/in/anderslybecker/',
+    twitterUrl: 'https://twitter.com/Lybecker',
+    time: '14:30',
+    title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
+    duration: '35 min',
+  },
+  {
+    id: '4',
+    name: 'Lucy Sweet',
+    position: 'Senior Software Engineer <br/> Uber',
+    content: 'A Senior Software Engineer working on Uber\'s stateless compute platform.',
+    photo: LucySweet,
+    linkedInUrl: 'https://linkedin.com/in/intunderflow',
+    time: '9:30',
+    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    duration: '25 min',
+  },
+  {
+    id: '3',
+    name: 'Kasper Borg Nissen',
+    position: 'Lead Platform Architect <br/> Lunar',
+    content: '',
+    photo: KasperPhoto,
+    twitterUrl: 'https://twitter.com/phennex',
+    linkedInUrl: 'https://www.linkedin.com/in/kaspernissen',
+    time: '9:00',
+    title: 'Welcome',
+    duration: '10 min',
+  },
+  {
+    id: '18',
+    name: 'Mads Høgstedt Danquah',
+    position: 'Engineering Lead - Edge Platform Team <br/> The LEGO Group',
+    content: 'Mads has been building Cloud Native solutions for a while now and thoroughly enjoys the work and a good discussion about complexity vs humans. When he is not doing tech work he enjoys building with LEGO bricks and doing volunteering work in various scout associations.',
+    photo: MadsDanquah,
+    linkedInUrl: 'https://www.linkedin.com/in/danquah',
+    twitterUrl: 'https://twitter.com/danquah',
+    time: '15:50',
+    title: 'Prioritising the tricky stuff when building your platform',
+    duration: '5 min',
+  },
+  {
+    id: '19',
+    name: 'Stephane Karagulmez',
+    position: 'Senior Solution Architect <br/> Isovalent',
+    content: 'I\'m a Senior Solution Architect at Isovalent with a rich background in Kubernetes and networking. Starting as a Developer, I transitioned into a Sales Engineer role at Google Cloud, where I specialized in Kubernetes and ascended to the role of AppMod Practice Lead. Today, I leverage my expertise to architect complex solutions in Kubernetes and networking at Isovalent. A seasoned public speaker and writer, I\'m passionate about demystifying technology and influencing product strategies with a customer-centric approach. Throughout my career, I\'ve prioritized continuous learning and impactful leadership in the tech industry.',
+    photo: StephaneKaragulmez,
+    linkedInUrl: 'https://www.linkedin.com/in/stephane-karagulmez-b9699410a/',
+    twitterUrl: 'https://twitter.com/skaragulm',
+    time: '15:55',
+    title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
+    duration: '5 min',
+  },
+  {
+    id: '5',
+    name: 'Mathias Schwarz',
+    position: 'Lead Platform Architect <br/> Lunar',
+    content: 'A Senior Staff Software Engineer working on Uber\'s stateless compute platform.',
+    photo: MathiasSchwarz,
+    time: '9:30',
+    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    duration: '25 min',
+  },
+  {
     id: '7',
     name: 'Allan Højgaard Jensen',
     position: 'Platform Development Specialist <br/> Netic',
@@ -61,6 +209,128 @@ const ITEMS = [
     time: '10:25',
     title: 'Running prioritised workload in Kubernetes',
     duration: '35 min',
+  },
+  {
+    id: '10',
+    name: 'Pavol Hronsky',
+    position: 'Head of Container Automation <br/> Nordea',
+    content: 'An applied mathematician who shortly after finishing studies followed his other passion and turned into a software developer. Upon realisation that many issues originate with an unstable, or rather sometimes accidentally changing underlying deployment environment, Pavol started a search for technologies that would help him and his team to overcome these challenges. The investigation led him to container technologies. Nowadays, additionally to heading the Container Automation team in Nordea, he spends his time by advocating Kubernetes and DevOps mindset in his workplace.',
+    photo: PavolHronsky,
+    linkedInUrl: 'https://www.linkedin.com/in/pavol-hronsky/',
+    time: '12:05',
+    title: 'Observability For You and Me with OpenTelemetry',
+    duration: '35 min',
+  },
+  {
+    id: '11',
+    name: 'Thomas Bøgh Fangel',
+    position: 'Tech Lead and Senior Software Engineer <br/> Lunar',
+    content: 'Thomas Bøgh Fangel is tech lead and backend developer at Lunar where he has been since the early startup days. He has been a part of the journey evolving the Lunar platform from a Rails monolith to the current event-driven microservice architecture on top of a Kubernetes based platform. Today, he spends most of his time as tech lead in the team responsible for Lunar\'s integration into the national clearings across the Nordics. He is a big fan of DDD, event sourcing and believes in the agile mindset of continuous improvement which lies at the heart of Lunar\'s journey.',
+    photo: ThomasFangel,
+    linkedInUrl: 'https://www.linkedin.com/in/thomasboeghfangel/',
+    twitterUrl: 'https://twitter.com/tbfangel',
+    time: '12:05',
+    title: 'Event sourcing after page 1: How we built a cloud native bank',
+    duration: '35 min',
+  },
+  {
+    id: '13',
+    name: 'Rasmus Steiniche',
+    position: 'CEO <br/> Neurospace',
+    content: 'Rasmus Steiniche is the CEO of Neurospace and has done everything from writing java applications. doing SaaS applications before it was cool, creating one of Denmark\'s biggest multi-cloud strategies, and creating big data and machine learning platforms.<br>Rasmus has been part of the Cloud Native and DevOps movement since 2014 and has since moved on to create data and machine learning applications.<br>Neurospace is a technology partner helping other companies on their data and machine learning journey to become better at what they do.',
+    photo: RasmusSteiniche,
+    linkedInUrl: 'https://www.linkedin.com/in/steiniche/',
+    time: '13:40',
+    title: 'Cloud Native Data Platforms - The why, what and how',
+    duration: '35 min',
+  },
+  {
+    id: '16',
+    name: 'Emil Munksø',
+    position: 'Cheif Platform Architect <br/> Kamstrup A/S',
+    content: 'Lives in Silkeborg with my wife and kid. Leads Kamstrup cloud journey with Kubernetes in interest.',
+    photo: EmilMunkso,
+    linkedInUrl: 'https://www.linkedin.com/in/emil-munks%C3%B8-602b0514b',
+    twitterUrl: 'https://twitter.com/EmilMunksoe',
+    time: '15:40',
+    title: 'Application promotion in GitOps',
+    duration: '5 min',
+  },
+
+  // Workshops
+
+  {
+    id: '20',
+    name: 'Engin Diri',
+    position: 'Customer Experience Architect <br/> Pulumi',
+    content: 'Engin is a Customer Experience Architect at Pulumi and has been in the IT industry for over 15 years. He started as a Java backend developer and later migrated to the fronted development. This is where he found his passion for CI/CD, Cloud technologies and in particular Kubernetes. Engin is a very curious person and loves learning and testing new technologies.',
+    photo: EnginDiri,
+    linkedInUrl: 'https://www.linkedin.com/in/engin-diri/',
+    twitterUrl: 'https://twitter.com/_ediri',
+    time: '10:25',
+    title: 'How To Add Infrastructure Provisioning to Your Backstage Templates',
+    duration: '90 min',
+  },
+
+  {
+    id: '21',
+    name: 'Mikkel Mørk Hegnhøj',
+    position: 'Head of Product and DevRel <br/> Fermyon',
+    content: 'Mikkel Mørk Hegnhøj is leading the product and developer relationship team at Fermyon. He has a long background in product management, customer success, and developer engagement at Microsoft, working on products such as Service Fabric, Azure Kubernetes Services, Azure Container Instances, and the open-source project Virtual Kubelet. He’s passionate about developer and operator experiences, with a mission to make the path from idea to reality frictionless and quick. Mikkel lives in a tiny and beautiful village in Denmark.',
+    photo: MikkelHegnhoj,
+    linkedInUrl: 'https://www.linkedin.com/in/mikkelhegn',
+    twitterUrl: 'https://twitter.com/mikkelhegn',
+    time: '10:25',
+    title: 'Hands on with WebAssembly and Kubernetes',
+    duration: '90 min',
+  },
+
+  {
+    id: '22',
+    name: 'Nic Vermande',
+    position: 'Head of Developer Relations <br/> Spectro Cloud',
+    content: 'Nicolas is an experienced hands-on technologist, evangelist and product owner who has been working in the fields of Cloud-Native technologies, Open Source Software, Virtualization and Datacenter networking for the past 18 years. Passionate about enabling users and building cool tech solving real-life problems, you\'ll often see him speaking at global tech conferences and online events, spreading the word and walking the walk with customers and users.',
+    photo: NicVermande,
+    linkedInUrl: 'https://www.linkedin.com/in/vnicolas/',
+    twitterUrl: 'https://twitter.com/nvermande',
+    time: '13:40',
+    title: 'Mastering Cluster API and GitOps: Deep Dive into Extensible Components for Building Production-Ready Kubernetes Clusters',
+    duration: '90 min',
+  },
+
+  {
+    id: '23',
+    name: 'Thomas Labarussias',
+    position: 'OSS and Ecosystem Advocate <br/> Sysdig',
+    content: 'Thomas is OSS/Ecosystem Advocate at Sysdig, the company which created and open-sourced Falco, the Security Runtime Engine for Kubernetes and Cloud-Native technologies. Thomas worked for Qonto, a modern banking for SMEs and freelancers, where he managed their Kubernetes clusters and the enthusiastic tools around, like ArgoCD, Traefik, Prometheus. He also assisted for many years pure-players and e-business companies for a large managed service provider, as an AWS expert and FinOps. He\'s one of the longest tenured members of the Falco community, and creator of Falcosidekick and Falcosidekick-UI, two major components of the Falco ecosystem.',
+    photo: ThomasLabarussias,
+    linkedInUrl: 'https://www.linkedin.com/in/thomas-labarussias-9229b522a/',
+    twitterUrl: 'https://twitter.com/TLabarussias',
+    time: '13:40',
+    title: 'Detecting unexpected behavior and intrusions with Falco',
+    duration: '90 min',
+  },
+
+  {
+    id: '24',
+    name: 'Vicente J. Jiménez Miras',
+    position: 'Security Content Engineer <br/> Sysdig',
+    content: 'Vicente has a background as an infrastructure engineer and open source trainer. Being a digital nomad since early in his career, he\'s lived or worked in almost a hundred different locations. He also shares a passion for food, especially Indian cuisine, although, as a Spaniard, he\'s very proud of his tortilla española. <br> In 2021, after 4 years working as an instructor for Red Hat, he joined Sysdig to continue his work educating folks and creating awareness of cybersecurity.',
+    photo: VicenteMiras,
+    time: '13:40',
+    title: 'Detecting unexpected behavior and intrusions with Falco',
+    duration: '90 min',
+  },
+
+  {
+    id: '25',
+    name: 'Peter Rasmussen',
+    position: 'Architect & Manager of the JYSK Java<br/> JYSK',
+    content: '',
+    photo: PeterRasmussen,
+    time: '',
+    title: 'JYSK Keynote',
+    duration: '90 min',
   },
 ];
 
