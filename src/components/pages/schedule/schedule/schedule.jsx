@@ -363,7 +363,7 @@ const ITEMS = [
       },
     ],
     presentation:
-      '',
+      'Unlock the power of eBPF with Cilium Service Mesh: a transformational tool redefining Kubernetes\' networking and security landscape. In just five minutes, we\'ll journey through how Cilium bypasses conventional networking limitations, creating high-performance, fine-grained security policies. Witness the magic of seamless service-to-service communication and learn why Cilium Service Mesh is not just another tool, but the future blueprint for cloud-native networking and security.',
     coincidedEvent: {
       time: '15:55',
       title: 'Networking',
