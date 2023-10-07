@@ -26,6 +26,7 @@ import NicVermande from './images/nicolas-vermande.jpg';
 import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
 import StephaneKaragulmez from './images/stephane-karagulmez.png';
+import PeterRasmussen from './images/peter-rasmussen.jpg';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -318,6 +319,17 @@ const ITEMS = [
     photo: VicenteMiras,
     time: '13:40',
     title: 'Detecting unexpected behavior and intrusions with Falco',
+    duration: '90 min',
+  },
+
+  {
+    id: '25',
+    name: 'Peter Rasmussen',
+    position: 'Architect & Manager of the JYSK Java<br/> JYSK',
+    content: '',
+    photo: PeterRasmussen,
+    time: '',
+    title: 'JYSK Keynote',
     duration: '90 min',
   },
 ];

@@ -30,6 +30,8 @@ import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
 import NicVermande from './images/nicolas-vermande.jpg';
 import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
+import PeterRasmussen from './images/peter-rasmussen.jpg'
+
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -66,6 +68,13 @@ const ITEMS = [
     title: 'Keynote: JYSK',
     duration: '10 min',
     isKeynote: true,
+    speakers: [
+      {
+        id: '25',
+        name: 'Peter Rasmussen',
+        photo: PeterRasmussen
+      }
+    ]
     // TODO thv: add speaker
   },
   {
