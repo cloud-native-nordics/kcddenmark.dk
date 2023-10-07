@@ -27,6 +27,7 @@ import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
 import StephaneKaragulmez from './images/stephane-karagulmez.png';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
+import RicardoRocha from './images/ricardo-rocha.jpg';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -249,8 +250,7 @@ const ITEMS = [
     duration: '35 min',
   },
   {
-                // 16
-
+    // 16
     id: '11',
     name: 'Thomas Bøgh Fangel',
     position: 'Tech Lead and Senior Software Engineer <br/> Lunar',
@@ -265,7 +265,7 @@ const ITEMS = [
     isCoincidedEvent: true,
   },
   {
-                // 17
+    // 17
     id: '13',
     name: 'Rasmus Steiniche',
     position: 'CEO <br/> Neurospace',
@@ -292,10 +292,25 @@ const ITEMS = [
     title: 'Application promotion in GitOps',
     duration: '5 min',
   },
+  {
+    // 19
+    id: '22',
+    name: 'Ricardo Rocha',
+    position: 'Computing Engineer <br/> CERN',
+    content:
+      'Ricardo is a Computing Engineer in CERN IT focusing on cloud native deployments, networking and more recently machine learning platforms. He has led for several years the internal effort to transition services and workloads to use cloud native technologies, as well as dissemination and training efforts.',
+    photo: RicardoRocha,
+    linkedInUrl: 'https://www.linkedin.com/in/ricardo-rocha-739aa718/?originalSubdomain=ch',
+    twitterUrl: 'https://twitter.com/ahcorporto',
+    time: '16:15',
+    title: 'Closing Keynote',
+    duration: '25 min',
+  },
 
   // Workshops
 
   {
+    // 20
     name: 'Engin Diri',
     position: 'Customer Experience Architect <br/> Pulumi',
     content:
@@ -309,6 +324,7 @@ const ITEMS = [
   },
 
   {
+    // 21
     name: 'Mikkel Mørk Hegnhøj',
     position: 'Head of Product and DevRel <br/> Fermyon',
     content:
@@ -322,6 +338,7 @@ const ITEMS = [
   },
 
   {
+    // 22
     name: 'Nic Vermande',
     position: 'Head of Developer Relations <br/> Spectro Cloud',
     content:
@@ -336,6 +353,7 @@ const ITEMS = [
   },
 
   {
+    // 23
     name: 'Thomas Labarussias',
     position: 'OSS and Ecosystem Advocate <br/> Sysdig',
     content:
@@ -349,6 +367,7 @@ const ITEMS = [
   },
 
   {
+    // 24
     name: 'Vicente J. Jiménez Miras',
     position: 'Security Content Engineer <br/> Sysdig',
     content:
@@ -360,15 +379,17 @@ const ITEMS = [
   },
 
   {
+    // 25
     id: '2',
     name: 'Peter Rasmussen',
     position: 'Architect & Manager of the JYSK Java<br/> JYSK',
     content: '',
     photo: PeterRasmussen,
-    time: '',
-    title: 'JYSK Keynote',
+    time: '9:10',
+    title: 'Keynote: JYSK (Sponsored)',
     duration: '90 min',
   },
+
 ];
 
 const Speakers = ({ location }) => {

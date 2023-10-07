@@ -31,6 +31,7 @@ import NicVermande from './images/nicolas-vermande.jpg';
 import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
+import RicardoRocha from './images/ricardo-rocha.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -64,16 +65,16 @@ const ITEMS = [
   {
     id: '2',
     time: '9:10',
-    title: 'Keynote: JYSK',
+    title: 'Keynote: JYSK (Sponsored)',
     duration: '10 min',
     isKeynote: true,
     speakers: [
       {
+        id: '25',
         name: 'Peter Rasmussen',
         photo: PeterRasmussen,
       },
     ],
-    // TODO thv: add speaker
   },
   {
     id: '3',
@@ -214,7 +215,7 @@ const ITEMS = [
   {
     time: '12:40',
     title: 'Lunch',
-    duration: '1h',
+    duration: '1 hr',
   },
   {
     id: '13',
@@ -381,11 +382,11 @@ const ITEMS = [
     isKeynote: true,
     speakers: [
       {
+        id: '19',
         name: 'Ricardo Rocha',
-        photo: SpeakerPhoto,
+        photo: RicardoRocha,
       },
     ],
-    presentation: '',
   },
   {
     time: '16:40',
