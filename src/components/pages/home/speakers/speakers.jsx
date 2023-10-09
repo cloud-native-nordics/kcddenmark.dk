@@ -215,7 +215,7 @@ const ITEMS = [
     // 13
     id: '4',
     name: 'Mathias Schwarz',
-    position: 'Lead Platform Architect <br/> Lunar',
+    position: 'Senior Staff Software Engineer <br/> Uber',
     content: "A Senior Staff Software Engineer working on Uber's stateless compute platform.",
     photo: MathiasSchwarz,
     time: '9:30',
