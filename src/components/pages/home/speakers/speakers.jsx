@@ -246,7 +246,7 @@ const ITEMS = [
     photo: PavolHronsky,
     linkedInUrl: 'https://www.linkedin.com/in/pavol-hronsky/',
     time: '12:05',
-    title: 'Observability For You and Me with OpenTelemetry',
+    title: 'GitOps or a Journey to a Production Incident and Swiftly Back Again',
     duration: '35 min',
   },
   {
