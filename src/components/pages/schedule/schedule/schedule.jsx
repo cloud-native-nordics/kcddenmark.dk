@@ -189,7 +189,7 @@ const ITEMS = [
     duration: '35 min',
     speakers: [
       {
-        id: '10',
+        id: '15',
         name: 'Pavol Hronsky',
         photo: PavolHronsky,
       },
