@@ -32,6 +32,7 @@ import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
 import RicardoRocha from './images/ricardo-rocha.jpg';
+import LouiseOvergaard from './images/louise-overgaard.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -82,7 +83,13 @@ const ITEMS = [
     title: 'Keynote: Coding Pirates (Sponsored)',
     duration: '10 min',
     isKeynote: true,
-    // TODO thv: add speaker
+    speakers: [
+      {
+        id: '25',
+        name: 'Louise Overgaard',
+        photo: LouiseOvergaard,
+      }
+    ]
   },
   {
     // 4
