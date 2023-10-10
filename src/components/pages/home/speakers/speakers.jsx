@@ -28,6 +28,7 @@ import VicenteMiras from './images/vicente-miras.jpg';
 import StephaneKaragulmez from './images/stephane-karagulmez.png';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
 import RicardoRocha from './images/ricardo-rocha.jpg';
+import LouiseOvergaard from './images/louise-overgaard.jpg';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -96,7 +97,7 @@ const ITEMS = [
     // 4
     id: '15',
     name: 'Jorge Lainfiesta',
-    position: 'Developer Relations <br/> Roadie.io',
+    position: 'Author <br/> Linux Foundation Backstage Course',
     content:
       "Jorge is the author of the Linux Foundation Introduction to Backstage (LFS142) course and has helped enterprises, consultancies, and startups adopt Backstage. He has a background in software engineering (ex-PayPal) and digital communication (UCLA). He's also a certified sommelier (CETT Barcelona).",
     photo: JorgeLainfiesta,
@@ -378,8 +379,20 @@ const ITEMS = [
     duration: '90 min',
   },
 
+  {
+    // 25
+    id: '3',
+    name: 'Louise Overgaard',
+    position: 'General Secretary <br/> Coding Pirates',
+    photo: LouiseOvergaard,
+    linkedInUrl: 'https://www.linkedin.com/in/louiseovergaard',
+    time: '9:20',
+    title: 'Keynote: Coding Pirates (Sponsored)',
+    duration: '10 min',
+  },
+
   // {
-  //   // 25
+  //   // 26
   //   id: '2',
   //   name: 'Peter Rasmussen',
   //   position: 'Architect & Manager of the JYSK Java<br/> JYSK',
