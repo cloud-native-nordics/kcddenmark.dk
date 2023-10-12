@@ -6,8 +6,8 @@ const Welcome = () => (
       <div className="text-2xl text-primary-1 sm:text-lg">
         <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Ticket sales are now open!</p>
 
-        <p>Are you a <span className="font-bold">student</span>? We are giving away 10 tickets to students registered
-          at a Danish university/college/EUD. Fill this <a href="https://forms.gle/PU6P4fZ6ZCCSeTQ19">form</a> to have
+        <p className="pb-8">Are you a <span className="font-bold">student</span>? We are giving away 10 tickets to students registered
+          at a Danish university/college/EUD. Fill this <a className="font-bold" href="https://forms.gle/PU6P4fZ6ZCCSeTQ19">form</a> to have
           a chance to win one!</p>
 
         <p>
