@@ -410,6 +410,15 @@ const ITEMS = [
     title: 'Closing',
     duration: '10 min',
   },
+  {
+    id: '200',
+    time: '18:00',
+    title: 'Afterparty with DJ @ HeadQuarters, Aarhus!',
+    presentation:
+      "Situated in the vibrant center of Aarhus, HeadQuarters is a vintage spot set to host our afterparty! <br /><br />Wind down, take a breather, and reminisce about the day's highlights over some free drinks. Enjoy the vibes from the in-house DJ and mingle!<br \> <br \>Remember to bring your badge! <br/><br/><strong>Location: HeadQuarters, Valdemarsgade 1A, 8000 Aarhus</strong>",
+
+    duration: '4 hr',
+  },
 ];
 
 const Schedule = ({ location }) => {
