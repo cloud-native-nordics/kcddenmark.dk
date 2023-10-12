@@ -27,6 +27,7 @@ import Boozt from 'icons/boozt.png'
 import TV2 from 'icons/tv2.svg'
 import TrendMicro from 'icons/trendmicro.svg'
 import Akamai from 'icons/akamai.svg'
+import Dypang from 'icons/dypang.svg'
 
 const TITLE = 'Sponsors';
 
@@ -78,6 +79,7 @@ const ITEMS = [
       { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
 
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
+      { icon: Dypang, url: 'https://dypaang.dk/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
