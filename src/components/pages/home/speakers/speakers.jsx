@@ -313,6 +313,7 @@ const ITEMS = [
 
   {
     // 20
+    id: '50',
     name: 'Engin Diri',
     position: 'Customer Experience Architect <br/> Pulumi',
     content:
@@ -323,10 +324,12 @@ const ITEMS = [
     time: '10:25',
     title: 'How To Add Infrastructure Provisioning to Your Backstage Templates',
     duration: '90 min',
+    isWorkshop: true,
   },
 
   {
     // 21
+    id: '51',
     name: 'Mikkel Mørk Hegnhøj',
     position: 'Head of Product and DevRel <br/> Fermyon',
     content:
@@ -337,10 +340,12 @@ const ITEMS = [
     time: '10:25',
     title: 'Hands on with WebAssembly and Kubernetes',
     duration: '90 min',
+    isWorkshop: true,
   },
 
   {
     // 22
+    id: '52',
     name: 'Nic Vermande',
     position: 'Head of Developer Relations <br/> Spectro Cloud',
     content:
@@ -352,10 +357,12 @@ const ITEMS = [
     title:
       'Mastering Cluster API and GitOps: Deep Dive into Extensible Components for Building Production-Ready Kubernetes Clusters',
     duration: '90 min',
+    isWorkshop: true,
   },
 
   {
     // 23
+    id: '53',
     name: 'Thomas Labarussias',
     position: 'OSS and Ecosystem Advocate <br/> Sysdig',
     content:
@@ -366,10 +373,12 @@ const ITEMS = [
     time: '13:40',
     title: 'Detecting unexpected behavior and intrusions with Falco',
     duration: '90 min',
+    isWorkshop: true,
   },
 
   {
     // 24
+    id: '53',
     name: 'Vicente J. Jiménez Miras',
     position: 'Security Content Engineer <br/> Sysdig',
     content:
@@ -378,6 +387,7 @@ const ITEMS = [
     time: '13:40',
     title: 'Detecting unexpected behavior and intrusions with Falco',
     duration: '90 min',
+    isWorkshop: true,
   },
 
   {
