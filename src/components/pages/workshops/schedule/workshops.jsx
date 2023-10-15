@@ -26,7 +26,12 @@ const ITEMS = [
       },
     ],
     presentation:
-      'Are you interested in dipping your toes in the cloud native observability waters, but as an engineer you are not sure where to get started with tracing your microservices and applications on Kubernetes? Then this is the session for you, where we take you on your first steps in an active open-source project that offers a buffet of opportunities for getting started with telemetry data. <br><br> The project, openTelemetry (OTEL), is where we start with de-mystifying key concepts and terms such as observability, telemetry, instrumentation to lay a foundation. Then we’ll explore the OTEL community and how to become not only an end-user, but possibly a contributor.<br><br> We will wrap up with an overview of the components in this project, such as the Collector, the OTEL protocol (OTLP), its APIs, and its SDKs.<br><br> Attendees will leave with an understanding of key observability concepts in distributed tracing!',
+      'Software templates in Backstage are vital for bootstrapping new projects, effectively reducing startup time and masking complexities. When provisioning infrastructure, questions arise on modeling both day-1 and day-2 operations and ensuring compliance with security and company policies. <br><br>  In this interactive workshop, I will lead participants through these essential concepts. We\'ll explore how to integrate infrastructure provisioning into software templates and provide a detailed walkthrough of a reference implementation, including day-2 operations. <br><br>  By the end, attendees will:' +
+      '<br> - Understand the benefits of provisioning with Backstage' +
+      '<br> - Identify challenges in provisioning infrastructure in templates' +
+      '<br> - Apply best practices through Backstage' +
+      '<br> - Automate continuous delivery and verification of changes using GitOps with Pulumi' +
+      '<br> - Build self-service enabled software templates in Backstage',
     coincidedEvent: {
       id: '51',
       time: '10:25',
@@ -40,7 +45,7 @@ const ITEMS = [
         },
       ],
       presentation:
-        'There are different ways to run workloads efficiently in kubernetes. Some workloads are using prioritisation at scheduling time, using a zero overcommit of resources like e.g. cpu and memory, others are ok with the overcommitment of cpu, and quite frankly there are some myths concerning the requests & limits and what they actually mean, preemption may happen unless you have additional validation against accumulated real capacity. If you have multiple workloads that are not equally important, then you may want to specify what is the priority of these workloads.  <br /> <br /> This session gives an introduction to the scheduling above and the PriorityClasses used in our Secure Cloud Stack are introduced. Furthermore, some of the concerns you may not initially consider e.g. using PriorityClasses together with e.g. Operators & other objects creating pods, which "may" or "may not" have the same priority.',
+        'Learning a new technology can be daunting, and getting started with WebAssembly on the server requires getting up to speed with both new concepts and new tooling. With Spin (https://github.com/fermyon/spin), we want to bring a delightful developer experience to building, distributing, and running serverless functions and microservices with WebAssembly. <br>As with any exciting early ecosystem, there are a lot of tools, libraries, and CLIs out there, and figuring out how and if they work together can be difficult. With Spin, our goal is to empower developers to go from nothing to building and iterating on their application in just a few commands: `spin new` , `spin build`, and `spin up` is all you need to remember. <br>In this tutorial, you will get hands-on with Spin and see how Spin applications can run in a Kubernetes environment.',
     },
   },
   {
@@ -56,7 +61,7 @@ const ITEMS = [
       }
     ],
     presentation:
-      'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. <br><br>Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br><br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
+      'There are many different ways you can bootstrap Kubernetes clusters, with various degrees of complexity. Modern Kubernetes installers automate manual tasks but generally, the more they abstract away complexity, the more opinionated they are — and that restricts your choice. Cluster API is different. It is one of the most flexible and efficient tools for managing the Kubernetes lifecycle, whether used for deployments, upgrades or scaling operations. While Cluster API is a powerful tool for provisioning Kubernetes clusters, it doesn\'t cover everything. Essential add-on components and software, such as node auto-scalers, CNI, ingress controllers, and other key infrastructure elements, are not included. <br>In this workshop, you will delve into how to supercharge Cluster API by integrating it with various solutions to build production-ready clusters, with GitOps as the automation master.',
     coincidedEvent: {
       id: '53',
       time: '13:40',
@@ -75,7 +80,7 @@ const ITEMS = [
         },
       ],
       presentation:
-        "According to OWASP, insecure workload configuration is the top security problem in Kubernetes. As modern Kubernetes clusters evolve from mere container orchestrators to versatile control planes managing various resources, minimizing the attack surface of these clusters becomes even more critical. <br>But security shouldn't come at the expense of user experience. This talk will cover the Principle of Least Privilege (PoLP) and how it can be applied to balance robust security and a good experience for users and administrators. Moreover, it will extend this principle to ArgoCD and Crossplane and explore the differences between the PoLP and Zero Trust and how they're complementary. <br>Join me to discover how the Principle of Least Privilege, applied to Kubernetes, ArgoCD, and Crossplane, empowers you to safeguard your Kubernetes ecosystem without making yourself and your users suffer.",
+        "The adoption of containers and orchestration systems, such as Kubernetes, has skyrocketed over the last few years. The popularity of these platforms makes them common targets for cyber criminals. Kubernetes combats this risk with built in controls but what if you want to observe the behavior of your pods at runtime to detect intrusions? In this entry-level tutorial, the instructors will dive into cloud threat detection and explain how to detect unexpected behavior and intrusion. <br>This tutorial offers a hands-on introduction to Falco, an open source CNCF incubation project. Every participant will use a web browser to access their own lab environment, in which they will use Falco to identify and notify of suspicious behaviors and intrusions. This session targets security practitioners that are new to cloud native and want to expand their knowledge of runtime security and Falco.",
     },
   },
 ];
