@@ -33,6 +33,7 @@ import VicenteMiras from './images/vicente-miras.jpg';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
 import RicardoRocha from './images/ricardo-rocha.jpg';
 import LouiseOvergaard from './images/louise-overgaard.jpg';
+import NicoloCambiaso from './images/nicolo-cambiaso.jpg';
 
 // TODO: merge with ITEMS array from components/pages/home/speakers
 const ITEMS = [
@@ -234,6 +235,11 @@ const ITEMS = [
         id: '3',
         name: 'Francesca Carta',
         photo: FrancescaCarta,
+      },
+      {
+        id: '26',
+        name: 'Nicolò Cambiaso',
+        photo: NicoloCambiaso,
       },
     ],
     presentation:

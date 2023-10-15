@@ -29,6 +29,7 @@ import StephaneKaragulmez from './images/stephane-karagulmez.png';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
 import RicardoRocha from './images/ricardo-rocha.jpg';
 import LouiseOvergaard from './images/louise-overgaard.jpg';
+import NicoloCambiaso from './images/nicolo-cambiaso.jpg';
 
 import SpeakerPhoto from './images/speaker-placeholder-image.jpg';
 import ChevronDown from './svg/arrow-down.inline.svg';
@@ -384,6 +385,7 @@ const ITEMS = [
     id: '3',
     name: 'Louise Overgaard',
     position: 'General Secretary <br/> Coding Pirates',
+    content: 'Louise has been an innovation leader, consultant and managing expert, but is mainly a humanitarian. She calls herself a Humanist in IT and proudly works for cultural development along with her broad category of work. She believes that “My starting point is humans. They are the core of my work”. This throws light on her goal to focus on development and innovation for the world and she has been engaged in developing libraries, smart cities, NGOs, festivals and companies with this focus in mind. <br> Louise now works as the general secretary of Coding Pirates. A voluntary organisation that she has been a part of developing. In Coding Pirates kids and young people can learn about new technologies, programming languages etc through play and experimentation.',
     photo: LouiseOvergaard,
     linkedInUrl: 'https://www.linkedin.com/in/louiseovergaard',
     time: '9:20',
@@ -391,8 +393,21 @@ const ITEMS = [
     duration: '10 min',
   },
 
+  {
+    // 26
+    id: '13',
+    name: 'Nicolò Cambiaso',
+    position: 'Marketing Director<br/> Mia-Platform',
+    content: 'Promoting better development through cloud native. Communications expert, event organizer, community gatherer. OSS contributor, sailing the K8s ocean since 2019. Marketing Director @Mia-Platform. Strong believer that better software engineering brings better development for the planet.',
+    photo: NicoloCambiaso,
+    linkedInUrl: 'https://www.linkedin.com/in/nicolò-cambiaso-319511bb/',
+    time: '13:40',
+    title: 'Platform Engineering Is Not About Tech',
+    duration: '35 min',
+  },
+
   // {
-  //   // 26
+  //   // 27
   //   id: '2',
   //   name: 'Peter Rasmussen',
   //   position: 'Architect & Manager of the JYSK Java<br/> JYSK',
