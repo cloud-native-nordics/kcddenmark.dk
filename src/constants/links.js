@@ -12,6 +12,11 @@ export default {
     id: getAnchor('Schedule'),
     homeTo: '/schedule',
   },
+  workshops: {
+    to: '/workshops',
+    id: getAnchor('Workshops'),
+    homeTo: '/workshops',
+  },
   sponsors: {
     to: `/#${getAnchor('Sponsors')}`,
     id: getAnchor('Sponsors'),
