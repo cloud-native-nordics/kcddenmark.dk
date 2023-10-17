@@ -25,7 +25,7 @@ import MikkelHegnhoj from './images/mikkel-hegnhoj.jpg';
 import NicVermande from './images/nicolas-vermande.jpg';
 import ThomasLabarussias from './images/thomas-labarussias.jpg';
 import VicenteMiras from './images/vicente-miras.jpg';
-import StephaneKaragulmez from './images/stephane-karagulmez.png';
+import StephaneKaragulmez from './images/stephane-karagulmez.jpg';
 import PeterRasmussen from './images/peter-rasmussen.jpg';
 import RicardoRocha from './images/ricardo-rocha.jpg';
 import LouiseOvergaard from './images/louise-overgaard.jpg';
