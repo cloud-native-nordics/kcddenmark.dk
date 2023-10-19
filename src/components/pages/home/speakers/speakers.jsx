@@ -169,7 +169,7 @@ const ITEMS = [
     photo: LucySweet,
     linkedInUrl: 'https://linkedin.com/in/intunderflow',
     time: '9:30',
-    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    title: 'Keynote: Uber - Migrating 2 million CPU cores to Kubernetes',
     duration: '25 min',
   },
   {
@@ -210,7 +210,7 @@ const ITEMS = [
     linkedInUrl: 'https://www.linkedin.com/in/stephane-karagulmez-b9699410a/',
     twitterUrl: 'https://twitter.com/skaragulm',
     time: '15:55',
-    title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
+    title: 'Keynote: Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
     duration: '5 min',
   },
   {
@@ -305,7 +305,7 @@ const ITEMS = [
     linkedInUrl: 'https://www.linkedin.com/in/ricardo-rocha-739aa718/?originalSubdomain=ch',
     twitterUrl: 'https://twitter.com/ahcorporto',
     time: '16:15',
-    title: 'Closing Keynote',
+    title: 'Keynote: CERN and Cloud Native Computing - Playing Platform LEGO',
     duration: '25 min',
   },
 

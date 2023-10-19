@@ -237,16 +237,12 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                       {duration}
                     </span>
                     {isWorkshop ? (
-                      <span className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200">
-                      {title}
-                      </span>
-                      // <Link
-                      //   className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
-                      //   to="/workshops"
-                      //   state={{ modalId: id, isCoincidedEvent }}
-                      // >
-                        // {title}
-                      // </Link>
+                      <a
+                        className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
+                        href="/workshops"
+                      >
+                        {title}
+                      </a>
                     ) : (
                       <Link
                         className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
