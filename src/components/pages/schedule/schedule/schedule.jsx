@@ -96,7 +96,7 @@ const ITEMS = [
     // 4
     id: '4',
     time: '9:30',
-    title: 'Uber - Migrating 2 million CPU cores to Kubernetes',
+    title: 'Keynote: Uber - Migrating 2 million CPU cores to Kubernetes',
     duration: '25 min',
     isKeynote: true,
     speakers: [
@@ -390,7 +390,7 @@ const ITEMS = [
   {
     id: '22',
     time: '16:15',
-    title: 'Closing Keynote',
+    title: 'Keynote: CERN and Cloud Native Computing - Playing Platform LEGO',
     duration: '25 min',
     isKeynote: true,
     speakers: [
@@ -400,6 +400,7 @@ const ITEMS = [
         photo: RicardoRocha,
       },
     ],
+    presentation: 'CERN has a long tradition of handling large computing infrastructures for its workloads. Well before the appearance of cloud computing and the generalization of Big Data across all industries, we already had taken the challenge of storing and analyzing PetaBytes of data with all the complexities this in-takes. <br> This session will go through how those platforms evolved over time and how they are built of multiple parts holding together much like LEGO bricks. How in some cases custom bricks had to be built for them not to fall apart. And how cloud native is slowly replacing those pieces with a set of generic, reusable bricks maintained by large communities and covering all the needs of a modern infrastructure.'
   },
   {
     time: '16:40',
