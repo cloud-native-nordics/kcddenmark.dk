@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-const TITLE = 'Workshops schedule for <time class="text-red xs:block">14 November, 2023</time>';
+const TITLE = 'Workshops Schedule';
 const DESCRIPTION =
   "Workshops are included in the schedule for the Kubernetes Community Days Denmark. Attendance is included with the conference ticket and available on a first-come first-served basis.";
 
@@ -16,13 +16,20 @@ const Hero = () => (
       <p className="mx-auto mt-9 max-w-[865px] text-2xl leading-normal md:mt-6 md:text-xl sm:text-lg">
         {DESCRIPTION}
       </p>
-      <Button
+      {/* <Button
         className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
         size="lg"
         to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
         target="_blank"
       >
         Get your ticket
+      </Button> */}
+      <Button
+        className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
+        to="https://kcddenmark.dk/schedule"
+        size="lg"
+      >
+        Check the conference schedule
       </Button>
     </div>
   </section>

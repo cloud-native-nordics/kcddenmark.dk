@@ -28,13 +28,20 @@ const Hero = () => (
         </p>
         {
           <p className="mt-10 max-w-[500px] text-lg leading-normal text-primary-1 lg:max-w-[500px]">
-            <Button
+            {/* <Button
               className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
               to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
               size="lg"
               target="_blank"
             >
               Get your ticket
+            </Button> */}
+            <Button
+              className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
+              to="https://kcddenmark.dk/schedule"
+              size="lg"
+            >
+              Check the schedule
             </Button>
           </p>
         }
