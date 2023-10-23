@@ -73,6 +73,15 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
         >
           Get your ticket
         </Button> */}
+        <Button
+          className="-mr-2 md:hidden"
+          to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
+          theme="primary"
+          size="sm"
+          target="_blank"
+        >
+          Join the waiting list
+        </Button>
 
         <Burger
           className={clsx('z-50 hidden md:block', isMobileMenuOpen && 'text-black dark:text-white')}
