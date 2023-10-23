@@ -29,6 +29,7 @@ import TrendMicro from 'icons/trendmicro.svg'
 import Akamai from 'icons/akamai.svg'
 import Dypang from 'icons/dypang.svg'
 import Enggaard from 'icons/enggaard.svg'
+import StickerMule from 'icons/stickermule.svg'
 
 const TITLE = 'Sponsors';
 
@@ -82,6 +83,7 @@ const ITEMS = [
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
       { icon: Dypang, url: 'https://dypaang.dk/' },
       { icon: Enggaard, url: 'https://www.enggaard.dk/' },
+      { icon: StickerMule, url: 'https://www.stickermule.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
