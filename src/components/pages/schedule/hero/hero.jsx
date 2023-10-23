@@ -27,7 +27,7 @@ const Hero = () => (
       <Button
         className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
         size="lg"
-        to="https://kcddenmark.dk/workshops/"
+        to="/workshops"
       >
         Check the workshops
       </Button>
