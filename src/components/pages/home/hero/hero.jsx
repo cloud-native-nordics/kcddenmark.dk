@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-import illustration from './images/hero-illustration-kcdd.png';
+import illustration from './images/kcd2023-iso.svg';
 
 const TITLE = 'Kubernetes Community Days Denmark';
 
