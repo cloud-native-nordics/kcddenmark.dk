@@ -1,23 +1,35 @@
 import React from 'react';
 
 import Link from 'components/shared/link';
+import Button from 'components/shared/button';
 
 const TITLE = 'Transport Information';
 
 const Transport = () => (
   <section className="safe-paddings mb-20 bg-white py-20 md:py-24 sm:py-16">
     <div className="container-md ">
-      <h2 className="mb-10 text-center text-6xl font-bold leading-tight text-primary-1">{TITLE}</h2>
+      <h2 id="Transport" className="mb-10 text-center text-6xl font-bold leading-tight text-primary-1">{TITLE}</h2>
 
       <div className="mb-10 text-2xl text-primary-1 sm:text-lg">
-        IMPORTANT: There is no parking available at the venue, however facilities are available in near
-        by shopping centers such as City Vest.
-
+        IMPORTANT: There is no parking available at the venue, however we have arranged free parking in the near
+        by shopping center City Vest. This is however a 3km walk, so we recommend using our shuttle bus service.
       </div>
+
+      <div style={{textAlign: 'center'}}>
+
+      <Button
+        className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
+        to="/shuttle-bus"
+        size="lg"
+      >
+       Shuttle Bus Service
+      </Button>
+      </div>
+
 
       <div className="mt-7">
         <p className='pt-5 pb-5'>
-        <span className="font-bold"> By bus</span> 
+        <span className="font-bold">Public Transportation by bus</span> 
         <p className='pt-5 pb-5'>
         Take bus 11, 12 or 113 to the stop “Sødalsvej/Silkeborgvej”, follow the footpath between the
         buildings on the north side of Silkeborgvej and turn left for JYSK Head Office.

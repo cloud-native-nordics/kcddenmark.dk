@@ -52,10 +52,10 @@ export default {
     to: '/data-privacy',
     target: '_blank',
   },
-  volunteer: {
-    to: '/call-for-volunteers',
-    id: getAnchor('Call for Volunteers'),
-    homeTo: '/call-for-volunteers',
+  gettingthere: {
+    to: '/venue',
+    id: getAnchor('Transport'),
+    homeTo: '/venue',
   },
   conduct: {
     to: 'https://events.linuxfoundation.org/about/code-of-conduct/',
