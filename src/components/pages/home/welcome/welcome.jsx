@@ -10,11 +10,7 @@ const Welcome = () => (
         <p className="mt-0 mb-5 text-center text-4xl font-bold leading-tight pb-10">
         <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
         </p>
-
-        <p className="pb-8">Are you a <span className="font-bold">student</span>? We are giving away 10 tickets to students registered
-          at a Danish university/college/EUD. Fill this <a className="font-bold" href="https://forms.gle/PU6P4fZ6ZCCSeTQ19">form</a> to have
-          a chance to win one!</p>
-
+        
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
           community-organized events that gather adopters and technologists from open source and
