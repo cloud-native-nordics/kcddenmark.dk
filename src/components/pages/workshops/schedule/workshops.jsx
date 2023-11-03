@@ -220,7 +220,7 @@ const Workshops = ({ location }) => {
                       </span>
 
                       {talkLocation && (
-                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                        <span className="rounded-full bg-orange px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
                           {talkLocation}
                         </span>
                       )}
@@ -286,7 +286,7 @@ const Workshops = ({ location }) => {
                         </span>
 
                         {coincidedEvent.talkLocation && (
-                          <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                          <span className="rounded-full bg-orange px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
                             {coincidedEvent.talkLocation}
                           </span>
                         )}

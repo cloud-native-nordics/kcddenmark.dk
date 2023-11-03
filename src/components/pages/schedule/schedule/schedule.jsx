@@ -587,7 +587,12 @@ const Schedule = ({ location }) => {
                         {duration}
                       </span>
                       {talkLocation && (
-                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                        <span className={clsx("rounded-full px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin",
+                          {
+                            'bg-green': talkLocation === 'Auditorium',
+                            'bg-gray-10': talkLocation === 'HeadQuarters, Valdemarsgade 1A, 8000 Aarhus',
+                          }
+                        )}>
                           {talkLocation}
                         </span>
                       )}
@@ -653,7 +658,7 @@ const Schedule = ({ location }) => {
                           {coincidedEvent.duration}
                         </span>
                         {coincidedEvent.talkLocation && (
-                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                          <span className="rounded-full bg-blue-3 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
                         {coincidedEvent.talkLocation}
                           </span>
                         )}
