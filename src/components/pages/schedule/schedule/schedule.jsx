@@ -558,16 +558,9 @@ const Schedule = ({ location }) => {
 
                     </h3>
                     <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
-                      <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
-                        {duration}
-                      </span>
-                      {talkLocation && (
-                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
-                          {talkLocation}
-                        </span>
-                      )}
+
                       {speakers && speakers.length > 0 && (
-                        <ul className="relative inline-flex ml-5 gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                        <ul className="relative inline-flex ml-0 gap-x-5 sm:gap-x-4">
                           {speakers.map(({ name, photo }, index) => (
                             <li className="" key={index}>
                               <figure className="flex items-center gap-x-2">
@@ -586,6 +579,17 @@ const Schedule = ({ location }) => {
                             </li>
                           ))}
                         </ul>
+                      )}
+                    </div>
+
+                    <div className="mt-0 flex items-center gap-x-4 sm:gap-x-2">
+                    <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
+                        {duration}
+                      </span>
+                      {talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                          {talkLocation}
+                        </span>
                       )}
                     </div>
                   </div>
@@ -622,16 +626,8 @@ const Schedule = ({ location }) => {
 
                       </h3>
                       <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
-                        <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
-                          {coincidedEvent.duration}
-                        </span>
-                        {coincidedEvent.talkLocation && (
-                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
-                        {coincidedEvent.talkLocation}
-                          </span>
-                        )}
-                        {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (
-                          <ul className="relative ml-5 inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                      {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (
+                          <ul className="relative ml-0 inline-flex gap-x-5 sm:gap-x-4">
                             {coincidedEvent.speakers.map(({ name, photo }, index) => (
                               <li className="" key={index}>
                                 <figure className="flex items-center gap-x-2">
@@ -651,6 +647,17 @@ const Schedule = ({ location }) => {
                             ))}
                           </ul>
                         )}
+                      </div>
+                      <div className="mt-0 flex items-center gap-x-4 sm:gap-x-2">
+                        <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
+                          {coincidedEvent.duration}
+                        </span>
+                        {coincidedEvent.talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin">
+                        {coincidedEvent.talkLocation}
+                          </span>
+                        )}
+                        
                       </div>
                     </div>
                   )}
