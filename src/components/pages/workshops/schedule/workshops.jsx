@@ -18,6 +18,7 @@ const ITEMS = [
     time: '10:25',
     title: 'How To Add Infrastructure Provisioning to Your Backstage Templates',
     duration: '90 min',
+    talkLocation: 'Room 1',
     speakers: [
       {
         id: '20',
@@ -37,6 +38,8 @@ const ITEMS = [
       time: '10:25',
       title: 'Hands on with WebAssembly and Kubernetes',
       duration: '90 min',
+      talkLocation: 'Room 2',
+
       speakers: [
         {
           id: '21',
@@ -53,6 +56,8 @@ const ITEMS = [
     time: '13:40',
     title: 'Mastering Cluster API and GitOps: Deep Dive into Extensible Components for Building Production-Ready Kubernetes Clusters',
     duration: '90 min',
+    talkLocation: 'Room 1',
+
     speakers: [
       { 
         id: '22', 
@@ -67,6 +72,8 @@ const ITEMS = [
       time: '13:40',
       title: 'Detecting unexpected behavior and intrusions with Falco',
       duration: '90 min',
+      talkLocation: 'Room 2',
+
       speakers: [
         {
           id: '23',
@@ -75,7 +82,7 @@ const ITEMS = [
         },
         {
           id: '24',
-          name: 'Vicente J. Jiménez Miras',
+          name: 'Vicente J. Miras',
           photo: VicenteMiras,
         },
       ],
@@ -120,7 +127,7 @@ const Workshops = ({ location }) => {
   return (
     <section className="safe-paddings pt-9 pb-48 lg:px-8 md:px-5 sm:pt-10 xs:px-0">
       <ul className="mx-auto w-[1072px] max-w-full rounded-[10px] border border-primary-2 shadow-lg">
-        {ITEMS.map(({ id, time, title, duration, isKeynote, speakers, coincidedEvent }, index) => {
+        {ITEMS.map(({ id, time, title, duration, isKeynote, speakers, coincidedEvent, talkLocation}, index) => {
           const isEven = index % 2 === 1;
 
           return (
@@ -177,12 +184,17 @@ const Workshops = ({ location }) => {
                       </span>
                     )}
                   </h3>
-                  <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
+                  <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
                     <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
                       {duration}
                     </span>
+                    {talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
+                          {talkLocation}
+                        </span>
+                      )}
                     {speakers && speakers.length > 0 && (
-                      <ul className="relative inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                      <ul className="relative inline-flex ml-5 gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
                         {speakers.map(({ name, photo }, index) => (
                           <li className="" key={index}>
                             <figure className="flex items-center gap-x-2">
@@ -234,12 +246,17 @@ const Workshops = ({ location }) => {
                         </span>
                       )}
                     </h3>
-                    <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
+                    <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
                       <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
                         {coincidedEvent.duration}
                       </span>
+                      {coincidedEvent.talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
+                        {coincidedEvent.talkLocation}
+                          </span>
+                        )}
                       {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (
-                        <ul className="relative inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                        <ul className="relative inline-flex ml-5  gap-x-0 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
                           {coincidedEvent.speakers.map(({ name, photo }, index) => (
                             <li className="" key={index}>
                               <figure className="flex items-center gap-x-2">
