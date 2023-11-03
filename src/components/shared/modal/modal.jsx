@@ -49,6 +49,7 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
     speakers = [],
     isCoincidedEvent = false,
     isWorkshop = false,
+    talkLocation = '',
   } = modalData;
   const shouldReduceMotion = useReducedMotion();
   const headingId = useId();
@@ -89,6 +90,9 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                   </time>
                   <span className="relative ml-8 rounded-full bg-rasin text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
                     {duration}
+                  </span>
+                  <span className="relative ml-2 rounded-full bg-gray-7 text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1">
+                    {talkLocation}
                   </span>
                   {speakers.length > 0 &&
                     speakers.map(({ id: speakerId, name, photo }, index) => (
