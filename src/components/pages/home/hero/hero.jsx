@@ -42,7 +42,7 @@ const Hero = () => (
               size="lg"
               theme="secondary"
             >
-              Check the schedule
+              Check The Schedule
             </Button>
 
             <Button
