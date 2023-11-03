@@ -46,6 +46,7 @@ const ITEMS = [
     time: '9:00',
     title: 'Welcome',
     duration: '10 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '5',
@@ -69,6 +70,7 @@ const ITEMS = [
     time: '9:10',
     title: 'Keynote: JYSK (Sponsored)',
     duration: '10 min',
+    talkLocation: 'Auditorium',
     isKeynote: true,
     // speakers: [
     //   {
@@ -83,14 +85,16 @@ const ITEMS = [
     time: '9:20',
     title: 'Keynote: Coding Pirates (Sponsored)',
     duration: '10 min',
+    talkLocation: 'Auditorium',
+
     isKeynote: true,
     speakers: [
       {
         id: '25',
         name: 'Louise Overgaard',
         photo: LouiseOvergaard,
-      }
-    ]
+      },
+    ],
   },
   {
     // 4
@@ -98,6 +102,8 @@ const ITEMS = [
     time: '9:30',
     title: 'Keynote: Uber - Migrating 2 million CPU cores to Kubernetes',
     duration: '25 min',
+    talkLocation: 'Auditorium',
+
     isKeynote: true,
     speakers: [
       {
@@ -119,6 +125,7 @@ const ITEMS = [
     time: '9:55',
     title: 'Platinum Sponsors Pitches',
     duration: '15 min',
+    talkLocation: 'Auditorium',
   },
   {
     time: '10:10',
@@ -130,6 +137,7 @@ const ITEMS = [
     time: '10:25',
     title: 'Observability For You and Me with OpenTelemetry',
     duration: '35 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '15',
@@ -144,6 +152,7 @@ const ITEMS = [
       time: '10:25',
       title: 'Running prioritised workload in Kubernetes',
       duration: '35 min',
+      talkLocation: 'Lounge',
       speakers: [
         {
           id: '14',
@@ -166,6 +175,7 @@ const ITEMS = [
     time: '11:15',
     title: 'The Platform Engineering Journey',
     duration: '35 min',
+    talkLocation: 'Auditorium',
     speakers: [{ id: '0', name: 'Roberth Strand', photo: RoberthStrand }],
     presentation:
       'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. <br><br>Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br><br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
@@ -174,6 +184,7 @@ const ITEMS = [
       time: '11:15',
       title: 'Principle of Least Privilege: How to Secure Kubernetes Without Making Users Hate You',
       duration: '35 min',
+      talkLocation: 'Lounge',
       speakers: [
         {
           id: '1',
@@ -195,6 +206,7 @@ const ITEMS = [
     time: '12:05',
     title: 'GitOps or a Journey to a Production Incident and Swiftly Back Again',
     duration: '35 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '15',
@@ -209,6 +221,7 @@ const ITEMS = [
       time: '12:05',
       title: 'Event sourcing after page 1: How we built a cloud native bank',
       duration: '35 min',
+      talkLocation: 'Lounge',
       speakers: [
         {
           id: '16',
@@ -230,6 +243,7 @@ const ITEMS = [
     time: '13:40',
     title: 'Platform Engineering Is Not About Tech',
     duration: '35 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '3',
@@ -249,6 +263,7 @@ const ITEMS = [
       time: '13:40',
       title: 'Cloud Native Data Platforms - The why, what and how',
       duration: '35 min',
+      talkLocation: 'Lounge',
       speakers: [
         {
           id: 17,
@@ -272,6 +287,7 @@ const ITEMS = [
     title:
       'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
     duration: '35 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '4',
@@ -286,6 +302,7 @@ const ITEMS = [
       time: '14:30',
       title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
       duration: '35 min',
+      talkLocation: 'Lounge',
       speakers: [
         {
           name: 'Anders Lybecker',
@@ -297,7 +314,6 @@ const ITEMS = [
     },
   },
   {
-
     time: '15:05',
     title: 'Coffee and Cake Break',
     duration: '35 min',
@@ -307,6 +323,7 @@ const ITEMS = [
     time: '15:40',
     title: 'Application promotion in GitOps',
     duration: '5 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '18',
@@ -320,6 +337,7 @@ const ITEMS = [
       time: '15:40',
       title: 'Networking',
       duration: '5 min',
+      talkLocation: 'Lounge',
     },
   },
   {
@@ -327,6 +345,8 @@ const ITEMS = [
     time: '15:45',
     title: 'DevOps Lessons from a Primary School Teacher',
     duration: '5 min',
+    talkLocation: 'Auditorium',
+
     speakers: [
       {
         id: '6',
@@ -340,6 +360,7 @@ const ITEMS = [
       time: '15:45',
       title: 'Networking',
       duration: '5 min',
+      talkLocation: 'Lounge',
     },
   },
   {
@@ -347,6 +368,8 @@ const ITEMS = [
     time: '15:50',
     title: 'Prioritising the tricky stuff when building your platform',
     duration: '5 min',
+    talkLocation: 'Auditorium',
+
     speakers: [
       {
         id: '11',
@@ -360,6 +383,7 @@ const ITEMS = [
       time: '15:50',
       title: 'Networking',
       duration: '5 min',
+      talkLocation: 'Lounge',
     },
   },
   {
@@ -367,6 +391,7 @@ const ITEMS = [
     time: '15:55',
     title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
     duration: '5 min',
+    talkLocation: 'Auditorium',
     speakers: [
       {
         id: '12',
@@ -380,6 +405,7 @@ const ITEMS = [
       time: '15:55',
       title: 'Networking',
       duration: '5 min',
+      talkLocation: 'Lounge',
     },
   },
   {
@@ -392,6 +418,7 @@ const ITEMS = [
     time: '16:15',
     title: 'Keynote: CERN and Cloud Native Computing - Playing Platform LEGO',
     duration: '25 min',
+    talkLocation: 'Auditorium',
     isKeynote: true,
     speakers: [
       {
@@ -400,21 +427,25 @@ const ITEMS = [
         photo: RicardoRocha,
       },
     ],
-    presentation: 'CERN has a long tradition of handling large computing infrastructures for its workloads. Well before the appearance of cloud computing and the generalization of Big Data across all industries, we already had taken the challenge of storing and analyzing PetaBytes of data with all the complexities this in-takes. <br> This session will go through how those platforms evolved over time and how they are built of multiple parts holding together much like LEGO bricks. How in some cases custom bricks had to be built for them not to fall apart. And how cloud native is slowly replacing those pieces with a set of generic, reusable bricks maintained by large communities and covering all the needs of a modern infrastructure.'
+    presentation:
+      'CERN has a long tradition of handling large computing infrastructures for its workloads. Well before the appearance of cloud computing and the generalization of Big Data across all industries, we already had taken the challenge of storing and analyzing PetaBytes of data with all the complexities this in-takes. <br> This session will go through how those platforms evolved over time and how they are built of multiple parts holding together much like LEGO bricks. How in some cases custom bricks had to be built for them not to fall apart. And how cloud native is slowly replacing those pieces with a set of generic, reusable bricks maintained by large communities and covering all the needs of a modern infrastructure.',
   },
   {
     time: '16:40',
     title: 'Thank you by Coding Pirates',
+    talkLocation: 'Auditorium',
     duration: '5 min',
   },
   {
     time: '16:45',
     title: 'Surprises and raffles',
+    talkLocation: 'Auditorium',
     duration: '5 min',
   },
   {
     time: '16:50',
     title: 'Closing',
+    talkLocation: 'Auditorium',
     duration: '10 min',
   },
   {
@@ -422,9 +453,10 @@ const ITEMS = [
     time: '18:00',
     title: 'Afterparty with DJ @ HeadQuarters, Aarhus!',
     presentation:
-      "Situated in the vibrant center of Aarhus, HeadQuarters is a vintage spot set to host our afterparty! <br /><br />Wind down, take a breather, and reminisce about the day's highlights over some free drinks. Enjoy the vibes from the in-house DJ and mingle!<br \> <br \>Remember to bring your badge! <br/><br/><strong>Location: HeadQuarters, Valdemarsgade 1A, 8000 Aarhus</strong>",
+      "Situated in the vibrant center of Aarhus, HeadQuarters is a vintage spot set to host our afterparty! <br /><br />Wind down, take a breather, and reminisce about the day's highlights over some free drinks. Enjoy the vibes from the in-house DJ and mingle!<br > <br >Remember to bring your badge! <br/><br/><strong>Location: HeadQuarters, Valdemarsgade 1A, 8000 Aarhus</strong>",
 
     duration: '4 hr',
+    talkLocation: 'HeadQuarters, Valdemarsgade 1A, 8000 Aarhus'
   },
 ];
 
@@ -463,127 +495,80 @@ const Schedule = ({ location }) => {
   return (
     <section className="safe-paddings pt-9 pb-48 lg:px-8 md:px-5 sm:pt-10 xs:px-0">
       <ul className="mx-auto w-[1072px] max-w-full rounded-[10px] border border-primary-2 shadow-lg">
-        {ITEMS.map(({ id, time, title, duration, isKeynote, speakers, coincidedEvent }, index) => {
-          const isEven = index % 2 === 1;
+        {ITEMS.map(
+          (
+            { id, time, title, duration, isKeynote, speakers, coincidedEvent, talkLocation },
+            index
+          ) => {
+            const isEven = index % 2 === 1;
 
-          return (
-            <li
-              className={clsx(
-                'grid grid-cols-[114px_1fr] md:grid-cols-[106px_1fr] sm:grid-cols-1',
-                {
-                  'bg-primary-4': isEven,
-                  'bg-primary-6': title === 'Welcome',
-                  'bg-lightYellow': title === 'Lunch',
-                  'bg-lightOrange': title === 'Closing',
-                }
-              )}
-              key={index}
-            >
-              <div className="flex items-center justify-center sm:justify-start sm:px-5 sm:pt-5">
-                <time className="mb-auto mt-7 text-[15px] font-semibold leading-none tracking-tight text-primary-1 opacity-60 md:mt-5 md:text-sm sm:my-0">
-                  {time}
-                </time>
-                {isKeynote && (
-                  <span className="ml-4 hidden rounded-full bg-red px-2 py-1.5 text-xs font-semibold leading-none tracking-tighter text-white sm:inline-flex">
-                    Keynote
-                  </span>
+            return (
+              <li
+                className={clsx(
+                  'grid grid-cols-[114px_1fr] md:grid-cols-[106px_1fr] sm:grid-cols-1',
+                  {
+                    'bg-primary-4': isEven,
+                    'bg-primary-6': title === 'Welcome',
+                    'bg-lightYellow': title === 'Lunch',
+                    'bg-lightOrange': title === 'Closing',
+                  }
                 )}
-              </div>
-              <div
-                className={clsx('border-l border-l-primary-2 sm:border-none', {
-                  'grid grid-cols-2 sm:grid-cols-1': coincidedEvent,
-                })}
+                key={index}
               >
-                <div
-                  className={clsx(
-                    'flex flex-col gap-y-3 px-7 py-6 md:py-4 sm:gap-y-2 sm:px-5 sm:pb-4',
-                    isKeynote ? 'sm:pt-2' : 'sm:pt-3'
-                  )}
-                >
-                  <h3 className="inline-flex items-center gap-x-3">
-                    {id ? (
-                      <Button
-                        className="!whitespace-normal !text-left text-lg !font-semibold !leading-snug tracking-tight text-primary-1 transition-colors duration-200 hover:text-blue-1 md:text-base"
-                        theme="link-primary"
-                        onClick={() => handleModalShow(index)}
-                      >
-                        {title}
-                      </Button>
-                    ) : (
-                      <span className="text-lg font-semibold leading-snug tracking-tight text-primary-1 md:text-base">
-                        {title}
-                      </span>
-                    )}
-                    {isKeynote && (
-                      <span className="rounded-full bg-red px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
-                        Keynote
-                      </span>
-                    )}
-                  </h3>
-                  <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
-                    <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
-                      {duration}
+                <div className="flex items-center justify-center sm:justify-start sm:px-5 sm:pt-5">
+                  <time className="mb-auto mt-7 text-[15px] font-semibold leading-none tracking-tight text-primary-1 opacity-60 md:mt-5 md:text-sm sm:my-0">
+                    {time}
+                  </time>
+                  {isKeynote && (
+                    <span className="ml-4 hidden rounded-full bg-red px-2 py-1.5 text-xs font-semibold leading-none tracking-tighter text-white sm:inline-flex">
+                      Keynote
                     </span>
-                    {speakers && speakers.length > 0 && (
-                      <ul className="relative inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
-                        {speakers.map(({ name, photo }, index) => (
-                          <li className="" key={index}>
-                            <figure className="flex items-center gap-x-2">
-                              <img
-                                className="h-7 w-7 rounded-full"
-                                src={photo}
-                                width={28}
-                                height={28}
-                                alt={name}
-                                loading="lazy"
-                              />
-                              <figcaption className="text-sm font-medium leading-none text-primary-5 md:text-[13px]">
-                                {name}
-                              </figcaption>
-                            </figure>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
+                  )}
                 </div>
-                {coincidedEvent && (
+                <div
+                  className={clsx('border-l border-l-primary-2 sm:border-none', {
+                    'grid grid-cols-2 sm:grid-cols-1': coincidedEvent,
+                  })}
+                >
                   <div
                     className={clsx(
-                      'flex flex-col gap-y-3 border-l border-primary-2 px-7 py-6 md:py-4 sm:gap-y-2 sm:border-t sm:border-l-0 sm:px-5 sm:pb-4',
+                      'flex flex-col gap-y-3 px-7 py-6 md:py-4 sm:gap-y-2 sm:px-5 sm:pb-4',
                       isKeynote ? 'sm:pt-2' : 'sm:pt-3'
                     )}
                   >
                     <h3 className="inline-flex items-center gap-x-3">
-                      {coincidedEvent.id ? (
+                      {id ? (
                         <Button
                           className="!whitespace-normal !text-left text-lg !font-semibold !leading-snug tracking-tight text-primary-1 transition-colors duration-200 hover:text-blue-1 md:text-base"
                           theme="link-primary"
-                          onClick={() => {
-                            handleModalShow(index);
-                            setIsCoincidedEvent(true);
-                          }}
+                          onClick={() => handleModalShow(index)}
                         >
-                          {coincidedEvent.title}
+                          {title}
                         </Button>
                       ) : (
                         <span className="text-lg font-semibold leading-snug tracking-tight text-primary-1 md:text-base">
-                          {coincidedEvent.title}
+                          {title}
                         </span>
                       )}
-                      {coincidedEvent.isKeynote && (
-                        <span className="rounded-full bg-red px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
+                      {isKeynote && (
+                        <span className="rounded-full bg-red px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
                           Keynote
                         </span>
                       )}
+
                     </h3>
-                    <div className="mt-auto flex items-center gap-x-8 sm:gap-x-7">
+                    <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
                       <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
-                        {coincidedEvent.duration}
+                        {duration}
                       </span>
-                      {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (
-                        <ul className="relative inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
-                          {coincidedEvent.speakers.map(({ name, photo }, index) => (
+                      {talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
+                          {talkLocation}
+                        </span>
+                      )}
+                      {speakers && speakers.length > 0 && (
+                        <ul className="relative inline-flex ml-5 gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                          {speakers.map(({ name, photo }, index) => (
                             <li className="" key={index}>
                               <figure className="flex items-center gap-x-2">
                                 <img
@@ -591,7 +576,7 @@ const Schedule = ({ location }) => {
                                   src={photo}
                                   width={28}
                                   height={28}
-                                  alt={`${name} photo`}
+                                  alt={name}
                                   loading="lazy"
                                 />
                                 <figcaption className="text-sm font-medium leading-none text-primary-5 md:text-[13px]">
@@ -604,11 +589,76 @@ const Schedule = ({ location }) => {
                       )}
                     </div>
                   </div>
-                )}
-              </div>
-            </li>
-          );
-        })}
+                  {coincidedEvent && (
+                    <div
+                      className={clsx(
+                        'flex flex-col gap-y-3 border-l border-primary-2 px-7 py-6 md:py-4 sm:gap-y-2 sm:border-t sm:border-l-0 sm:px-5 sm:pb-4',
+                        isKeynote ? 'sm:pt-2' : 'sm:pt-3'
+                      )}
+                    >
+                      <h3 className="inline-flex items-center gap-x-3">
+                        {coincidedEvent.id ? (
+                          <Button
+                            className="!whitespace-normal !text-left text-lg !font-semibold !leading-snug tracking-tight text-primary-1 transition-colors duration-200 hover:text-blue-1 md:text-base"
+                            theme="link-primary"
+                            onClick={() => {
+                              handleModalShow(index);
+                              setIsCoincidedEvent(true);
+                            }}
+                          >
+                            {coincidedEvent.title}
+                          </Button>
+                        ) : (
+                          <span className="text-lg font-semibold leading-snug tracking-tight text-primary-1 md:text-base">
+                            {coincidedEvent.title}
+                          </span>
+                        )}
+                        {coincidedEvent.isKeynote && (
+                          <span className="rounded-full bg-red px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
+                            Keynote
+                          </span>
+                        )}
+
+
+                      </h3>
+                      <div className="mt-auto flex items-center gap-x-4 sm:gap-x-7">
+                        <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
+                          {coincidedEvent.duration}
+                        </span>
+                        {coincidedEvent.talkLocation && (
+                        <span className="rounded-full bg-gray-10 px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin sm:hidden">
+                        {coincidedEvent.talkLocation}
+                          </span>
+                        )}
+                        {coincidedEvent.speakers && coincidedEvent.speakers.length > 0 && (
+                          <ul className="relative ml-5 inline-flex gap-x-5 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 sm:gap-x-4">
+                            {coincidedEvent.speakers.map(({ name, photo }, index) => (
+                              <li className="" key={index}>
+                                <figure className="flex items-center gap-x-2">
+                                  <img
+                                    className="h-7 w-7 rounded-full"
+                                    src={photo}
+                                    width={28}
+                                    height={28}
+                                    alt={`${name} photo`}
+                                    loading="lazy"
+                                  />
+                                  <figcaption className="text-sm font-medium leading-none text-primary-5 md:text-[13px]">
+                                    {name}
+                                  </figcaption>
+                                </figure>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </li>
+            );
+          }
+        )}
       </ul>
       <Modal
         modalData={isCoincidedEvent ? ITEMS[modalDataId].coincidedEvent : ITEMS[modalDataId]}
