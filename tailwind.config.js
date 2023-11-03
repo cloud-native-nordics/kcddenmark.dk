@@ -38,7 +38,9 @@ module.exports = {
       white: '#ffffff',
       yellow: '#FFEA7D',
       red: '#FF4B43',
-      blue: { 1: '#3333FF', 2: '#2929FF' },
+      blue: { 1: '#3333FF', 2: '#2929FF', 3: 'rgba(75, 125, 231, 0.5)' },
+      green: 'rgba(49, 184, 130, 0.5)',
+      orange: 'rgba(236, 138, 64, 0.5)',
       primary: {
         1: '#262F59',
         2: 'rgba(38, 47, 89, 0.1)',
