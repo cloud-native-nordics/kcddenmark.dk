@@ -185,6 +185,8 @@ const ITEMS = [
       title: 'Principle of Least Privilege: How to Secure Kubernetes Without Making Users Hate You',
       duration: '35 min',
       talkLocation: 'Lounge',
+      slideDeck: 'https://slides.ksick.dev/20231114/KcdDenmark',
+      video: 'https://www.youtube.com/embed/jzIfiYak104?si=B7edxhDKLskZu1tU',
       speakers: [
         {
           id: '1',
