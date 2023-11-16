@@ -50,8 +50,8 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
     isCoincidedEvent = false,
     isWorkshop = false,
     talkLocation = '',
-    slideDeck = '',
-    video = '',
+    slideDeck = undefined,
+    video = undefined,
   } = modalData;
   const shouldReduceMotion = useReducedMotion();
   const headingId = useId();
@@ -120,10 +120,10 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                 <h2 className="mt-7 text-2xl font-semibold leading-tight tracking-[-0.01em] text-primary-1 sm:text-lg">
                   {title}
                 </h2>
-                { video === '' ? '' : (
+                { video && (
                   <div className='mt-3'><iframe width="512" height="288" src={ video } title={ title } frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                 )}
-                { slideDeck === '' ? '' : (
+                { slideDeck && (
                   <div className='mt-3'><span className='inline-flex items-center rounded-full bg-gray-5 text-white px-2 py-1 text-s font-medium text-primary-1'><a href={slideDeck}>Presentation</a></span></div>
                 )}
                 <p
