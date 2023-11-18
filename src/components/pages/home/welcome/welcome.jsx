@@ -5,11 +5,10 @@ const Welcome = () => (
     <div className="container-md">
       <div className="text-2xl text-primary-1 sm:text-lg">
         {/* <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Ticket sales are now open!</p> */}
-        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Tickets are sold out!</p>
         
-        <p className="mt-0 mb-5 text-center text-4xl font-bold leading-tight pb-10">
+        {/* <p className="mt-0 mb-5 text-center text-4xl font-bold leading-tight pb-10">
         <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
-        </p>
+        </p> */}
         
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
