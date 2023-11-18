@@ -66,13 +66,6 @@ const MobileMenu = ({ isOpen, onButtonClick }) => {
         >
           Get your ticket
         </Button> */}
-        <Button
-          className="mt-7 bg-red text-white"
-          to="https://kcddenmark-1.ticketbutler.io/e/kcd-denmark-2023"
-          size="lg"
-        >
-          Join the waiting list
-        </Button>
       </m.nav>
     </LazyMotion>
   );
