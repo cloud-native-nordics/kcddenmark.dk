@@ -103,7 +103,7 @@ const ITEMS = [
     title: 'Keynote: Uber - Migrating 2 million CPU cores to Kubernetes',
     duration: '25 min',
     talkLocation: 'Auditorium',
-
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Lucy%20Sweet%20and%20Mathias%20Schwarz%20-%20Migrating%202%20million%20CPU%20cores%20to%20Kubernetes.pdf',
     isKeynote: true,
     speakers: [
       {
@@ -137,6 +137,7 @@ const ITEMS = [
     time: '10:25',
     title: 'Observability For You and Me with OpenTelemetry',
     duration: '35 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Eric%20Schabell%20-%20Observability%20For%20You%20and%20Me%20with%20OpenTelemetry.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -152,6 +153,7 @@ const ITEMS = [
       time: '10:25',
       title: 'Running prioritised workload in Kubernetes',
       duration: '35 min',
+      slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Allan%20Hojgaard%20Jensen%20-%20Running%20prioritised%20workload%20in%20Kubernetes.pdf',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -186,7 +188,7 @@ const ITEMS = [
       duration: '35 min',
       talkLocation: 'Lounge',
       slideDeck: 'https://slides.ksick.dev/20231114/KcdDenmark',
-      video: 'https://www.youtube.com/embed/jzIfiYak104?si=B7edxhDKLskZu1tU',
+      //video: 'https://www.youtube.com/embed/jzIfiYak104?si=B7edxhDKLskZu1tU',
       speakers: [
         {
           id: '1',
@@ -208,6 +210,7 @@ const ITEMS = [
     time: '12:05',
     title: 'GitOps or a Journey to a Production Incident and Swiftly Back Again',
     duration: '35 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Pavol%20Hronsky%20-%20GitOps%20or%20a%20Journey%20to%20a%20Production%20Incident%20and%20Swiftly%20Back%20Again.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -223,6 +226,7 @@ const ITEMS = [
       time: '12:05',
       title: 'Event sourcing after page 1: How we built a cloud native bank',
       duration: '35 min',
+      slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Thomas%20Fangel%20-%20Event%20sourcing%20after%20page%201%20-%20Final.pdf',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -245,6 +249,7 @@ const ITEMS = [
     time: '13:40',
     title: 'Platform Engineering Is Not About Tech',
     duration: '35 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Francesca%20Carta%20and%20Nicolo%20Cambiaso%20-%20Platform%20Engineering%20Is%20Not%20About%20Tech%20-%20Talk%20.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -265,6 +270,7 @@ const ITEMS = [
       time: '13:40',
       title: 'Cloud Native Data Platforms - The why, what and how',
       duration: '35 min',
+      slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Rasmus%20Steiniche%20-%20Cloud%20Native%20Data%20Platforms.pdf',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -289,6 +295,7 @@ const ITEMS = [
     title:
       'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
     duration: '35 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Jorge%20Lainfiesta%20-%20Is%20Backstage%20for%20me.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -304,6 +311,7 @@ const ITEMS = [
       time: '14:30',
       title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
       duration: '35 min',
+      slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Anders%20Lybecker%20-%20Carbon-Aware%20Computing%20-%20Measuring%20and%20Reducing%20the%20Carbon%20Intensity%20of%20Software.pdf',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -325,6 +333,7 @@ const ITEMS = [
     time: '15:40',
     title: 'Application promotion in GitOps',
     duration: '5 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Emil%20Munkso%20-%20Application%20promotion%20in%20GitOps%20-%20KCD%202023.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -348,7 +357,7 @@ const ITEMS = [
     title: 'DevOps Lessons from a Primary School Teacher',
     duration: '5 min',
     talkLocation: 'Auditorium',
-
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Timothy%20Mamo%20-%20DevOps%20Lessons%20from%20a%20Primary%20School%20Teacher%20-%20Ignite.pdf',
     speakers: [
       {
         id: '6',
@@ -370,8 +379,8 @@ const ITEMS = [
     time: '15:50',
     title: 'Prioritising the tricky stuff when building your platform',
     duration: '5 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Mads%20Hogsted%20Danquah%20-%20Prioritize%20the%20tricky%20stuff%20when%20building%20your%20platform.pdf',
     talkLocation: 'Auditorium',
-
     speakers: [
       {
         id: '11',
@@ -393,6 +402,7 @@ const ITEMS = [
     time: '15:55',
     title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
     duration: '5 min',
+    slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Stephane%20Karagulmez%20-%20Service%20Mesh.pdf',
     talkLocation: 'Auditorium',
     speakers: [
       {
