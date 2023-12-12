@@ -104,6 +104,7 @@ const ITEMS = [
     duration: '25 min',
     talkLocation: 'Auditorium',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Lucy%20Sweet%20and%20Mathias%20Schwarz%20-%20Migrating%202%20million%20CPU%20cores%20to%20Kubernetes.pdf',
+    video: 'https://www.youtube.com/embed/xBiOudcsYug?si=jWWB7HIrONujjRha',
     isKeynote: true,
     speakers: [
       {
@@ -138,6 +139,7 @@ const ITEMS = [
     title: 'Observability For You and Me with OpenTelemetry',
     duration: '35 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Eric%20Schabell%20-%20Observability%20For%20You%20and%20Me%20with%20OpenTelemetry.pdf',
+    video: 'https://www.youtube.com/embed/GhN4Y_reTSk?si=ksYJJtwDdwkQ0TWC',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -154,6 +156,7 @@ const ITEMS = [
       title: 'Running prioritised workload in Kubernetes',
       duration: '35 min',
       slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Allan%20Hojgaard%20Jensen%20-%20Running%20prioritised%20workload%20in%20Kubernetes.pdf',
+      video: 'https://www.youtube.com/embed/MCXSRQoo_RE?si=En3u5WwTW838tFlG',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -181,6 +184,7 @@ const ITEMS = [
     speakers: [{ id: '0', name: 'Roberth Strand', photo: RoberthStrand }],
     presentation:
       'More often than not, people in tech struggle with technical decisions and strategy, rather than technical implementations. <br><br>Over the years, I have observed trends come and go, but there have been a couple that truly make a difference. One of the more recent trends is that of Platform Engineering, which is the accumulation of what we have learned over the years in IT-operations, combining DevOps with a product mindset to make sure that developers can focus on creating business value instead of having to deal with infrastructure and cloud architecture decisions. <br><br> In this talk, I would like to explore some of the common pitfalls and benefits of Platform Engineering, talk about my experiences going from traditional sysadmin to platform engineer, and give you all a great start on your platform engineering journey.',
+    video: 'https://www.youtube.com/embed/9Qzuerv3o2Q?si=k4OkMy2lKBOtlzmw',
     coincidedEvent: {
       id: '91',
       time: '11:15',
@@ -188,7 +192,7 @@ const ITEMS = [
       duration: '35 min',
       talkLocation: 'Lounge',
       slideDeck: 'https://slides.ksick.dev/20231114/KcdDenmark',
-      //video: 'https://www.youtube.com/embed/jzIfiYak104?si=B7edxhDKLskZu1tU',
+      video: 'https://www.youtube.com/embed/foRyYotyyow?si=fsIXnQCUfoR_NYz9',
       speakers: [
         {
           id: '1',
@@ -211,6 +215,7 @@ const ITEMS = [
     title: 'GitOps or a Journey to a Production Incident and Swiftly Back Again',
     duration: '35 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Pavol%20Hronsky%20-%20GitOps%20or%20a%20Journey%20to%20a%20Production%20Incident%20and%20Swiftly%20Back%20Again.pdf',
+    video: 'https://www.youtube.com/embed/2k9WTeQXUik?si=jSyB9q-9M_PHRDqN',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -227,6 +232,7 @@ const ITEMS = [
       title: 'Event sourcing after page 1: How we built a cloud native bank',
       duration: '35 min',
       slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Thomas%20Fangel%20-%20Event%20sourcing%20after%20page%201%20-%20Final.pdf',
+      video: 'https://www.youtube.com/embed/F_3UyusQSFU?si=iEtrr4IomtPwNMdL',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -250,6 +256,7 @@ const ITEMS = [
     title: 'Platform Engineering Is Not About Tech',
     duration: '35 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Francesca%20Carta%20and%20Nicolo%20Cambiaso%20-%20Platform%20Engineering%20Is%20Not%20About%20Tech%20-%20Talk%20.pdf',
+    video: 'https://www.youtube.com/embed/ev9ac3P5iD8?si=j__6GZfWBdNreKIc',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -271,6 +278,7 @@ const ITEMS = [
       title: 'Cloud Native Data Platforms - The why, what and how',
       duration: '35 min',
       slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Rasmus%20Steiniche%20-%20Cloud%20Native%20Data%20Platforms.pdf',
+      video: 'https://www.youtube.com/embed/drR80LdmLHg?si=uxyqEv_7E3dQtNYI',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -296,6 +304,7 @@ const ITEMS = [
       'Is Backstage for me? A systematic approach to deciding if and how to use the framework successfully',
     duration: '35 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Jorge%20Lainfiesta%20-%20Is%20Backstage%20for%20me.pdf',
+    video: 'https://www.youtube.com/embed/5ZuuGMMk9K8?si=pjGHnOxpApmea_4f',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -312,6 +321,7 @@ const ITEMS = [
       title: 'Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software',
       duration: '35 min',
       slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Anders%20Lybecker%20-%20Carbon-Aware%20Computing%20-%20Measuring%20and%20Reducing%20the%20Carbon%20Intensity%20of%20Software.pdf',
+      video: 'https://www.youtube.com/embed/VAy8gEaB1Z0?si=MXwxrG-2n8gdhJ5y',
       talkLocation: 'Lounge',
       speakers: [
         {
@@ -334,6 +344,7 @@ const ITEMS = [
     title: 'Application promotion in GitOps',
     duration: '5 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Emil%20Munkso%20-%20Application%20promotion%20in%20GitOps%20-%20KCD%202023.pdf',
+    video: 'https://www.youtube.com/embed/9XKHmI7zR5M?si=Om_pBn1INaSllnrH',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -358,6 +369,7 @@ const ITEMS = [
     duration: '5 min',
     talkLocation: 'Auditorium',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Timothy%20Mamo%20-%20DevOps%20Lessons%20from%20a%20Primary%20School%20Teacher%20-%20Ignite.pdf',
+    video: 'https://www.youtube.com/embed/2QVOd4B03rE?si=KyrI1r7SOIliGHms',
     speakers: [
       {
         id: '6',
@@ -380,6 +392,7 @@ const ITEMS = [
     title: 'Prioritising the tricky stuff when building your platform',
     duration: '5 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Mads%20Hogsted%20Danquah%20-%20Prioritize%20the%20tricky%20stuff%20when%20building%20your%20platform.pdf',
+    video: 'https://www.youtube.com/embed/DdmpcwuIK5c?si=lZ75N51m-iieMB1E',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -403,6 +416,7 @@ const ITEMS = [
     title: 'Unlocking Next-Gen Networking and Security with Cilium Service Mesh',
     duration: '5 min',
     slideDeck: 'https://raw.githubusercontent.com/cloud-native-nordics/kcddenmark/4fe089a9644fd1fda9de4d7e24541094e88c1e13/presentations/2023/Stephane%20Karagulmez%20-%20Service%20Mesh.pdf',
+    video: 'https://www.youtube.com/embed/ptwz2lpOAKM?si=achf4oFreWbEJwJP',
     talkLocation: 'Auditorium',
     speakers: [
       {
@@ -428,19 +442,33 @@ const ITEMS = [
   {
     id: '22',
     time: '16:15',
-    title: 'Keynote: CERN and Cloud Native Computing - Playing Platform LEGO',
+    title: 'Panel Discussion',
     duration: '25 min',
     talkLocation: 'Auditorium',
+    video: 'https://www.youtube.com/embed/7CvuFkOBcgw?si=ZYLljvFSUQdZrT9O',
     isKeynote: true,
     speakers: [
       {
-        id: '19',
-        name: 'Ricardo Rocha',
-        photo: RicardoRocha,
+        id: '9',
+        name: 'Lucy Sweet',
+        photo: LucySweet,
+      },
+      {
+        id: '0',
+        name: 'Roberth Strand',
+        photo: RoberthStrand 
+      },
+      {
+        id: '15',
+        name: 'Eric D. Schabell',
+        photo: EricDSchabell,
+      },
+      {
+        id: 17,
+        name: 'Rasmus Steiniche',
+        photo: RasmusSteiniche,
       },
     ],
-    presentation:
-      'CERN has a long tradition of handling large computing infrastructures for its workloads. Well before the appearance of cloud computing and the generalization of Big Data across all industries, we already had taken the challenge of storing and analyzing PetaBytes of data with all the complexities this in-takes. <br> This session will go through how those platforms evolved over time and how they are built of multiple parts holding together much like LEGO bricks. How in some cases custom bricks had to be built for them not to fall apart. And how cloud native is slowly replacing those pieces with a set of generic, reusable bricks maintained by large communities and covering all the needs of a modern infrastructure.',
   },
   {
     time: '16:40',
