@@ -4,7 +4,8 @@ import Button from 'components/shared/button';
 
 const TITLE = 'Conference Schedule';
 const DESCRIPTION =
-  "Get ready for an action-packed day. With two tracks and more than 15 sessions to choose from, you'll have plenty of opportunities to learn from experts in the field. The whole event will be held in English.";
+  "Check the schedule of KCD Denmark 2023 and watch the presentation recordings by expanding the details of your favorite sessions.";
+  //"Get ready for an action-packed day. With two tracks and more than 15 sessions to choose from, you'll have plenty of opportunities to learn from experts in the field. The whole event will be held in English.";
 
 const Hero = () => (
   <section className="safe-paddings pt-24 pb-10 lg:pt-[4.5rem] md:pt-16 md:pb-4 sm:py-8">
@@ -24,13 +25,13 @@ const Hero = () => (
       >
         Get your ticket
       </Button> */}
-      <Button
+      {/* <Button
         className="mt-10 shadow-xl bg-red text-white hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
         size="lg"
         to="/workshops"
       >
         Check the workshops
-      </Button>
+      </Button> */}
     </div>
   </section>
 );

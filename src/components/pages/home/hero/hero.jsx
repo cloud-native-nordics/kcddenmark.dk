@@ -36,14 +36,14 @@ const Hero = () => (
             >
               Get your ticket
             </Button> */}
-            {/* <Button
+            <Button
               className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
-              to="/schedule"
+              to="https://www.youtube.com/watch?v=VAy8gEaB1Z0&list=PL09s8ZalKQe85iIzlixAOQEh_oFMoMKtM"
               size="lg"
               theme="secondary"
             >
-              Check The Schedule
-            </Button> */}
+              Watch the Recordings
+            </Button>
 
             {/* <Button
               className="mt-5 rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
