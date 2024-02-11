@@ -2,13 +2,13 @@ import LINKS from 'constants/links.js';
 
 const MENUS = {
   header: [
-    { text: 'Speakers', ...LINKS.speakers },
-    { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Workshops', ...LINKS.workshops },
+    // { text: 'Speakers', ...LINKS.speakers },
+    { text: 'Archive', ...LINKS.schedule },
+    // { text: 'Workshops', ...LINKS.workshops },
     // { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Getting There', ...LINKS.gettingthere },
-    { text: 'Venue', ...LINKS.venue },
-    { text: 'Sponsors', ...LINKS.sponsors },
+    // { text: 'Venue', ...LINKS.venue },
+    // { text: 'Sponsors', ...LINKS.sponsors },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -17,13 +17,13 @@ const MENUS = {
     { text: 'Privacy Policy', ...LINKS.privacy },
   ],
   mobile: [
-    { text: 'Speakers', ...LINKS.speakers },
-    { text: 'Schedule', ...LINKS.schedule },
-    { text: 'Workshops', ...LINKS.workshops },
+    // { text: 'Speakers', ...LINKS.speakers },
+    { text: 'Archive', ...LINKS.schedule },
+    // { text: 'Workshops', ...LINKS.workshops },
     // { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Getting There', ...LINKS.gettingthere },
-    { text: 'Venue', ...LINKS.venue },
-    { text: 'Sponsors', ...LINKS.sponsors },
+    // { text: 'Venue', ...LINKS.venue },
+    // { text: 'Sponsors', ...LINKS.sponsors },
   ],
 };
 
