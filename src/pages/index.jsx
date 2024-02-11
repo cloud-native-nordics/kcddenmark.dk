@@ -16,9 +16,9 @@ const HomePage = ({ location }) => (
     <Hero />
     <Welcome />
     {/* <Proposal /> */}
-    <Speakers location={location} />
+    {/* {<Speakers location={location} />} */}
     {/*<Schedule /> */}
-    {<Sponsors />}
+    {/* <Sponsors />*/}
     {/* <Partners /> */}
   </Layout>
 );
