@@ -18,7 +18,7 @@ const HomePage = ({ location }) => (
     {/* <Proposal /> */}
     {/* {<Speakers location={location} />} */}
     {/*<Schedule /> */}
-    {/* <Sponsors />*/}
+    { <Sponsors />}
     {/* <Partners /> */}
   </Layout>
 );

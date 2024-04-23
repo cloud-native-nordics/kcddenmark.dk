@@ -8,6 +8,7 @@ import JYSK from 'icons/JYSK.svg';
 import CodingPirates from 'icons/codingpirates.svg';
 import Isovalent from 'icons/isovalent.svg'
 import Netic from 'icons/netic.png'
+import ContainByNetic from 'icons/containbynetic.svg'
 import Dynatrace from 'icons/dynatrace.svg'
 import Systematic from 'icons/systematic.svg'
 import Atea from 'icons/atea.svg'
@@ -37,52 +38,42 @@ const ITEMS = [
   {
     title: 'Platinum Sponsors',
     logos: [
-      { icon: Isovalent, url: 'https://isovalent.com/' },
-      { icon: Netic, url: 'https://www.netic.dk/', scale: '70%' },
-
-      { icon: Bestseller, url: 'https://bestseller.com/' },
-
-      { icon: Systematic, url: 'https://systematic.com/en-gb/' },
-      { icon: Atea, url: 'https://atea.dk/' },
-      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
+      { icon: ContainByNetic, url: 'https://contain.dk/', scale: '70%' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
     iconClassname: 'max-w-[390px] sm:max-w-[350px]',
   },
   {
-    title: 'Community Sponsors',
+    title: 'Gold Sponsors',
     logos: [
-      { icon: Lunar, url: 'https://www.lunar.app/' },
-      { icon: Redpill, url: 'https://redpill-linpro.com/' },
-      { icon: Sysdig, url: 'https://sysdig.com/'},
-      { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
-      { icon: PaloAlto, url: 'https://www.paloaltonetworks.com/' },
-      { icon: Saxo, url: 'https://www.home.saxo/' },
-      { icon: Deranged, url: 'https://deranged.dk' },
-      { icon: Eficode, url: 'https://eficode.com' },
-      { icon: Boozt, url: 'https://www.booztgroup.com/' },
-      { icon: TV2, url: 'https://tv2.dk/' },
-      { icon: TrendMicro, url: 'https://www.trendmicro.com/' },
-      { icon: Akamai, url: 'https://www.akamai.com/' },
+      { icon: Isovalent, url: 'https://isovalent.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
-  },
+    iconClassname: 'max-w-[250px] sm:min-w-[290px]',
+  },  
+  // {
+  //   title: 'Community Sponsors',
+  //   logos: [
+  //     { icon: JYSK, url: 'https://www.jysk.com/'  },
+  //   ],
+  //   cardClassname:
+  //     'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
+  //   iconClassname: 'max-w-[150px] sm:min-w-[290px]',
+  // },
   {
-    title: 'Venue & Partners',
+    title: 'Media & Partners',
     logos: [
-      { icon: JYSK, url: 'https://www.jysk.com/', scale: '70%'  },
       { icon: Nordics, url: 'https://cloudnativenordics.com/' },
       { icon: CodingPirates, url: 'https://codingpirates.dk/' , scale: '80%' },
 
-      { icon: KubeCareers, url: 'https://kube.careers/', scale: '80%' },
-      { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
+      // { icon: KubeCareers, url: 'https://kube.careers/', scale: '80%' },
+      // { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
 
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      { icon: Dypang, url: 'https://dypaang.dk/' },
-      { icon: Enggaard, url: 'https://www.enggaard.dk/' },
+      // { icon: Dypang, url: 'https://dypaang.dk/' },
+      // { icon: Enggaard, url: 'https://www.enggaard.dk/' },
       // { icon: StickerMule, url: 'https://www.stickermule.com/eu/custom-stickers' },
     ],
     cardClassname:
