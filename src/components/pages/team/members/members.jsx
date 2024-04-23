@@ -22,13 +22,13 @@ const ITEMS = [
     linkedinUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
     twitterUrl: '',
   },
-  {
-    name: 'Henrik René Høegh',
-    position: 'Product Owner at VELUX',
-    photo: HenrikPhoto,
-    linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
-    twitterUrl: 'https://twitter.com/henrikhoegh',
-  },
+  // {
+  //   name: 'Henrik René Høegh',
+  //   position: 'Product Owner at VELUX',
+  //   photo: HenrikPhoto,
+  //   linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
+  //   twitterUrl: 'https://twitter.com/henrikhoegh',
+  // },
   {
     name: 'Jinhong Brejnholt',
     position: 'Chief Cloud Architect & Product Owner at Saxo Bank A/S',
@@ -43,13 +43,13 @@ const ITEMS = [
     linkedinUrl: 'https://www.linkedin.com/in/kaspernissen',
     twitterUrl: 'https://twitter.com/phennex',
   },
-  {
-    name: 'Ophelia Z. Dalsgaard',
-    position: 'Chapter Lead at Danske Bank',
-    photo: OpheliaPhoto,
-    linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
-    twitterUrl: '',
-  },
+  // {
+  //   name: 'Ophelia Z. Dalsgaard',
+  //   position: 'Chapter Lead at Danske Bank',
+  //   photo: OpheliaPhoto,
+  //   linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
+  //   twitterUrl: '',
+  // },
   {
     name: 'Per Hedegaard Christiansen',
     position: 'Chief Container Platform Engineer at Saxo Bank A/S',
