@@ -6,7 +6,7 @@ module.exports = {
   flags: { DEV_SSR: process.env.GATSBY_DEV_SSR || false },
   siteMetadata: {
     siteTitle: 'KCD Denmark',
-    siteDescription: 'Kubernetes Community Days Denmark 2023 - Aarhus',
+    siteDescription: 'Kubernetes Community Days Denmark 2024 - Copenhagen',
     siteImage: '/images/social-preview.jpg',
     siteLanguage: 'en',
     siteUrl: process.env.GATSBY_DEFAULT_SITE_URL || 'http://localhost:8000',

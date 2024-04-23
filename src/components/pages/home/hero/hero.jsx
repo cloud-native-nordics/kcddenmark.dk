@@ -2,11 +2,11 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-import illustration from './images/kcd2023-iso.svg';
+import illustration from './images/kcd2024.png';
 
 const TITLE = 'Kubernetes Community Days Denmark';
 
-const DESCRIPTION = 'KCD Denmark is coming to Copenhagen November 19-20. Stay tuned to experience the power of community in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native.';
+const DESCRIPTION = 'KCD Denmark is coming to Copenhagen November 19-20. \n  Stay tuned to experience the power of community in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native.';
 
 const Hero = () => (
   <section className="safe-paddings overflow-hidden bg-[#EDC3C7] bg-opacity-10 pt-28 pb-40 lg:pb-32 md:pt-24 md:pb-[500px] sm:pb-[520px] [@media(max-width:600px)]:pb-[430px] [@media(max-width:460px)]:pb-[420px]">
@@ -56,7 +56,7 @@ const Hero = () => (
         }
       </div>
       <img
-        className="absolute -top-44 -left-20 translate-x-1/2 xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] lg:left-[38%] lg:-top-16 lg:w-[750px] lg:translate-x-1 md:top-[37%] md:left-1/2 md:-translate-x-1/2 md:translate-y-1/2 sm:top-[27%] [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[65%] [@media(max-width:460px)]:w-[490px]"
+        className="absolute -top-44 -left-20 translate-x-1/4 xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] lg:left-[38%] lg:-top-16 lg:w-[750px] lg:translate-x-1 md:top-[37%] md:left-1/2 md:-translate-x-1/2 md:translate-y-1/2 sm:top-[27%] [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[5%] [@media(max-width:460px)]:w-[900px]"
         src={illustration}
         width={1090}
         height="auto"
