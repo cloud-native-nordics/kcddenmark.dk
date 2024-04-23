@@ -89,13 +89,14 @@ const Sponsors = () => (
         {TITLE}
       </h2>
       <p className="mx-auto mt-5 max-w-[800px] text-lg leading-normal text-primary-1">
-        We would like to extend a special thank you to our sponsors for their support and commitment
-        to the community. We couldn't do it without them!
-        {/* If you’re interested in becoming a
-        sponsor, please contact{' '}
+        {/* We would like to extend a special thank you to our sponsors for their support and commitment
+        to the community. We couldn't do it without them! */}
+        If you’re interested in becoming a sponsor, please contact{' '}
         <Link className="font-semibold" theme="blue-underlined" to="mailto:contact@kcddenmark.dk">
-          contact@kcddenmark.dk
-        </Link> */}
+          sponsor@kcddenmark.dk
+        </Link> or view our {' '}
+        <Link className="font-semibold" theme="blue-underlined" to="https://www.canva.com/design/DAF5X4WiO6I/6bgxDDraWrQzTfyTYtINmQ/view">
+prospectus </Link>
       </p>
 
       <ul className="mt-16 flex flex-col">

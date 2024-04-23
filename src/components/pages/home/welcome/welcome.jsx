@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Welcome = () => (
-  <section className="safe-paddings bg-white py-20 md:py-24 sm:py-16">
+  <section className="safe-paddings bg-white py-10 md:py-24 sm:py-16">
     <div className="container-md">
       <div className="text-2xl text-primary-1 sm:text-lg">
         {/* <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">Ticket sales are now open!</p> */}
@@ -10,7 +10,7 @@ const Welcome = () => (
         <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
         </p> */}
 
-        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">KCD Denmark is coming to Copenhagen November 19-20. Stay tuned!</p>
+        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">KCD Denmark is coming to <br /> Copenhagen November 19-20<br /> Stay tuned!</p>
 
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,

@@ -52,6 +52,10 @@ export default {
     to: '/data-privacy',
     target: '_blank',
   },
+  transparency: {
+    to: 'https://www.cncf.io/reports/kcd-denmark-2023/',
+    target: '_blank',
+  },
   gettingthere: {
     to: '/venue',
     id: getAnchor('Transport'),

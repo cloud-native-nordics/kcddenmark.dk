@@ -37,11 +37,10 @@ const Hero = () => (
             </Button> */}
             <Button
               className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
-              to="https://www.youtube.com/watch?v=VAy8gEaB1Z0&list=PL09s8ZalKQe85iIzlixAOQEh_oFMoMKtM"
+              to="https://www.canva.com/design/DAF5X4WiO6I/6bgxDDraWrQzTfyTYtINmQ/view"
               size="lg"
               theme="secondary"
-            >
-              Watch the Recordings from 2023
+            >Sponsor Prospectus
             </Button>
 
             {/* <Button
