@@ -55,7 +55,12 @@ const Hero = () => (
         }
       </div>
       <img
-        className="absolute -top-44 -left-20 translate-x-1/4 xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] lg:left-[38%] lg:-top-16 lg:w-[750px] lg:translate-x-1 md:top-[37%] md:left-1/2 md:-translate-x-1/2 md:translate-y-1/2 sm:top-[27%] [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[5%] [@media(max-width:460px)]:w-[900px]"
+        className="absolute -top-44 -left-20 translate-x-1/4 
+        xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] xl:translate-x-1/3
+        lg:left-[28%] lg:-top-16 lg:w-[950px] lg:translate-x-1
+        md:top-[0px] md:-translate-x-1/4 md:translate-y-1/2 
+        sm:top-[0px] sm:left-1/4
+        [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[5%] [@media(max-width:460px)]:w-[900px]"
         src={illustration}
         width={1090}
         height="auto"
