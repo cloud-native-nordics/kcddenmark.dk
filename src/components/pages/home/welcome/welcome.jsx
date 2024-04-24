@@ -21,12 +21,11 @@ const Welcome = () => (
             Computing Foundation</span></a> (CNCF).
         </p>
         <p className="mt-7">
-          This is the first KCD in <span className="font-bold">Denmark</span>, and we are excited
-          to bring the community together. We want to provide a platform for professionals and
-          experts from all levels and backgrounds to learn, network, and share their knowledge on
-          all things cloud native. Furthermore, all profits from the event will be donated
-          to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>,
-          a non-profit organization that nurtures IT creativity in children.
+          This is the second Kubernetes Community Days (KCD) event in <span className="font-bold">Denmark</span>, and we are excited to host it in 
+          Copenhagen over two exciting days. This event provides a platform for professionals and experts of all 
+          backgrounds and experience levels to learn, network, and share knowledge about cloud-native technologies. 
+          In addition all profits from the event will be donated to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>, a non-profit organization 
+          dedicated to promoting IT creativity in children.
         </p>
 
       </div>
