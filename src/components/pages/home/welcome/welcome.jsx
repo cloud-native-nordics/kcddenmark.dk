@@ -12,6 +12,7 @@ const Welcome = () => (
 
         <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">KCD Denmark is coming to <br /> Copenhagen November 19-20<br /> Stay tuned!</p>
 
+
         <p>
           <span className="font-bold">Kubernetes Community Days</span> (KCDs) are global,
           community-organized events that gather adopters and technologists from open source and
