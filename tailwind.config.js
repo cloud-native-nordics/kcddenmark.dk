@@ -81,6 +81,13 @@ module.exports = {
       xs: { max: '479px' },
     },
     extend: {
+      extend: {
+        zIndex: {
+          '-10': '-10',
+          '-100': '-100',
+          '-1000': '-1000',
+        }
+      },
       lineHeight: {
         denser: '1.125',
       },

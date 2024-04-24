@@ -3,16 +3,19 @@ import React from 'react';
 import Link from 'components/shared/link';
 
 import CamillaPhoto from './images/organizer-camilla-larsen.jpg';
-import HenrikPhoto from './images/organizer-henrik-hoeegh.jpg';
+import SorenPhoto from './images/organizer-soren.jpg';
 import JinhongPhoto from './images/organizer-jinhong-brejnholt.jpg';
 import KasperPhoto from './images/organizer-kasper-nielsen.jpg';
 import NikitaPhoto from './images/organizer-nikita-hald.jpg';
-import OpheliaPhoto from './images/organizer-ophelia-dalsgaard.jpg';
+import MadsPhoto from './images/organizer-mads.jpg';
+import AllanPhoto from './images/organizer-allan.jpg';
+import RenePhoto from './images/organizer-rene.jpg';
 import PerPhoto from './images/organizer-per-christiansen.jpg';
 import RobertPhoto from './images/organizer-robert-jensen.jpg';
 import RyanPhoto from './images/organizer-ryan-gough.jpg';
 import ThomasPhoto from './images/organizer-thomas-vitale.jpg';
 import ThorPhoto from './images/organizer-thor-lange.jpg';
+import PlaceholderPhoto from './images/organizer-placeholder-picture.jpg';
 
 const ITEMS = [
   {
@@ -22,13 +25,13 @@ const ITEMS = [
     linkedinUrl: 'https://www.linkedin.com/in/camilla-larsen-tux',
     twitterUrl: '',
   },
-  {
-    name: 'Henrik René Høegh',
-    position: 'Product Owner at VELUX',
-    photo: HenrikPhoto,
-    linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
-    twitterUrl: 'https://twitter.com/henrikhoegh',
-  },
+  // {
+  //   name: 'Henrik René Høegh',
+  //   position: 'Product Owner at VELUX',
+  //   photo: HenrikPhoto,
+  //   linkedinUrl: 'https://www.linkedin.com/in/hoeghh',
+  //   twitterUrl: 'https://twitter.com/henrikhoegh',
+  // },
   {
     name: 'Jinhong Brejnholt',
     position: 'Chief Cloud Architect & Product Owner at Saxo Bank A/S',
@@ -43,13 +46,13 @@ const ITEMS = [
     linkedinUrl: 'https://www.linkedin.com/in/kaspernissen',
     twitterUrl: 'https://twitter.com/phennex',
   },
-  {
-    name: 'Ophelia Z. Dalsgaard',
-    position: 'Chapter Lead at Danske Bank',
-    photo: OpheliaPhoto,
-    linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
-    twitterUrl: '',
-  },
+  // {
+  //   name: 'Ophelia Z. Dalsgaard',
+  //   position: 'Chapter Lead at Danske Bank',
+  //   photo: OpheliaPhoto,
+  //   linkedinUrl: 'https://www.linkedin.com/in/ophelia-zhang-dalsgaard-123580106',
+  //   twitterUrl: '',
+  // },
   {
     name: 'Per Hedegaard Christiansen',
     position: 'Chief Container Platform Engineer at Saxo Bank A/S',
@@ -90,6 +93,34 @@ const ITEMS = [
     position: 'Communication and event coordinator at Coding Pirates and Innovation Lab',
     photo: NikitaPhoto,
     linkedinUrl: 'https://www.linkedin.com/in/nikitahald',
+    twitterUrl: '',
+  },
+  {
+    name: 'René Gulager',
+    position: 'Platform Engineer/DevOps Freelancer',
+    photo: RenePhoto,
+    linkedinUrl: 'https://www.linkedin.com/in/renegulager/',
+    twitterUrl: '',
+  },
+  {
+    name: 'Allan Hoejgaard Jensen',
+    position: 'Platform Development Specialist at Netic',
+    photo: AllanPhoto,
+    linkedinUrl: 'https://www.linkedin.com/in/allanhoejgaardjensen/',
+    twitterUrl: '',
+  },
+  {
+    name: 'Søren Boss Jacobsen',
+    position: 'Regional Sales Manager @ Lacework',
+    photo: SorenPhoto,
+    linkedinUrl: 'https://www.linkedin.com/in/sorenbossjacobsen/',
+    twitterUrl: '',
+  },
+  {
+    name: 'Mads Høgstedt Danqua',
+    position: 'Lead Engineer @ The LEGO Group',
+    photo: MadsPhoto,
+    linkedinUrl: 'https://www.linkedin.com/in/danquah/',
     twitterUrl: '',
   },
 ];
