@@ -60,7 +60,13 @@ const Hero = () => (
         lg:left-[28%] lg:-top-16 lg:w-[950px] lg:translate-x-1
         md:top-[0px] md:-translate-x-1/4 md:translate-y-1/2 
         sm:top-[0px] sm:left-1/4
-        [@media(max-width:600px)]:top-[47%] [@media(max-width:600px)]:w-[600px] [@media(max-width:460px)]:top-[5%] [@media(max-width:460px)]:w-[900px]"
+        [@media(max-width:600px)]:top-[-20%] 
+        [@media(max-width:600px)]:w-[900px] 
+        [@media(max-width:600px)]:left-[-20%]
+        [@media(max-width:460px)]:top-[-10%] 
+        [@media(max-width:460px)]:w-[900px]
+        [@media(max-width:460px)]:left-[-50%]
+        "
         src={illustration}
         width={1090}
         height="auto"
