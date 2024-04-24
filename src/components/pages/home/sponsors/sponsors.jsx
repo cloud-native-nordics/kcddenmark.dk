@@ -53,15 +53,16 @@ const ITEMS = [
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
     iconClassname: 'max-w-[250px] sm:min-w-[290px]',
   },  
-  // {
-  //   title: 'Community Sponsors',
-  //   logos: [
-  //     { icon: JYSK, url: 'https://www.jysk.com/'  },
-  //   ],
-  //   cardClassname:
-  //     'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-  //   iconClassname: 'max-w-[150px] sm:min-w-[290px]',
-  // },
+  {
+    title: 'Community Sponsors',
+    logos: [
+      { icon: JYSK, url: 'https://www.jysk.com/'  },
+      { icon: Dypang, url: 'https://dypaang.dk/' },
+    ],
+    cardClassname:
+      'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
+    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
+  },
   {
     title: 'Media & Partners',
     logos: [
@@ -72,13 +73,13 @@ const ITEMS = [
       // { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
 
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
-      // { icon: Dypang, url: 'https://dypaang.dk/' },
+
       // { icon: Enggaard, url: 'https://www.enggaard.dk/' },
       // { icon: StickerMule, url: 'https://www.stickermule.com/eu/custom-stickers' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[290px]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
 ];
 
