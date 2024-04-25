@@ -21,14 +21,14 @@ import Nordics from 'icons/nordics.svg'
 // import PaloAlto from 'icons/paloalto.svg'
 // import KubeCareers from 'icons/kube-careers.svg'
 // import KubeEvents from 'icons/kube-events.svg'
-// import Deranged from 'icons/deranged.svg'
+import Deranged from 'icons/deranged.svg'
 // import Bestseller from 'icons/bestseller.svg'
 // import Eficode from 'icons/eficode.svg'
 // import Boozt from 'icons/boozt.png'
 // import TV2 from 'icons/tv2.svg'
 // import TrendMicro from 'icons/trendmicro.svg'
 // import Akamai from 'icons/akamai.svg'
-import Dypang from 'icons/dypang.svg'
+// import Dypang from 'icons/dypang.svg'
 // import Enggaard from 'icons/enggaard.svg'
 // import StickerMule from 'icons/stickermule.svg'
 
@@ -57,7 +57,7 @@ const ITEMS = [
     title: 'Community Sponsors',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/'  },
-      { icon: Dypang, url: 'https://dypaang.dk/' },
+      { icon: Deranged, url: 'https://deranged.dk/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
