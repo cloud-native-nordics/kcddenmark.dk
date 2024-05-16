@@ -31,6 +31,10 @@ import Deranged from 'icons/deranged.svg'
 // import Dypang from 'icons/dypang.svg'
 // import Enggaard from 'icons/enggaard.svg'
 // import StickerMule from 'icons/stickermule.svg'
+import TeamBlue from 'icons/teamblue.svg'
+import TechChapter from 'icons/techchapter.svg'
+import GlobeTeam from 'icons/globeteam.png'
+
 
 const TITLE = 'Sponsors';
 
@@ -39,6 +43,7 @@ const ITEMS = [
     title: 'Platinum Sponsors',
     logos: [
       { icon: ContainByNetic, url: 'https://contain.dk/', scale: '70%' },
+      { icon: TeamBlue, url: 'https://team.blue/', scale: '100%' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
@@ -54,10 +59,21 @@ const ITEMS = [
     iconClassname: 'max-w-[250px] sm:min-w-[290px]',
   },  
   {
+    title: 'Bronze Sponsors',
+    logos: [
+      { icon: GlobeTeam, url: 'https://globeteam.com/'  },
+
+    ],
+    cardClassname:
+      'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
+    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
+  },
+  {
     title: 'Community Sponsors',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/'  },
       { icon: Deranged, url: 'https://deranged.dk/' },
+      { icon: TechChapter, url: 'https://www.techchapter.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
