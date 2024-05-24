@@ -15,7 +15,7 @@ import ContainByNetic from 'icons/containbynetic.svg'
 // import Lunar from 'icons/lunar.png'
 // import Redpill from 'icons/redpill.png'
 // import Sysdig from 'icons/sysdig.svg'
-// import Lego from 'icons/lego.svg'
+import Lego from 'icons/lego.svg'
 // import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
 // import PaloAlto from 'icons/paloalto.svg'
@@ -57,7 +57,7 @@ const ITEMS = [
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
     iconClassname: 'max-w-[250px] sm:min-w-[290px]',
-  },  
+  },
   {
     title: 'Bronze Sponsors',
     logos: [
@@ -74,6 +74,7 @@ const ITEMS = [
       { icon: JYSK, url: 'https://www.jysk.com/'  },
       { icon: Deranged, url: 'https://deranged.dk/' },
       { icon: TechChapter, url: 'https://www.techchapter.com/' },
+      { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',

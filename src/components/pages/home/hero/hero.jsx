@@ -43,7 +43,6 @@ const Hero = () => (
               size="lg"
               theme="secondary"
             >Early Bird Tickets</Button>
-
             {/* <Button
               className="mt-5 rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
               to="/venue"
