@@ -39,10 +39,10 @@ const Hero = () => (
             </Button> */}
             <Button
               className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
-              to="https://www.canva.com/design/DAF5X4WiO6I/6bgxDDraWrQzTfyTYtINmQ/view"
+              to="https://kcddenmark-3.ticketbutler.io/en/e/kcd-denmark-2024-1/"
               size="lg"
               theme="secondary"
-            >Sponsor Prospectus</Button>
+            >Early Bird Tickets</Button>
 
             {/* <Button
               className="mt-5 rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
