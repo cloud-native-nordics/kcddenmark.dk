@@ -7,7 +7,7 @@ import illustration from './images/kcd2024.png';
 const TITLE = 'Kubernetes Community Days Denmark';
 
 
-const DESCRIPTION = 'KCD Denmark is coming to Copenhagen November 19-20. \n  Stay tuned to experience the power of community in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native.';
+const DESCRIPTION = 'KCD Denmark is coming to Copenhagen November 19-20. \n Get your Blind Bird ticket now and experience the power of community in Denmark! When a diverse group of experts comes together to learn, network, and share knowledge on all things cloud native.';
 
 
 const Hero = () => (
