@@ -47,7 +47,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[390px] sm:max-w-[350px]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
   {
     title: 'Gold Sponsors',
@@ -56,7 +56,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[250px] sm:min-w-[290px]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
   {
     title: 'Bronze Sponsors',
@@ -66,7 +66,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
   {
     title: 'Community Sponsors',
@@ -74,11 +74,11 @@ const ITEMS = [
       { icon: JYSK, url: 'https://www.jysk.com/'  },
       { icon: Deranged, url: 'https://deranged.dk/' },
       { icon: TechChapter, url: 'https://www.techchapter.com/' },
-      { icon: Lego, url: 'https://www.lego.com/', scale: '65%' },
+      { icon: Lego, url: 'https://www.lego.com/'},
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[150px] sm:min-w-[290px]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
   {
     title: 'Media & Partners',
