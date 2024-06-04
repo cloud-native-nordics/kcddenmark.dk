@@ -9,7 +9,7 @@ import CodingPirates from 'icons/codingpirates.svg';
 import Isovalent from 'icons/isovalent.svg'
 // import Netic from 'icons/netic.png'
 import ContainByNetic from 'icons/containbynetic.svg'
-// import Dynatrace from 'icons/dynatrace.svg'
+import Dynatrace from 'icons/dynatrace.svg'
 // import Systematic from 'icons/systematic.svg'
 // import Atea from 'icons/atea.svg'
 // import Lunar from 'icons/lunar.png'
@@ -53,6 +53,7 @@ const ITEMS = [
     title: 'Gold Sponsors',
     logos: [
       { icon: Isovalent, url: 'https://isovalent.com/' },
+      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -71,14 +72,14 @@ const ITEMS = [
   {
     title: 'Community Sponsors',
     logos: [
-      { icon: JYSK, url: 'https://www.jysk.com/'  },
+      { icon: JYSK, url: 'https://www.jysk.com/', scale: '80%' },
       { icon: Deranged, url: 'https://deranged.dk/' },
       { icon: TechChapter, url: 'https://www.techchapter.com/' },
       { icon: Lego, url: 'https://www.lego.com/'},
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%] ',
   },
   {
     title: 'Media & Partners',
