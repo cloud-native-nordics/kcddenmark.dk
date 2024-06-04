@@ -53,7 +53,7 @@ const ITEMS = [
     title: 'Gold Sponsors',
     logos: [
       { icon: Isovalent, url: 'https://isovalent.com/' },
-      { icon: Dynatrace, url: 'https://isovalent.com/' },
+      { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
