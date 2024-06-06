@@ -47,14 +47,13 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%] scale-[1.5]',
   },
   {
     title: 'Gold Sponsors',
     logos: [
       { icon: Isovalent, url: 'https://isovalent.com/' },
       { icon: Eficode, url: 'https://www.eficode.com/', scale: '80%' },
-
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Akamai, url: 'https://www.akamai.com/', scale: '80%' },
     ],
@@ -84,7 +83,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%] ',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%]  scale-[0.8]',
   },
   {
     title: 'Media & Partners',
