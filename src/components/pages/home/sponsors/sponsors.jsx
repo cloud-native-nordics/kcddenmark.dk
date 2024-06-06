@@ -23,11 +23,11 @@ import Nordics from 'icons/nordics.svg'
 // import KubeEvents from 'icons/kube-events.svg'
 import Deranged from 'icons/deranged.svg'
 // import Bestseller from 'icons/bestseller.svg'
-// import Eficode from 'icons/eficode.svg'
+import Eficode from 'icons/eficode.svg'
 // import Boozt from 'icons/boozt.png'
 // import TV2 from 'icons/tv2.svg'
 // import TrendMicro from 'icons/trendmicro.svg'
-// import Akamai from 'icons/akamai.svg'
+import Akamai from 'icons/akamai.svg'
 // import Dypang from 'icons/dypang.svg'
 // import Enggaard from 'icons/enggaard.svg'
 // import StickerMule from 'icons/stickermule.svg'
@@ -53,7 +53,10 @@ const ITEMS = [
     title: 'Gold Sponsors',
     logos: [
       { icon: Isovalent, url: 'https://isovalent.com/' },
+      { icon: Eficode, url: 'https://www.eficode.com/', scale: '80%' },
+
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
+      { icon: Akamai, url: 'https://www.akamai.com/', scale: '80%' },
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
@@ -73,9 +76,11 @@ const ITEMS = [
     title: 'Gold Sponsors',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/', scale: '80%' },
-      { icon: Deranged, url: 'https://deranged.dk/' },
       { icon: TechChapter, url: 'https://www.techchapter.com/' },
       { icon: Lego, url: 'https://www.lego.com/'},
+
+      { icon: Deranged, url: 'https://deranged.dk/' },
+
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
