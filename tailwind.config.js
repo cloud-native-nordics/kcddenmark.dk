@@ -25,6 +25,8 @@ module.exports = {
       '6xl': ['50px'],
       '7xl': ['56px'],
       '8xl': ['80px'],
+      '9xl': ['90px'],
+      '10xl': ['100px']
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
