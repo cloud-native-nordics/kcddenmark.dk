@@ -42,12 +42,12 @@ const ITEMS = [
   {
     title: 'Platinum Sponsors',
     logos: [
-      { icon: ContainByNetic, url: 'https://contain.dk/', scale: '70%' },
+      { icon: ContainByNetic, url: 'https://contain.dk/', scale: '75%' },
       { icon: TeamBlue, url: 'https://team.blue/', scale: '100%' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%] scale-[1.5]',
+    iconClassname: 'max-w-[330px] sm:min-w-[100%] scale-[1.6] sm:scale-[1]',
   },
   {
     title: 'Gold Sponsors',
@@ -59,7 +59,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
+    iconClassname: 'max-w-[330px] sm:min-w-[70%]',
   },
   {
     title: 'Bronze Sponsors',
@@ -69,7 +69,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%]',
+    iconClassname: 'max-w-[330px] sm:min-w-[70%]',
   },
   {
     title: 'Community Sponsors',
@@ -83,7 +83,7 @@ const ITEMS = [
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
-    iconClassname: 'max-w-[330px] sm:min-w-[100%]  scale-[0.8]',
+    iconClassname: 'max-w-[330px] sm:min-w-[70%]  scale-[0.7]',
   },
   {
     title: 'Media & Partners',
