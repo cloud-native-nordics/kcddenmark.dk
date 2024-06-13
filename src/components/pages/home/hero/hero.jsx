@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
-import illustration from './images/kcd2024.png';
+import illustration from './images/kcd-floppy-2024.svg';
 
 const TITLE = 'KCD Denmark';
 const TITLEKCD = 'KCD';
@@ -65,20 +65,16 @@ const Hero = () => (
         }
       </div>
       <img
-        className="absolute -top-44 -left-20 translate-x-1/4 -z-10
+        className="absolute top-20 right-0 z-10
         xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] xl:translate-x-1/3
         lg:left-[28%] lg:-top-16 lg:w-[950px] lg:translate-x-1
         md:top-[0px] md:-translate-x-1/4 md:translate-y-1/2 
         sm:top-[0px] sm:left-1/4
-        [@media(max-width:600px)]:top-[-20%] 
-        [@media(max-width:600px)]:w-[900px] 
-        [@media(max-width:600px)]:left-[-20%]
-        [@media(max-width:460px)]:top-[-10%] 
-        [@media(max-width:460px)]:w-[900px]
-        [@media(max-width:460px)]:left-[-50%]
+        [@media(max-width:600px)]:top-[75%] 
+        [@media(max-width:600px)]:w-[450px]
         "
         src={illustration}
-        width={1090}
+        width={780}
         height="auto"
         loading="eager"
         alt="Illustration"
