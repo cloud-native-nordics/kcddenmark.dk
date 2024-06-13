@@ -72,7 +72,7 @@ const ITEMS = [
     iconClassname: 'max-w-[330px] sm:min-w-[100%]',
   },
   {
-    title: 'Gold Sponsors',
+    title: 'Community Sponsors',
     logos: [
       { icon: JYSK, url: 'https://www.jysk.com/', scale: '80%' },
       { icon: TechChapter, url: 'https://www.techchapter.com/' },
