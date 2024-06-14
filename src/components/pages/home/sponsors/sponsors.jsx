@@ -34,6 +34,8 @@ import Akamai from 'icons/akamai.svg'
 import TeamBlue from 'icons/teamblue.svg'
 import TechChapter from 'icons/techchapter.svg'
 import GlobeTeam from 'icons/globeteam.png'
+import EDB from 'icons/edb.png'
+import Portworx from 'icons/portworx.png'
 
 
 const TITLE = 'Sponsors';
@@ -56,6 +58,8 @@ const ITEMS = [
       { icon: Eficode, url: 'https://www.eficode.com/', scale: '80%' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Akamai, url: 'https://www.akamai.com/', scale: '80%' },
+      { icon: EDB, url: 'https://www.enterprisedb.com/', scale: '80%' },
+      { icon: Portworx, url: 'https://portworx.com/', scale: '80%' }
     ],
     cardClassname:
       'min-w-[384px] min-h-[122px] sm:min-w-[320px] sm:min-h-[115px] xs:min-w-fit xs:max-w-full',
