@@ -76,7 +76,6 @@ const Hero = () => (
         [@media(max-width:460px)]:top-[-10%] 
         [@media(max-width:460px)]:w-[900px]
         [@media(max-width:460px)]:left-[-50%]
-
         "
         src={illustration}
         width={780}
