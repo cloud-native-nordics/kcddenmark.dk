@@ -65,13 +65,18 @@ const Hero = () => (
         }
       </div>
       <img
-        className="absolute top-20 right-0 z-10
-        xl:-top-28 xl:-left-8 xl:w-full xl:max-w-[920px] xl:translate-x-1/3
-        lg:left-[28%] lg:-top-16 lg:w-[950px] lg:translate-x-1
-        md:top-[0px] md:-translate-x-1/4 md:translate-y-1/2 
-        sm:top-[0px] sm:left-1/4
-        [@media(max-width:600px)]:top-[75%] 
-        [@media(max-width:600px)]:w-[450px]
+        className="absolute top-20 inset-y-0 right-0 scale:125 translate-x-20
+        xl:-top-45 xl:w-full xl:max-w-[750px] xl:translate-x-1/6
+        lg:left-[45%] lg:top-36 lg:w-[600px] lg:translate-x-1
+        md:top-[400px] md:translate-y-2/3 md:inset-x-[15%]
+        sm:top-[400px] sm:translate-y-2/4 sm:inset-x-[5%]
+        [@media(max-width:600px)]:top-3/4 
+        [@media(max-width:600px)]:w-[500px] 
+        [@media(max-width:600px)]:inset-x-[2%]
+        [@media(max-width:460px)]:top-[-10%] 
+        [@media(max-width:460px)]:w-[900px]
+        [@media(max-width:460px)]:left-[-50%]
+
         "
         src={illustration}
         width={780}
