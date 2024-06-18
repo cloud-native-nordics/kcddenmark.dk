@@ -10,7 +10,7 @@ import Isovalent from 'icons/isovalent.svg'
 // import Netic from 'icons/netic.png'
 import ContainByNetic from 'icons/containbynetic.svg'
 import Dynatrace from 'icons/dynatrace.svg'
-// import Systematic from 'icons/systematic.svg'
+import Systematic from 'icons/systematic.svg'
 // import Atea from 'icons/atea.svg'
 // import Lunar from 'icons/lunar.png'
 // import Redpill from 'icons/redpill.png'
@@ -83,6 +83,7 @@ const ITEMS = [
       { icon: Lego, url: 'https://www.lego.com/'},
 
       { icon: Deranged, url: 'https://deranged.dk/' },
+      { icon: Systematic, url: 'https://systematic.com/' },
 
     ],
     cardClassname:
