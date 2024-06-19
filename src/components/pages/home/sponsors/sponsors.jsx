@@ -39,6 +39,7 @@ import Portworx from 'icons/portworx.png'
 import AWS from 'icons/aws-logo.svg'
 
 
+
 const TITLE = 'Sponsors';
 
 const ITEMS = [
