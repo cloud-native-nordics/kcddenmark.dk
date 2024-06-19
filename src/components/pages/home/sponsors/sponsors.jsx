@@ -36,7 +36,7 @@ import TechChapter from 'icons/techchapter.svg'
 import GlobeTeam from 'icons/globeteam.png'
 import EDB from 'icons/edb.png'
 import Portworx from 'icons/portworx.png'
-import AWS from 'icons/aws-logo.png'
+import AWS from 'icons/aws-logo.svg'
 
 
 const TITLE = 'Sponsors';
