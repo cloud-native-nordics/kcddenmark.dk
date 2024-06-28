@@ -44,6 +44,10 @@ export default {
     to: '#',
     target: '_blank',
   },
+  cfp: {
+    to: 'https://sessionize.com/kcd-denmark-2024/',
+    homeTo: 'https://sessionize.com/kcd-denmark-2024/',
+  },
   mission: {
     to: '/mission-statement',
     target: '_blank',
@@ -82,5 +86,5 @@ export default {
   youtube: {
     to: 'https://www.youtube.com/@CloudNativeNordics',
     target: '_blank',
-  },
+  }
 };
