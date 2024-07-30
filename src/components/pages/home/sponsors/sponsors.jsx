@@ -11,16 +11,17 @@ import Isovalent from 'icons/isovalent.svg'
 import ContainByNetic from 'icons/containbynetic.svg'
 import Dynatrace from 'icons/dynatrace.svg'
 import Systematic from 'icons/systematic.svg'
+import Komodor from 'icons/komodor-logo.svg'
+import Sysdig from 'icons/sysdig-logo.svg'
 // import Atea from 'icons/atea.svg'
 // import Lunar from 'icons/lunar.png'
 // import Redpill from 'icons/redpill.png'
-// import Sysdig from 'icons/sysdig.svg'
 import Lego from 'icons/lego.svg'
 // import Saxo from 'icons/saxo.svg'
 import Nordics from 'icons/nordics.svg'
 // import PaloAlto from 'icons/paloalto.svg'
-// import KubeCareers from 'icons/kube-careers.svg'
-// import KubeEvents from 'icons/kube-events.svg'
+import KubeCareers from 'icons/kube-careers.svg'
+import KubeEvents from 'icons/kube-events.svg'
 import Deranged from 'icons/deranged.svg'
 // import Bestseller from 'icons/bestseller.svg'
 import Eficode from 'icons/eficode.svg'
@@ -37,7 +38,6 @@ import GlobeTeam from 'icons/globeteam.png'
 import EDB from 'icons/edb.png'
 import Portworx from 'icons/portworx.png'
 import AWS from 'icons/aws-logo.svg'
-
 
 
 const TITLE = 'Sponsors';
@@ -72,6 +72,8 @@ const ITEMS = [
     logos: [
       { icon: GlobeTeam, url: 'https://globeteam.com/'  },
       { icon: AWS, url: 'https://aws.amazon.com/'  },
+      { icon: Komodor, url: 'https://komodor.com/' },
+      { icon: Sysdig, url: 'https://sysdig.com/', scale: '80%' },
 
     ],
     cardClassname:
@@ -98,11 +100,11 @@ const ITEMS = [
     logos: [
       { icon: Nordics, url: 'https://cloudnativenordics.com/' },
       { icon: CodingPirates, url: 'https://codingpirates.dk/' , scale: '80%' },
-
-      // { icon: KubeCareers, url: 'https://kube.careers/', scale: '80%' },
-      // { icon: KubeEvents, url: 'https://kube.events/' , scale: '80%' },
-
       { icon: Cloudnative, url: 'https://www.cncf.io/' },
+
+      { icon: KubeCareers, url: 'https://kube.careers/', scale: '60%' },
+      { icon: KubeEvents, url: 'https://kube.events/' , scale: '60%' },
+
 
       // { icon: Enggaard, url: 'https://www.enggaard.dk/' },
       // { icon: StickerMule, url: 'https://www.stickermule.com/eu/custom-stickers' },
