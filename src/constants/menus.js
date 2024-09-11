@@ -3,13 +3,13 @@ import LINKS from 'constants/links.js';
 const MENUS = {
   header: [
     // { text: 'Speakers', ...LINKS.speakers },
-    { text: 'CFP', ...LINKS.cfp },
-    { text: 'Archive', ...LINKS.schedule }  
+    //{ text: 'CFP', ...LINKS.cfp },
     // { text: 'Workshops', ...LINKS.workshops },
-    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Getting There', ...LINKS.gettingthere },
     // { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Archive', ...LINKS.schedule } , 
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -20,13 +20,13 @@ const MENUS = {
   ],
   mobile: [
     // { text: 'Speakers', ...LINKS.speakers },
-    { text: 'CFP', ...LINKS.cfp },
-    { text: 'Archive', ...LINKS.schedule }
+    // { text: 'CFP', ...LINKS.cfp },
     // { text: 'Workshops', ...LINKS.workshops },
-    // { text: 'Call for Proposal', ...LINKS.proposal },
+    { text: 'Call for Proposal', ...LINKS.proposal },
     // { text: 'Getting There', ...LINKS.gettingthere },
     // { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Archive', ...LINKS.schedule },
   ],
 };
 
