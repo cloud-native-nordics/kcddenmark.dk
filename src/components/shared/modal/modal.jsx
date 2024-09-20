@@ -30,12 +30,17 @@ const defaultModalBackdropAnimation = {
 };
 
 const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
+  // Wonder why modalData is undefined - will have to debug this
+  if (modalData === undefined) { 
+    return null;
+  }
+  console.log('modalData', modalData);
   const {
     id = '',
-    name = '',
-    photo = '',
-    position = '',
-    content = '',
+    fullName = '',
+    profilePicture = '',
+    tagLine = '',
+    bio = '',
     twitterUrl = '',
     linkedInUrl = '',
     githubUrl = '',
@@ -136,26 +141,26 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                 <div className="flex items-start">
                   <img
                     className="mr-7 mb-7 h-auto w-[120px] sm:mr-4 sm:mb-4"
-                    src={photo}
+                    src={profilePicture}
                     width={120}
-                    alt={name}
+                    alt={fullName}
                   />
                   <div>
                     <h2
                       id={headingId}
                       className="whitespace-nowrap text-4xl font-bold leading-tight tracking-[-0.01em] sm:whitespace-normal sm:text-2xl"
                     >
-                      {name}
+                      {fullName}
                     </h2>
                     <p
                       className="mt-2 text-lg font-semibold leading-normal sm:text-base"
-                      dangerouslySetInnerHTML={{ __html: position }}
+                      dangerouslySetInnerHTML={{ __html: tagLine }}
                     />
                   </div>
                 </div>
                 <div
                   className="text-lg leading-normal sm:text-base"
-                  dangerouslySetInnerHTML={{ __html: content }}
+                  dangerouslySetInnerHTML={{ __html: bio }}
                 />
                 <ul className="flex items-center gap-5">
                   {twitterUrl && (
