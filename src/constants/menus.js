@@ -9,7 +9,7 @@ const MENUS = {
     // { text: 'Getting There', ...LINKS.gettingthere },
     // { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Archive', ...LINKS.schedule } , 
+    { text: 'Archive', ...LINKS.schedule2023 } , 
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -26,7 +26,7 @@ const MENUS = {
     // { text: 'Getting There', ...LINKS.gettingthere },
     // { text: 'Venue', ...LINKS.venue },
     // { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Archive', ...LINKS.schedule },
+    { text: 'Archive', ...LINKS.schedule2023 },
   ],
 };
 

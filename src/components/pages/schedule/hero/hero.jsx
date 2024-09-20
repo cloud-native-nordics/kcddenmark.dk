@@ -4,7 +4,9 @@ import Button from 'components/shared/button';
 
 const TITLE = 'Conference Schedule';
 const DESCRIPTION =
-  "Check the schedule of KCD Denmark 2023 and watch the presentation recordings by expanding the details of your favorite sessions.";
+  "Get ready for an action-packed day. The schedule will be announced shortly with two tracks and more than 25 sessions to choose from, you'll have plenty of opportunities to learn from experts in the field. The whole event will be held in English.";
+
+  //"Check the schedule of KCD Denmark 2023 and watch the presentation recordings by expanding the details of your favorite sessions.";
   //"Get ready for an action-packed day. With two tracks and more than 15 sessions to choose from, you'll have plenty of opportunities to learn from experts in the field. The whole event will be held in English.";
 
 const Hero = () => (

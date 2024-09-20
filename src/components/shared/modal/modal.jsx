@@ -34,7 +34,6 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
   if (modalData === undefined) { 
     return null;
   }
-  console.log('modalData', modalData);
   const {
     id = '',
     fullName = '',
@@ -49,6 +48,7 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
     websiteUrl = '',
     time = '',
     title = '',
+    sessions = [],
     duration = '',
     presentation = '',
     speakers = [],
@@ -152,16 +152,10 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                     >
                       {fullName}
                     </h2>
-                    <p
-                      className="mt-2 text-lg font-semibold leading-normal sm:text-base"
-                      dangerouslySetInnerHTML={{ __html: tagLine }}
-                    />
+                    <p className="mt-2 text-lg font-semibold leading-normal sm:text-base">{tagLine}</p>
                   </div>
                 </div>
-                <div
-                  className="text-lg leading-normal sm:text-base"
-                  dangerouslySetInnerHTML={{ __html: bio }}
-                />
+                <div className="text-lg leading-normal sm:text-base" style={{whiteSpace: 'pre-line'}}>{bio}</div>
                 <ul className="flex items-center gap-5">
                   {twitterUrl && (
                     <li>
@@ -247,12 +241,14 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                     Speaker’s schedule
                   </h3>
                   <div className="mt-4 border-l-2 border-l-primary-1 pl-8">
+                    {/*}
                     <time className="text-sm font-semibold leading-none tracking-tight text-primary-1 opacity-60">
                       {time}
                     </time>
                     <span className="relative ml-8 rounded-full bg-yellow px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
                       {duration}
                     </span>
+                    {*/}
                     {isWorkshop ? (
                       <a
                         className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
@@ -266,7 +262,7 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                         to="/schedule"
                         state={{ modalId: id, isCoincidedEvent }}
                       >
-                        {title}
+                        {sessions[0].name}
                       </Link>
                     )}
                   </div>

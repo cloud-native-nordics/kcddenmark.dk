@@ -7,6 +7,11 @@ export default {
   home: {
     to: '/',
   },
+  schedule2023: {
+    to: '/schedule2023',
+    id: getAnchor('Schedule2023'),
+    homeTo: '/schedule2023',
+  },
   schedule: {
     to: '/schedule',
     id: getAnchor('Schedule'),
