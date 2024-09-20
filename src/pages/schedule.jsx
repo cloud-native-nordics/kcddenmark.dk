@@ -10,7 +10,7 @@ import SEO_DATA from 'constants/seo-data';
 const SchedulePage = ({ location }) => (
   <Layout headerClassnames="!bg-white">
     <Hero />
-    {/*<Schedule location={location} /> */}
+    <Schedule location={location} />
   </Layout>
 );
 

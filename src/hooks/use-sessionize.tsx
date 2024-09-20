@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export interface Speaker {
     id: string;
+    name: string;
     firstName: string;
     lastName: string;
     fullName: string;
@@ -15,6 +16,33 @@ export interface Speaker {
 export interface Session {
     id: string;
     name: string;
+    title: string;
+    description: string;
+    startsAt: string;
+    endsAt: string;
+    isServiceSession: boolean;
+    isPlenumSession: boolean;
+    speakers: Speaker[];
+    roomId: number;
+    room: string;
+}
+
+export interface GridEntry {
+    date: string;
+    rooms: Room[];
+    timeSlots: TimeSlot[];
+}
+
+export interface Room {
+    id: number;
+    name: string;
+    sessions: Session[];
+    session: Session;
+}
+
+export interface TimeSlot {
+    slotStart: string;
+    rooms: Room[];
 }
 
 export const useSessionizeSpeakers = () => {
@@ -31,4 +59,20 @@ export const useSessionizeSpeakers = () => {
     }, []);
 
     return {speakers};
-}
+};
+
+export const useSessionizeSchedule = () => {
+    const [grid,setGrid] = useState<GridEntry[]>([]);
+
+    const fetchGrid = async () => {
+        const response = await fetch("https://sessionize.com/api/v2/jl4ktls0/view/Grid");
+        const data = await response.json();
+        setGrid(data);
+    }
+
+    useEffect(() => {
+        fetchGrid();
+    }, []);
+
+    return {grid};
+};
