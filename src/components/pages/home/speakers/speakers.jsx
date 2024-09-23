@@ -35,21 +35,23 @@ const Speakers = ({ location }) => {
     if (typeof window !== `undefined`) {
       const { state = {} } = location;
 
-      if (state?.modalId) {
+      if (state?.speakerId && speakers.length > 0) {
         const element = document.getElementById('speakers');
 
         window.scrollTo({
-          top: window.pageYOffset + element.getBoundingClientRect().top,
+          top: window.scrollY + element.getBoundingClientRect().top,
         });
 
-        if (Number(state.modalId) > 7) {
+        const idx = speakers.findIndex(({ id }) => id === state.speakerId);
+
+        if (idx > 7) {
           handleShowMoreClick();
         }
 
-        handleModalShow(Number(state.modalId));
+        handleModalShow(idx);
       }
     }
-  }, [location]);
+  }, [location, speakers]);
 
   return (
     <section className="safe-paddings relative bg-white pb-40 lg:pb-32 md:py-24 sm:py-16">

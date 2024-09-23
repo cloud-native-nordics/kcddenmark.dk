@@ -49,7 +49,7 @@ export const useSessionizeSpeakers = () => {
     const [speakers,setSpeakers] = useState<Speaker[]>([]);
 
     const fetchSpeakers = async () => {
-        const response = await fetch("https://sessionize.com/api/v2/ev751er0/view/Speakers");
+        const response = await fetch("https://sessionize.com/api/v2/jl4ktls0/view/Speakers");
         const data = await response.json();
         setSpeakers(data);
     };
@@ -63,6 +63,8 @@ export const useSessionizeSpeakers = () => {
 
 export const useSessionizeSchedule = () => {
     const [grid,setGrid] = useState<GridEntry[]>([]);
+    const [speakers,setSpeakers] = useState<Speaker[]>([]);
+    const [schedule,setSchedule] = useState<GridEntry[]>([]);
 
     const fetchGrid = async () => {
         const response = await fetch("https://sessionize.com/api/v2/jl4ktls0/view/Grid");
@@ -70,9 +72,42 @@ export const useSessionizeSchedule = () => {
         setGrid(data);
     }
 
+    const fetchSpeakers = async () => {
+        const response = await fetch("https://sessionize.com/api/v2/jl4ktls0/view/Speakers");
+        const data = await response.json();
+        setSpeakers(data);
+    };
+
     useEffect(() => {
         fetchGrid();
     }, []);
+    useEffect(() => {
+        fetchSpeakers();
+    }, []);
+    useEffect(() => {
+        if (grid.length === 0 || speakers.length === 0) return;
+        const schedule = grid.map((entry) => {
+            const timeSlots = entry.timeSlots.map((timeSlot) => {
+                const rooms = timeSlot.rooms.map((room) => {
+                    const sessionSpeakers = room.session.speakers.map((speaker) => {
+                        return speakers.find((s) => s.id === speaker.id);
+                    });
+                    room.session.speakers = sessionSpeakers;
+                    return room;
+                });
+                return {
+                    ...timeSlot,
+                    rooms,
+                };
+            });
+            return {
+                ...entry,
+                timeSlots,
+            };
+        });
+        setSchedule(schedule);
+    }, [grid,speakers]);
 
-    return {grid};
+
+    return {schedule};
 };
