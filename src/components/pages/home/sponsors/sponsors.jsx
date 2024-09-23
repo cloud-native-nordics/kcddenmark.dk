@@ -38,6 +38,8 @@ import GlobeTeam from 'icons/globeteam.png'
 import EDB from 'icons/edb.png'
 import Portworx from 'icons/portworx.png'
 import AWS from 'icons/aws-logo.svg'
+import Redhat from 'icons/red-hat.svg'
+import Confluent from 'icons/confluent.svg'
 
 
 const TITLE = 'Sponsors';
@@ -74,6 +76,8 @@ const ITEMS = [
       { icon: AWS, url: 'https://aws.amazon.com/'  },
       { icon: Komodor, url: 'https://komodor.com/' },
       { icon: Sysdig, url: 'https://sysdig.com/', scale: '80%' },
+      { icon: Redhat, url: 'https://redhat.com/'},
+      { icon: Confluent, url: 'https://www.confluent.io/'},
 
     ],
     cardClassname:
