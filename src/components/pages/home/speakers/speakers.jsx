@@ -49,6 +49,7 @@ const Speakers = ({ location }) => {
         }
 
         handleModalShow(idx);
+        state.speakerId = undefined;
       }
     }
   }, [location, speakers]);

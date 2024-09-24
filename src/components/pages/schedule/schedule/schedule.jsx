@@ -50,18 +50,20 @@ const Schedule = ({ location }) => {
     if (typeof window !== `undefined`) {
       const { state = {} } = location;
       if (state?.sessionId && schedule.length > 0) {
-        schedule.forEach(({ timeSlots }) => {
+        schedule.forEach(({ date, timeSlots }) => {
           timeSlots.forEach(({ rooms }) => { 
             rooms.forEach(({ session }) => {
               if (session.id === state.sessionId) {
+                setSelectedDate(date);
                 handleModalShow(session);
+                state.sessionId = undefined;
               }
             });
           });
         });
       }
     }
-  }, [location, schedule]);
+  }, [location, schedule, selectedDate]);
 
   return (
     <section className="safe-paddings pt-9 pb-48 lg:px-8 md:px-5 sm:pt-10 xs:px-0">
