@@ -7,17 +7,11 @@ import Modal from 'components/shared/modal';
 
 import { useSessionizeSchedule } from 'hooks/use-sessionize';
 
-const calcDuration = (start, end) => {
-  const startDate = Date.parse(start);
-  const endDate = Date.parse(end);
-  return Math.abs(endDate - startDate) / 1000 / 60;
-};
-
 const Schedule = ({ location }) => {
   const {schedule} = useSessionizeSchedule();
+  const [selectedDate, setSelectedDate] = useState(undefined);
   const [modalSession, setModalSession] = useState(undefined);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [isCoincidedEvent, setIsCoincidedEvent] = useState(false);
 
   const handleModalShow = (session) => {
     document.body.classList.add('overflow-hidden');
@@ -28,9 +22,29 @@ const Schedule = ({ location }) => {
   const handleModalHide = () => {
     document.body.classList.remove('overflow-hidden');
     setIsModalVisible(false);
-    setIsCoincidedEvent(false);
     setModalSession(undefined);
   };
+
+  const handleSelectDate = ({ date }) => {
+    setSelectedDate(date);
+  };
+
+  const calcDuration = (start, end) => {
+    const startDate = Date.parse(start);
+    const endDate = Date.parse(end);
+    return Math.abs(endDate - startDate) / 1000 / 60;
+  };
+
+  const formatDate = (date) => {
+    const parsed = new Date(Date.parse(date));
+    return `${parsed.getDate()}.${parsed.getMonth() + 1}.${parsed.getFullYear()}`;
+  };
+
+  useEffect(() => {
+    if (schedule.length > 0 && selectedDate === undefined) {
+      setSelectedDate(schedule[0].date);
+    }
+  }, [schedule,selectedDate])
 
   useEffect(() => {
     if (typeof window !== `undefined`) {
@@ -51,8 +65,20 @@ const Schedule = ({ location }) => {
 
   return (
     <section className="safe-paddings pt-9 pb-48 lg:px-8 md:px-5 sm:pt-10 xs:px-0">
+
+      <div className={clsx('mx-auto w-[1072px] max-w-full py-5')}>
+        { schedule?.map(({ date }, index) => (
+          <Button className={clsx('rounded-full mx-2 px-2 py-2 text-xs font-semibold leading-none tracking-tighter w-20',
+            {
+              'bg-red': date === selectedDate,
+              'text-white': date === selectedDate,
+              'bg-primary-4': date !== selectedDate,
+            })} onClick={() => handleSelectDate({ date: date })} key={index}>{formatDate(date)}</Button>
+        ))}
+      </div>
+
       <ul className="mx-auto w-[1072px] max-w-full rounded-[10px] border border-primary-2 shadow-lg">
-        {schedule?.map(({ date, timeSlots }) => {
+        {schedule?.filter(({ date }) => date === selectedDate).map(({ timeSlots }) => {
           return timeSlots.map(({ slotStart, rooms }, index) => {
             const isEven = index % 2 === 1;
             return (
