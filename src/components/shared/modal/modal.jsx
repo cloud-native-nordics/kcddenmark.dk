@@ -29,30 +29,13 @@ const defaultModalBackdropAnimation = {
   exit: { opacity: 0 },
 };
 
+const calcDuration = (start, end) => {
+  const startDate = Date.parse(start);
+  const endDate = Date.parse(end);
+  return Math.abs(endDate - startDate) / 1000 / 60;
+};
+
 const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
-  const {
-    id = '',
-    name = '',
-    photo = '',
-    position = '',
-    content = '',
-    twitterUrl = '',
-    linkedInUrl = '',
-    githubUrl = '',
-    communityUrl = '',
-    instagramUrl = '',
-    websiteUrl = '',
-    time = '',
-    title = '',
-    duration = '',
-    presentation = '',
-    speakers = [],
-    isCoincidedEvent = false,
-    isWorkshop = false,
-    talkLocation = '',
-    slideDeck = undefined,
-    video = undefined,
-  } = modalData;
   const shouldReduceMotion = useReducedMotion();
   const headingId = useId();
   const modalAnimation = shouldReduceMotion ? {} : defaultModalAnimation;
@@ -72,6 +55,34 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
     return () => window.removeEventListener('keydown', handleWindowKeyDown);
   }, [handleWindowKeyDown]);
 
+  if (isVisible === false) {
+    return null;
+  }
+
+  const {
+    id = '',
+    fullName = '',
+    profilePicture = '',
+    tagLine = '',
+    bio = '',
+    twitterUrl = '',
+    linkedInUrl = '',
+    githubUrl = '',
+    communityUrl = '',
+    instagramUrl = '',
+    websiteUrl = '',
+    startsAt = '',
+    endsAt = '',
+    title = '',
+    sessions = [],
+    description = '',
+    speakers = [],
+    isWorkshop = false,
+    room = '',
+    slideDeck = undefined,
+    video = undefined,
+  } = modalData;
+
   return (
     <AnimatePresence>
       {isVisible && (
@@ -88,31 +99,31 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
               <>
                 <div className="flex items-center">
                   <time className="text-sm font-semibold leading-none tracking-tight text-primary-1 opacity-60">
-                    {time}
+                    {startsAt}
                   </time>
                   <span className="relative ml-8 rounded-full bg-rasin text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
-                    {duration}
+                    {calcDuration(startsAt, endsAt)} min
                   </span>
                   <span className="relative ml-2 rounded-full bg-gray-7 text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1">
-                    {talkLocation}
+                    {room}
                   </span>
                   {speakers.length > 0 &&
-                    speakers.map(({ id: speakerId, name, photo }, index) => (
+                    speakers.map(({ id: speakerId, fullName, profilePicture }, index) => (
                       <Link
                         className="relative ml-8 inline-flex items-center gap-x-2 text-left text-lg font-semibold leading-normal text-primary-5 transition-colors duration-200 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 hover:text-blue-1"
                         to="/#speaker"
-                        state={{ modalId: speakerId || id }}
+                        state={{ speakerId: speakerId || id }}
                         key={index}
                       >
                         <img
                           className="h-7 w-7 rounded-full"
-                          src={photo}
+                          src={profilePicture}
                           width={28}
-                          alt={name}
+                          alt={fullName}
                           loading="lazy"
                         />
                         <p className="whitespace-nowrap text-sm font-medium leading-none sm:whitespace-normal">
-                          {name}
+                          {fullName}
                         </p>
                       </Link>
                     ))}
@@ -126,37 +137,28 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                 { slideDeck && (
                   <div className='mt-3'><span className='inline-flex items-center rounded-full bg-gray-5 text-white px-2 py-1 text-s font-medium text-primary-1'><a href={slideDeck}>Presentation</a></span></div>
                 )}
-                <p
-                  className="mt-3 text-lg leading-normal text-primary-1 sm:text-base"
-                  dangerouslySetInnerHTML={{ __html: presentation }}
-                />
+                <p className="mt-3 text-lg leading-normal text-primary-1 sm:text-base" style={{whiteSpace: 'pre-line'}}>{ description }</p>
               </>
             ) : (
               <>
                 <div className="flex items-start">
                   <img
                     className="mr-7 mb-7 h-auto w-[120px] sm:mr-4 sm:mb-4"
-                    src={photo}
+                    src={profilePicture}
                     width={120}
-                    alt={name}
+                    alt={fullName}
                   />
                   <div>
                     <h2
                       id={headingId}
                       className="whitespace-nowrap text-4xl font-bold leading-tight tracking-[-0.01em] sm:whitespace-normal sm:text-2xl"
                     >
-                      {name}
+                      {fullName}
                     </h2>
-                    <p
-                      className="mt-2 text-lg font-semibold leading-normal sm:text-base"
-                      dangerouslySetInnerHTML={{ __html: position }}
-                    />
+                    <p className="mt-2 text-lg font-semibold leading-normal sm:text-base">{tagLine}</p>
                   </div>
                 </div>
-                <div
-                  className="text-lg leading-normal sm:text-base"
-                  dangerouslySetInnerHTML={{ __html: content }}
-                />
+                <div className="text-lg leading-normal sm:text-base" style={{whiteSpace: 'pre-line'}}>{bio}</div>
                 <ul className="flex items-center gap-5">
                   {twitterUrl && (
                     <li>
@@ -242,12 +244,14 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                     Speaker’s schedule
                   </h3>
                   <div className="mt-4 border-l-2 border-l-primary-1 pl-8">
+                    {/*}
                     <time className="text-sm font-semibold leading-none tracking-tight text-primary-1 opacity-60">
                       {time}
                     </time>
                     <span className="relative ml-8 rounded-full bg-yellow px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
                       {duration}
                     </span>
+                    {*/}
                     {isWorkshop ? (
                       <a
                         className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
@@ -259,9 +263,9 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                       <Link
                         className="mt-3 block text-left text-lg font-semibold leading-normal text-primary-1 transition-colors duration-200 hover:text-blue-1"
                         to="/schedule"
-                        state={{ modalId: id, isCoincidedEvent }}
+                        state={{ sessionId: sessions[0].id.toString() }}
                       >
-                        {title}
+                        {sessions[0].name}
                       </Link>
                     )}
                   </div>
@@ -286,25 +290,6 @@ Modal.propTypes = {
   onModalHide: PropTypes.func.isRequired,
   isVisible: PropTypes.bool.isRequired,
   isPresentationShow: PropTypes.bool.isRequired,
-  modalData: PropTypes.shape({
-    id: PropTypes.string,
-    photo: PropTypes.string,
-    name: PropTypes.string,
-    position: PropTypes.string,
-    content: PropTypes.string,
-    twitterUrl: PropTypes.string,
-    linkedInUrl: PropTypes.string,
-    githubUrl: PropTypes.string,
-    communityUrl: PropTypes.string,
-    instagramUrl: PropTypes.string,
-    websiteUrl: PropTypes.string,
-    time: PropTypes.string,
-    title: PropTypes.string,
-    duration: PropTypes.string,
-    presentation: PropTypes.string,
-    speakers: PropTypes.array,
-    isCoincidedEvent: PropTypes.bool,
-    isWorkshop: PropTypes.bool,
-  }).isRequired,
+  modalData: PropTypes.object,
 };
 export default Modal;
