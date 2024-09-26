@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const sessionizeId = "ev751er0";
+const SESSIONIZE_ID = "ev751er0"; // TEST ID: jl4ktls0 
 
 export interface Speaker {
     id: string;
@@ -51,7 +51,7 @@ export const useSessionizeSpeakers = () => {
     const [speakers,setSpeakers] = useState<Speaker[]>([]);
 
     const fetchSpeakers = async () => {
-        const response = await fetch(`https://sessionize.com/api/v2/${sessionizeId}/view/Speakers`);
+        const response = await fetch(`https://sessionize.com/api/v2/${SESSIONIZE_ID}/view/Speakers`);
         const data = await response.json();
         setSpeakers(data);
     };
@@ -69,13 +69,13 @@ export const useSessionizeSchedule = () => {
     const [schedule,setSchedule] = useState<GridEntry[]>([]);
 
     const fetchGrid = async () => {
-        const response = await fetch(`https://sessionize.com/api/v2/${sessionizeId}/view/Grid`);
+        const response = await fetch(`https://sessionize.com/api/v2/${SESSIONIZE_ID}/view/Grid`);
         const data = await response.json();
         setGrid(data);
     }
 
     const fetchSpeakers = async () => {
-        const response = await fetch(`https://sessionize.com/api/v2/${sessionizeId}/view/Speakers`);
+        const response = await fetch(`https://sessionize.com/api/v2/${SESSIONIZE_ID}/view/Speakers`);
         const data = await response.json();
         setSpeakers(data);
     };
