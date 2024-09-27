@@ -50,6 +50,11 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
     [onModalHide]
   );
 
+  const formatStartDate = (date) => {
+    const parsed = new Date(Date.parse(date));
+    return `${parsed.getHours()}:${parsed.getMinutes() < 10 ? '0' : ''}${parsed.getMinutes()}`;
+  };
+
   useEffect(() => {
     window.addEventListener('keydown', handleWindowKeyDown);
     return () => window.removeEventListener('keydown', handleWindowKeyDown);
@@ -99,7 +104,7 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
               <>
                 <div className="flex items-center">
                   <time className="text-sm font-semibold leading-none tracking-tight text-primary-1 opacity-60">
-                    {startsAt}
+                    {formatStartDate(startsAt)}
                   </time>
                   <span className="relative ml-8 rounded-full bg-rasin text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
                     {calcDuration(startsAt, endsAt)} min
@@ -107,10 +112,11 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                   <span className="relative ml-2 rounded-full bg-gray-7 text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1">
                     {room}
                   </span>
+                  <div className='before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3'>
                   {speakers.length > 0 &&
                     speakers.map(({ id: speakerId, fullName, profilePicture }, index) => (
                       <Link
-                        className="relative ml-8 inline-flex items-center gap-x-2 text-left text-lg font-semibold leading-normal text-primary-5 transition-colors duration-200 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3 hover:text-blue-1"
+                        className="relative ml-8 inline-flex items-center gap-x-2 text-left text-lg font-semibold leading-normal text-primary-5 transition-colors duration-200 hover:text-blue-1"
                         to="/#speaker"
                         state={{ speakerId: speakerId || id }}
                         key={index}
@@ -127,6 +133,7 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                         </p>
                       </Link>
                     ))}
+                    </div>
                 </div>
                 <h2 className="mt-7 text-2xl font-semibold leading-tight tracking-[-0.01em] text-primary-1 sm:text-lg">
                   {title}
