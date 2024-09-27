@@ -16,7 +16,8 @@ const Proposal = () => (
         <p className="mt-8 text-2xl leading-normal sm:text-lg">
           Call for Proposals are now closed. We are currently in review of those proposals which
           were submitted. Watch this space for the schedule release, or follow us on{' '}
-          <a href="https://www.linkedin.com/company/kubernetes-community-days-denmark/">LinkedIn</a>.
+          <a href="https://www.linkedin.com/company/kubernetes-community-days-denmark/">LinkedIn</a>
+          .
         </p>
 
         <div className="container mx-auto overflow-x-auto py-10">
@@ -33,16 +34,16 @@ const Proposal = () => (
                 <td className="px-4 py-4">1st July, 2024</td>
               </tr>
               <tr className="dark:border-neutral-500 border-b">
-                <td className="px-4 py-4 font-medium">
-                  <strong>CFP Closes</strong>
-                </td>
-                <td className="px-4 py-4">
-                  <strong>1st September, 2024</strong>
-                </td>
+                <td className="px-4 py-4 font-medium">CFP Closes</td>
+                <td className="px-4 py-4">1st September, 2024</td>
               </tr>
               <tr className="dark:border-neutral-500 border-b">
-                <td className="px-4 py-4 font-medium">CFP Notifications</td>
-                <td className="px-4 py-4">20th September, 2024</td>
+                <td className="px-4 py-4 font-medium">
+                  <strong>CFP Notifications</strong>
+                </td>
+                <td className="px-4 py-4">
+                  <strong>20th September, 2024</strong>
+                </td>
               </tr>
               <tr className="dark:border-neutral-500 border-b">
                 <td className="px-4 py-4 font-medium">Schedule Announced</td>
