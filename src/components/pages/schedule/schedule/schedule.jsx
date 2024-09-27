@@ -40,6 +40,10 @@ const Schedule = ({ location }) => {
     return `${parsed.getDate()}.${parsed.getMonth() + 1}.${parsed.getFullYear()}`;
   };
 
+  const formatSlotStart = (slotStart) => {
+    return slotStart.substring(0, slotStart.lastIndexOf(':'))
+  };
+
   useEffect(() => {
     if (schedule.length > 0 && selectedDate === undefined) {
       setSelectedDate(schedule[0].date);
@@ -98,7 +102,7 @@ const Schedule = ({ location }) => {
               >
                 <div className="flex items-center justify-center sm:justify-start sm:px-5 sm:pt-5">
                   <time className="mb-auto mt-7 text-[15px] font-semibold leading-none tracking-tight text-primary-1 opacity-60 md:mt-5 md:text-sm sm:my-0">
-                    {slotStart}
+                    {formatSlotStart(slotStart)}
                   </time>
                   {/*isKeynote && (
                     <span className="ml-4 hidden rounded-full bg-red px-2 py-1.5 text-xs font-semibold leading-none tracking-tighter text-white sm:inline-flex">
@@ -134,7 +138,7 @@ const Schedule = ({ location }) => {
                           {session.title}
                         </span>
                       )}
-                      {session.isPlenumSession && (!!!session.isServiceSession) && (
+                      {session.isPlenumSession && (!!!session.isServiceSession) && calcDuration(session.startsAt, session.endsAt) > 10 &&  (
                         <span className="rounded-full bg-red px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
                           Keynote
                         </span>
