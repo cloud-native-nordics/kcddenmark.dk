@@ -58,7 +58,7 @@ const ITEMS = [
   {
     title: 'Gold Sponsors',
     logos: [
-      { icon: Isovalent, url: 'https://isovalent.com/' },
+      { icon: Isovalent, url: 'https://isovalent.com/', scale: '90%' },
       { icon: Eficode, url: 'https://www.eficode.com/', scale: '80%' },
       { icon: Dynatrace, url: 'https://www.dynatrace.com/' },
       { icon: Akamai, url: 'https://www.akamai.com/', scale: '80%' },
