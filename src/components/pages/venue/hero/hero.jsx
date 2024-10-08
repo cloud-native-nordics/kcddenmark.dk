@@ -2,7 +2,7 @@ import React from 'react';
 
 import Link from 'components/shared/link';
 
-import CardIllusrtation from './images/venue.jpg';
+import CardIllusrtation from './images/bellasky.jpg';
 
 const TITLE = 'Venue';
 
@@ -24,21 +24,21 @@ const Hero = () => (
             />
             <div className="pt-5 pb-8 pl-10 pr-16 leading-normal md:row-start-1 md:px-6 sm:row-start-2">
               <Link
-                to="https://goo.gl/maps/aegmwLjH3CxsY8wm7"
+                to="https://maps.app.goo.gl/RFChKAjH48HAjjkAA"
                 className="text-2xl font-semibold sm:text-xl"
                 theme="primary"
               >
-                JYSK
+                Bella Center
               </Link>
               <address className="mt-5 text-lg not-italic text-[#262F59] opacity-60 sm:text-lg">
-              JYSK <br /> Sødalsparken 18 <br /> 8220, Brabrand
+              Bella Center <br /> Indgang 4, Martha Christensens Vej 8<br /> 2300 København S
               </address>
             </div>
           </div>
 
           <div className="w-[520px] self-center text-lg leading-normal text-primary-1 xl:max-w-[470px] lg:ml-8 lg:max-w-[530px] md:ml-0 md:mt-5 md:w-full md:max-w-none sm:text-lg">
             <p>
-              The Kubernetes Community Days in Denmark will be held at JYSK, Brabrand.
+              KCD Denmark 2024 will be held at Bella Center
             </p>
             {/* <p className="mt-5">
             Do not miss out on the opportunity of fun, to connect with fellow attendees and continue the conversation at the networking event.
