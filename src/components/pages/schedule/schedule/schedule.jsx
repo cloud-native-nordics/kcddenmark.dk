@@ -175,11 +175,11 @@ const Schedule = ({ location }) => {
                       </span>
                       {name && (
                         <span className={clsx("rounded-full px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin",
-                          {/*
-                            'bg-green': name === 'Auditorium',
-                            'bg-blue-3': name === 'Lounge',
-                            'bg-gray-10': talkLocation === 'HeadQuarters, Valdemarsgade 1A, 8000 Aarhus',
-                          */}
+                          {
+                            'bg-[#B2F2BB]': name === 'Auditorium',
+                            'bg-[#A5D8FF]': name === 'Breakout',
+                            //'bg-gray-10': talkLocation === 'HeadQuarters, Valdemarsgade 1A, 8000 Aarhus',
+                          }
                         )}>
                           {name}
                         </span>
