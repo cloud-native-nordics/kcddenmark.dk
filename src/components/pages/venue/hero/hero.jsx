@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'components/shared/link';
 
 import CardIllusrtation from './images/bellasky.jpg';
+import FloorMap from './images/floor-plan.svg';
 
 const TITLE = 'Venue';
 
@@ -12,7 +13,7 @@ const Hero = () => (
       <div className="absolute -top-1/2 left-1/2 h-[503px] w-[503px] -translate-x-1/2 bg-white blur-[100px] md:-left-[30%] md:h-[350px] md:w-[350px]" />
       <div className="relative">
         <h1 className="text-6xl font-bold leading-denser ">{TITLE}</h1>
-        <div className="mt-14 flex justify-between lg:justify-around md:flex-col sm:items-center">
+        <div className="mt-14 flex justify-between lg:justify-around md:flex-col sm:items-center gap-10">
           <div className="grid max-w-[384px] grid-cols-1 rounded shadow-[0_14px_40px_#CCCCCC] md:max-w-none md:grid-cols-2 sm:max-w-[500px] sm:grid-cols-1">
             <img
               className="min-w-full md:col-span-1 md:col-start-1 md:row-start-1 md:h-full"
@@ -36,18 +37,19 @@ const Hero = () => (
             </div>
           </div>
 
-          <div className="w-[520px] self-center text-lg leading-normal text-primary-1 xl:max-w-[470px] lg:ml-8 lg:max-w-[530px] md:ml-0 md:mt-5 md:w-full md:max-w-none sm:text-lg">
-            <p>
-              KCD Denmark 2024 will be held at Bella Center
-            </p>
-            {/* <p className="mt-5">
-            Do not miss out on the opportunity of fun, to connect with fellow attendees and continue the conversation at the networking event.
-            </p> */}
-            <p className="mt-5 font-bold">We cannot wait to see you there!</p>
-          </div>
+          <div className="max-w-none grid-cols-1 md:max-w-none md:grid-cols-2 sm:row-start-2 sm:grid-cols-2">
+            <img
+              className="pt-8 min-w-full md:pt-0 md:col-span-1 md:col-start-1 md:row-start-1 md:h-full sm:h-full"
+              src={FloorMap}
+              width={1000}
+              height="auto"
+              loading="eager"
+              alt="card-illustration"
+            />
+        </div> 
         </div>
-      </div>
-    </div>
+        </div>
+        </div>
   </section>
 );
 
