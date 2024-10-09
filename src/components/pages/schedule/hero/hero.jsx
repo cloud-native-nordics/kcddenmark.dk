@@ -33,7 +33,7 @@ const Hero = () => {
           {announcement}
         </p>
         <Button
-          className="mt-10 bg-red text-white shadow-xl hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
+          className="mt-10 rounded-3xl bg-red text-xl font-bold leading-none text-white shadow-xl hover:shadow-[0px_15px_30px_#adadad] md:mt-8 xs:mt-7 xs:w-full"
           size="lg"
           to="https://kcddenmark-3.ticketbutler.io/en/e/kcd-denmark-2024-1/"
           target="_blank"
