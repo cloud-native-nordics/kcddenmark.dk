@@ -32,7 +32,7 @@ const Hero = () => (
                 Bella Center
               </Link>
               <address className="mt-5 text-lg not-italic text-[#262F59] opacity-60 sm:text-lg">
-              Bella Center <br /> Indgang 4, Martha Christensens Vej 8<br /> 2300 København S
+              Bella Center <br /> Indgang 3, Martha Christensens Vej 10<br /> 2300 København S
               </address>
             </div>
           </div>
