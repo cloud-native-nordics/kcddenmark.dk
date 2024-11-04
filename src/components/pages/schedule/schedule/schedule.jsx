@@ -133,11 +133,15 @@ const Schedule = ({ location }) => {
                         >
                           {session.title}
                         </Button>
-                      ) : (
+                      ) : (session.title != 'Afterparty' &&
                         <span className="text-lg font-semibold leading-snug tracking-tight text-primary-1 md:text-base">
                           {session.title}
                         </span>
                       )}
+                      {session.title == 'Afterparty' && (
+                       <span className="text-lg font-semibold leading-snug tracking-tight text-primary-1 md:text-base">
+                        Afterparty @ Proud Mary, Vesterbrogade 2A, Copenhagen
+                      </span>)}
                       {session.isPlenumSession && (!!!session.isServiceSession) && calcDuration(session.startsAt, session.endsAt) > 10 &&  (
                         <span className="rounded-full bg-red px-2 py-2 text-xs font-semibold leading-none tracking-tighter text-white sm:hidden">
                           Keynote
@@ -173,17 +177,26 @@ const Schedule = ({ location }) => {
                     <span className="rounded-full bg-rasin px-2 py-2 text-[13px] font-semibold leading-none tracking-tighter text-white text-primary-1 md:text-xs">
                         {calcDuration(session.startsAt, session.endsAt)} min
                       </span>
-                      {name && (
+                      {session.title!='Afterparty' && name && (
                         <span className={clsx("rounded-full px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin",
                           {
                             'bg-[#B2F2BB]': name === 'Auditorium',
                             'bg-[#A5D8FF]': name === 'Breakout',
-                            //'bg-gray-10': talkLocation === 'HeadQuarters, Valdemarsgade 1A, 8000 Aarhus',
                           }
                         )}>
                           {name}
                         </span>
                       )}
+                      {session.title == 'Afterparty' && (
+                        <span className={clsx("rounded-full px-4 py-2 text-xs font-semibold leading-none tracking-tighter text-rasin",
+                          {
+                            'bg-gray-10': session.title === 'Afterparty',
+                          }
+                        )}>
+                        Afterparty
+                        </span>
+                      )}
+                      
                     </div>
                   </div>)
                   )}
