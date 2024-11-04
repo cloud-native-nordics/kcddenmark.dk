@@ -49,7 +49,7 @@ const ITEMS = [
     title: 'Platinum Sponsors',
     logos: [
       { icon: ContainByNetic, url: 'https://contain.dk/', scale: '75%' },
-      { icon: TeamBlue, url: 'https://team.blue/', scale: '65%' },
+      { icon: TeamBlue, url: 'https://www.scannet.dk/', scale: '65%' },
     ],
     cardClassname:
       'min-w-[488px] max-w-[330px] min-h-[152px] sm:min-w-[350px] sm:min-h-[130px] xs:min-w-fit xs:max-w-full',
