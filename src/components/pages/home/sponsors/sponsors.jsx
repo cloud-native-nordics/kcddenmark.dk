@@ -110,7 +110,7 @@ const ITEMS = [
 
       { icon: KubeCareers, url: 'https://kube.careers/', scale: '60%' },
       { icon: KubeEvents, url: 'https://kube.events/' , scale: '60%' },
-      { icon: Soundwise, url: 'https://soundwise.dk' , scale: '60%' },
+      { icon: Soundwise, url: 'https://soundwise.dk' , scale: '100%' },
       { icon: Luminance, url: 'https://luminance.dk' , scale: '60%' },
 
 
