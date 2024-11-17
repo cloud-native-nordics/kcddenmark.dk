@@ -40,6 +40,8 @@ import Portworx from 'icons/portworx.png'
 import AWS from 'icons/aws-logo.svg'
 import Redhat from 'icons/red-hat.svg'
 import Confluent from 'icons/confluent.svg'
+import Soundwise from 'icons/soundwise.svg'
+import Luminance from 'icons/luminance.png'
 
 
 const TITLE = 'Sponsors';
@@ -108,6 +110,8 @@ const ITEMS = [
 
       { icon: KubeCareers, url: 'https://kube.careers/', scale: '60%' },
       { icon: KubeEvents, url: 'https://kube.events/' , scale: '60%' },
+      { icon: Soundwise, url: 'https://soundwise.dk' , scale: '100%' },
+      { icon: Luminance, url: 'https://luminance.dk' , scale: '60%' },
 
 
       // { icon: Enggaard, url: 'https://www.enggaard.dk/' },
