@@ -106,51 +106,82 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                   <time className="text-sm font-semibold leading-none tracking-tight text-primary-1 opacity-60">
                     {formatStartDate(startsAt)}
                   </time>
-                  <span className="relative ml-8 rounded-full bg-rasin text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
+                  <span className="relative ml-8 rounded-full bg-rasin px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 text-white before:absolute before:-left-4 before:bottom-0 before:top-0 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
                     {calcDuration(startsAt, endsAt)} min
                   </span>
-                  <span className="relative ml-2 rounded-full bg-gray-7 text-white px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1">
+                  <span className="relative ml-2 rounded-full bg-gray-7 px-2 py-1.5 text-[13px] font-semibold leading-none tracking-tighter text-primary-1 text-white">
                     {room}
                   </span>
-                  <div className='before:absolute before:top-0 before:bottom-0 before:-left-4 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3'>
-                  {speakers.length > 0 &&
-                    speakers.map(({ id: speakerId, fullName, profilePicture }, index) => (
-                      <Link
-                        className="relative ml-8 inline-flex items-center gap-x-2 text-left text-lg font-semibold leading-normal text-primary-5 transition-colors duration-200 hover:text-blue-1"
-                        to="/#speaker"
-                        state={{ speakerId: speakerId || id }}
-                        key={index}
-                      >
-                        <img
-                          className="h-7 w-7 rounded-full"
-                          src={profilePicture}
-                          width={28}
-                          alt={fullName}
-                          loading="lazy"
-                        />
-                        <p className="whitespace-nowrap text-sm font-medium leading-none sm:whitespace-normal">
-                          {fullName}
-                        </p>
-                      </Link>
-                    ))}
-                    </div>
+                  <div className="before:absolute before:-left-4 before:bottom-0 before:top-0 before:my-auto before:h-1 before:w-1 before:rounded-full before:bg-primary-3">
+                    {speakers.length > 0 &&
+                      speakers.map(({ id: speakerId, fullName, profilePicture }, index) => (
+                        <Link
+                          className="relative ml-8 inline-flex items-center gap-x-2 text-left text-lg font-semibold leading-normal text-primary-5 transition-colors duration-200 hover:text-blue-1"
+                          to="/#speaker"
+                          state={{ speakerId: speakerId || id }}
+                          key={index}
+                        >
+                          <img
+                            className="h-7 w-7 rounded-full"
+                            src={profilePicture}
+                            width={28}
+                            alt={fullName}
+                            loading="lazy"
+                          />
+                          <p className="whitespace-nowrap text-sm font-medium leading-none sm:whitespace-normal">
+                            {fullName}
+                          </p>
+                        </Link>
+                      ))}
+                  </div>
                 </div>
                 <h2 className="mt-7 text-2xl font-semibold leading-tight tracking-[-0.01em] text-primary-1 sm:text-lg">
                   {title}
                 </h2>
-                { video && (
-                  <div className='mt-3'><iframe width="512" height="288" src={ video } title={ title } frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                {video && (
+                  <div className="mt-3">
+                    <iframe
+                      width="512"
+                      height="288"
+                      src={video}
+                      title={title}
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 )}
-                { slideDeck && (
-                  <div className='mt-3'><span className='inline-flex items-center rounded-full bg-gray-5 text-white px-2 py-1 text-s font-medium text-primary-1'><a href={slideDeck}>Presentation</a></span></div>
+                {slideDeck && (
+                  <div className="mt-3">
+                    <span className="text-s inline-flex items-center rounded-full bg-gray-5 px-2 py-1 font-medium text-primary-1 text-white">
+                      <a href={slideDeck}>Presentation</a>
+                    </span>
+                  </div>
                 )}
-                <p className="mt-3 text-lg leading-normal text-primary-1 sm:text-base" style={{whiteSpace: 'pre-line'}}>{ description }</p>
+                {!title.includes('Keynote') &&
+                  !title.includes('Welcome') &&
+                  !title.includes('Surprises') &&
+                  !title.includes('Closing') && (
+                    <div>
+                      <img
+                        src={'/images/' + id + '.png'}
+                        alt="QR code for rating"
+                        style={{ width: '150px' }}
+                      />
+                    </div>
+                  )}
+                <p
+                  className="mt-3 text-lg leading-normal text-primary-1 sm:text-base"
+                  style={{ whiteSpace: 'pre-line' }}
+                >
+                  {description}
+                </p>
               </>
             ) : (
               <>
                 <div className="flex items-start">
                   <img
-                    className="mr-7 mb-7 h-auto w-[120px] sm:mr-4 sm:mb-4"
+                    className="mb-7 mr-7 h-auto w-[120px] sm:mb-4 sm:mr-4"
                     src={profilePicture}
                     width={120}
                     alt={fullName}
@@ -162,10 +193,17 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                     >
                       {fullName}
                     </h2>
-                    <p className="mt-2 text-lg font-semibold leading-normal sm:text-base">{tagLine}</p>
+                    <p className="mt-2 text-lg font-semibold leading-normal sm:text-base">
+                      {tagLine}
+                    </p>
                   </div>
                 </div>
-                <div className="text-lg leading-normal sm:text-base" style={{whiteSpace: 'pre-line'}}>{bio}</div>
+                <div
+                  className="text-lg leading-normal sm:text-base"
+                  style={{ whiteSpace: 'pre-line' }}
+                >
+                  {bio}
+                </div>
                 <ul className="flex items-center gap-5">
                   {twitterUrl && (
                     <li>
