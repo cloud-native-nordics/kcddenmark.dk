@@ -158,7 +158,8 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                     </span>
                   </div>
                 )}
-                {!title.includes('Keynote') &&
+                {/*
+                  !title.includes('Keynote') &&
                   !title.includes('Welcome') &&
                   !title.includes('Surprises') &&
                   !title.includes('Closing') && (
@@ -169,7 +170,8 @@ const Modal = ({ isVisible, modalData, onModalHide, isPresentationShow }) => {
                         style={{ width: '150px' }}
                       />
                     </div>
-                  )}
+                  )
+                  */}
                 <p
                   className="mt-3 text-lg leading-normal text-primary-1 sm:text-base"
                   style={{ whiteSpace: 'pre-line' }}
