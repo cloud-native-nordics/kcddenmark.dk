@@ -28,12 +28,12 @@ const Hero = () => (
           {TITLEDENMARK}
         </h1>
         <p className="mt-5 max-w-[500px] text-2xl break-normal text-primary-1 lg:max-w-[500px]">
-          <span className="font-bold">KCD Denmark</span> is coming to Copenhagen <span className="font-bold">November 19-20</span>. 
+          <span className="font-bold">KCD Denmark</span> will be back in <span className="font-bold">2025</span>. 
           
         </p>
         <p className="mt-5 max-w-[500px] text-xl break-normal text-primary-1 lg:max-w-[500px]">
-          Get your ticket now and experience the power of community in Denmark! 
-          <br />When a diverse group of experts comes together to learn, network, and share knowledge on all things Cloud Native.
+          More information regarding KCD Denmark 2024 video recordings, speaker slides and more will be available soon.
+          <br />Check back here for updates.
         </p>
         {
           <p className="mt-10 max-w-[500px] text-lg leading-normal text-primary-1 lg:max-w-[500px]">
@@ -45,12 +45,12 @@ const Hero = () => (
             >
               Get your ticket
             </Button> */}
-            <Button
+            {/* <Button
               className="rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
               to="https://kcddenmark-3.ticketbutler.io/en/e/kcd-denmark-2024-1/"
               size="lg"
               theme="secondary"
-            >Get Tickets</Button>
+            >Get Tickets</Button> */}
             {/* <Button
               className="mt-5 rounded-3xl bg-red px-20 py-2 text-xl font-bold leading-none text-white shadow-[0_15px_40px_#999999] hover:shadow-[0px_15px_30px_#adadad]"
               to="/venue"
