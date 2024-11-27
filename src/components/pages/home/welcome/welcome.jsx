@@ -10,7 +10,7 @@ const Welcome = () => (
         <web-component-embed id="zXJRWk" app_slug="countdown-timer"></web-component-embed><script src="https://app.powr.io/assets/webcomponent.js"></script>
         </p> */}
 
-        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">KCD Denmark is coming to <br /> Copenhagen November 19-20<br /> Get your ticket now!</p>
+        <p className="mt-0 text-center text-4xl font-bold leading-tight pb-8">The KCD Denmark organizers would like to thank <br /> all attendees, speakers, partners & sponsors<br /> who joined our 2024 conference!</p>
 
 
         <p>
@@ -21,11 +21,10 @@ const Welcome = () => (
             Computing Foundation</span></a> (CNCF).
         </p>
         <p className="mt-7">
-          This years conference, is the second <span className="font-bold">KCD</span> event in <span className="font-bold">Denmark</span>, and we are excited to host it in 
-          Copenhagen over two days. This event provides a platform for professionals and experts of all 
-          backgrounds and experience levels to learn, network, and share knowledge about Cloud Native technologies. 
-          In addition all profits from the event will be donated to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>, a non-profit organization 
-          dedicated to promoting IT creativity in children.
+          This years conference, was the second <span className="font-bold">KCD</span> event in <span className="font-bold">Denmark</span>, and we are greatfull for all the kind words, you have given us upon the event. 
+          It was a blast to meet all the Cloud Native professionals and experts during the two day event. 
+          We're also proud to announce that all <span className="font-bold">350.000DKK</span> in profits from the event were donated to <a href="https://codingpirates.dk"><span className="font-bold">Coding Pirates</span></a>, a non-profit organization 
+          dedicated to developing IT creativity in children.
         </p>
 
       </div>
