@@ -28,7 +28,10 @@ export interface Session {
   roomId: number;
   room: string;
   questionAnswers: QuestionAnswer[];
+  recordingUrl: string;
+
   slideDeck: string;
+  video: string;
 }
 
 export interface QuestionAnswer {
@@ -123,6 +126,7 @@ export const useSessionizeSchedule = () => {
             if (qa !== undefined) {
               room.session.slideDeck = qa.answer;
             }
+            room.session.video = session.recordingUrl;
           }
 
           return room;
