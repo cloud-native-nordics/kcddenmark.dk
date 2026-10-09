@@ -16,6 +16,15 @@ const HTML = ({
 }) => (
   <html {...htmlAttributes}>
     <head>
+      {/* Umami analytics: production-hostname guard — local dev (localhost/
+          127.0.0.1/staging) never reports to the kcddenmark.dk production site.
+          The inline guard runs during HTML parse, before the async tag fires. */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html:
+            '(function(){var H="kcddenmark.dk";if(location.hostname!==H&&location.hostname!=="www."+H){var t=document.querySelector(\'script[data-website-id="1e690a48-4121-4389-8ec0-43c395cc9062"]\');if(t)t.remove();}})();',
+        }}
+      />
       <script async src="https://umami.robert-jensen.dk/script.js" data-website-id="1e690a48-4121-4389-8ec0-43c395cc9062"></script>
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
